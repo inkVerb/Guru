@@ -5,7 +5,7 @@
 2. Install Vrk and Vubuntu via the commands at [http://verb.ink]
 3. Type with correct fingers. Learn here: [http://write.pink/88]
 
-## Set-up
+## Prep Work
 #### Get into your "Work" folder
 *Watch in the file explorer if you want, in your WORK folder*
 `cd `
