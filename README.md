@@ -8,9 +8,11 @@
 3. Type with correct fingers. Learn here: [http://write.pink/88]
 
 ## Prep Work
-#### Get into your "Work" folder
+### Get into your "Work" folder
 
 *Watch in the file explorer if you want, in your WORK folder*
+
+F12 / Ctrl+Alt+T (Open terminal)
 
 `cd `
 
@@ -26,27 +28,45 @@
 
 Each of these folders is for different projects. Open one for each.
 
-###### SH script
+##### SH script
 
 `gedit head.sh`
 
-Put this in the top, then close:
+Copy and paste this in the top.
+
+*Ctrl+C, Ctrl+V*
 
 `#!/bin/sh`
 
-###### XML
+Close
+
+*Alt+F4*
+
+`ls`
+
+##### XML
 
 `gedit head.xml`
 
-Put this in the top, then close:
+Copy and paste this in the top.
+
+*Ctrl+C, Ctrl+V*
 
 `<?xml version="1.0" encoding="UTF-8"?>`
 
-###### HTML
+Close
+
+*Alt+F4*
+
+`ls`
+
+##### HTML
 
 `gedit head.html`
 
-Put this in the top, then close:
+Copy and paste this in the top.
+
+*Ctrl+C, Ctrl+V*
 
 `<!DOCTYPE html>`
 
@@ -62,7 +82,13 @@ Put this in the top, then close:
 
 `</body>`
 
-#### Move files
+Close
+
+*Alt+F4*
+
+`ls`
+
+### Move files
 
 Move everything into place
 
@@ -71,6 +97,8 @@ Move everything into place
 `mv head.xml xml`
 
 `mv head.html html`
+
+`ls`
 
 ## Next
 
