@@ -1,4 +1,5 @@
-# Pinker: Learn Command Line Linux and Web Code via Vrk
+# Pinker
+## Learn Command Line Linux and Web Code via Vrk
 *First, you must have everything set-up and installed.*
 1. Install Ubuntu via YouTube method at [http://verb.ink]
 2. Install Vrk and Vubuntu via the commands at [http://verb.ink]
