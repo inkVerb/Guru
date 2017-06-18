@@ -12,7 +12,7 @@
 
 *Watch in the file explorer if you want, in your WORK folder*
 
-F12 / Ctrl+Alt+T (Open terminal)
+Open Terminal *F12 / Ctrl+Alt+T*
 
 `cd `
 
@@ -26,21 +26,19 @@ F12 / Ctrl+Alt+T (Open terminal)
 
 `ls`
 
-Each of these folders is for different projects. Open one for each.
+Each of these folders is for different projects.
+
+### Create proper headers
 
 ##### SH script
 
 `gedit head.sh`
 
-Copy and paste this in the top.
-
-*Ctrl+C, Ctrl+V*
+Copy and paste. *Ctrl+C, Ctrl+V*
 
 `#!/bin/sh`
 
-Close
-
-*Alt+F4*
+Close *Alt+F4*
 
 `ls`
 
@@ -48,15 +46,11 @@ Close
 
 `gedit head.xml`
 
-Copy and paste this in the top.
-
-*Ctrl+C, Ctrl+V*
+Copy and paste. *Ctrl+C, Ctrl+V*
 
 `<?xml version="1.0" encoding="UTF-8"?>`
 
-Close
-
-*Alt+F4*
+Close *Alt+F4*
 
 `ls`
 
@@ -64,9 +58,7 @@ Close
 
 `gedit head.html`
 
-Copy and paste this in the top.
-
-*Ctrl+C, Ctrl+V*
+Copy and paste. *Ctrl+C, Ctrl+V*
 
 `<!DOCTYPE html>`
 
@@ -82,9 +74,7 @@ Copy and paste this in the top.
 
 `</body>`
 
-Close
-
-*Alt+F4*
+Close *Alt+F4*
 
 `ls`
 
@@ -99,6 +89,26 @@ Move everything into place
 `mv head.html html`
 
 `ls`
+
+### Tips
+
+*Ctrl+A* selects everything
+
+*Ctrl+X* Cut
+
+*Ctrl+Z* Undo
+
+*Ctrl+Shift+Z / Ctrl+Y* Redo
+
+*Ctrl+T* Open a new tab
+
+*Ctrl+W* Close a tab
+
+##### In Terminal
+
+*Ctrl+Shift+C* Copy
+
+*Ctrl+Shift+V* Paste
 
 ## Next
 
