@@ -23,7 +23,7 @@ grep "complex string" * -R
 # Find 'foo' replace with 'bar' with sed
 sed -i "s/foo/bar/g" /path/to/file
 
-# Cancel dots and slashes with \ finding '/path/foo.md' to replace with '/dir/bar.md' with sed
+# Cancel dots and slashes with \ finding '/path/foo.md' replacing with '/dir/bar.md' with sed
 sed -i "s/\/path\/foo\.md/\/dir\/bar\.md/g" /path/to/file
 
 # Find 'foo' replace with 'bar' recursively with grep
