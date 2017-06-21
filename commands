@@ -20,7 +20,13 @@ grep 'complex string' * -R
 ## OR
 grep "complex string" * -R
 
-# Find 'foo' replace with 'bar' recursively
+# Find 'foo' replace with 'bar' with sed
+sed -i "s/foo/bar/g" /path/to/file
+
+# Cancel dots and slashes with \ finding '/path/foo.md' to replace with '/dir/bar.md' with sed
+sed -i "s/\/path\/foo\.md/\/dir\/bar\.md/g" /path/to/file
+
+# Find 'foo' replace with 'bar' recursively with grep
 grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 
 # Make a directory and all subdirectories one thru six and don't echo errors if they already exist
@@ -29,13 +35,6 @@ mkdir -p one/two/three/four/five/six
 # Grep a file to answer true for "foo" in if argument
 if grep -Fq "foo" /path/to/file; then
 echo "is true"; fi
-
-# Make a symlink, update it, keep quiet if there is a problem
-ln -sfn /absolute/path/to/origin /absolute/path/to/link
-
-## Set the original filename in the new location
-ln -sfn /absolute/path/to/original /absolute/path/to/linkfolder/
-### ...will result in the link: /absolute/path/to/linkfolder/original
 
 # Grep to see if something is in a file
 if grep -q "WhatYouWantToFind" "/path/to/searched/file"; then
