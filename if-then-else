@@ -22,11 +22,6 @@ fi
 # Put everything on one line
 if [ THIS IS THE TEST ]; then; DO THIS IN RESPONSE; fi
 
-# Test with grep if "foo" is in a file
-if grep -Fq "foo" /path/to/file; then
-echo "foo is true"
-fi
-
 # Test if a file exists
 if [ -f /path/to/file ]; then
 echo "It's alive!"
