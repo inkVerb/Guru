@@ -20,8 +20,14 @@ grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 ## Find 'foo' and replace with 'bar'
 sed -i "s/foo/bar/g" /path/to/file
 
+## Find 'foo' anywhere on a line and delete the line
+sed -i "/foo/d" /path/to/file
+
 ## Find 'foo' at the beginning of a line and delete the line
 sed -i "s/foo.*//g" /path/to/file
+
+## Find 'foo' at the beginning of a line and add 'bar' at the end of the line
+sed -i "/^foo/ s/$/bar/" /path/to/file
 
 ## Find 'foo' and replace with [tab]'bar' (\t for tab)
 sed -i "s/foo/\tbar/g" /path/to/file
@@ -35,3 +41,16 @@ sed -i "s/foo1.*.foo2/bar/g" /path/to/file
 ## Cancel dots and slashes with \ finding '/path/foo.md' replacing with '/dir/bar.md'
 sed -i "s/\/path\/foo\.md/\/dir\/bar\.md/g" /path/to/file
 
+
+# sed characters to cancel with \
+## unless inside a character set wtih brackets like this: [ ... ]
+$ ^ * [ ] / \
+
+## sed characters to never cancel
+? + { } ( ) |
+
+## $ in variables are not cancelled
+$i_am_variable
+${also_variable}
+
+## The rest of the time, sed can be crazy, so try and search
