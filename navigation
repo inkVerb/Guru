@@ -14,6 +14,7 @@ cd
 ## Move up and back to another directory
 cd ../another
 
+
 # Copy/remove
 
 ## Copy foo to bar
@@ -37,6 +38,7 @@ rm -r directory
 ## Delete directory "force"
 rm -rf directory
 
+
 # Creating
 
 ## Create a file if it doesn't exist
@@ -51,6 +53,7 @@ mkdir -p /my/entire/path/i/will/create
 ## Make directories one, two, and three, right here
 mkdir one two three
 
+
 # Link
 ## Create a symlink
 ln -s /original/full/path /full/path/to/destination
@@ -60,6 +63,7 @@ ln -s /original/full/path .
 
 ## Create symlink, update existing links, "force" (no questions)
 ln -sfn /original/full/path /full/path/to/destination
+
 
 # List
 
@@ -74,3 +78,30 @@ ls -a
 
 ## List "simple" another directory
 ls /path/to/direcory
+
+
+# Names with spaces
+
+## This is two different files
+My Stuff
+
+## This is one file
+"My Stuff"
+
+## This will open gedit to edit "My"
+gedit My Stuff
+
+## This will open gedit to edit "My Stuff"
+gedit "My Stuff"
+
+## This will delete "My"
+rm My Stuff
+
+## This will delete "My Stuff"
+rm "My Stuff"
+
+## This will copy "My" to "Stuff"
+cp My Stuff My New Stuff
+
+## This will copy "My Stuff" to "My New Stuff"
+cp "My Stuff" "My New Stuff"
