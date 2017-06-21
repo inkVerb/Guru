@@ -11,35 +11,9 @@ sudo chown -R user directory
 
 # This is a set of semi-complex commands that might prove useful
 
-# Find 'foo' recursively
-grep foo * -R
-
-# Find complex string with spaces, etc
-grep 'complex string' * -R
-
-## OR
-grep "complex string" * -R
-
-# Find 'foo' replace with 'bar' with sed
-sed -i "s/foo/bar/g" /path/to/file
-
-# Cancel dots and slashes with \ finding '/path/foo.md' replacing with '/dir/bar.md' with sed
-sed -i "s/\/path\/foo\.md/\/dir\/bar\.md/g" /path/to/file
-
-# Find 'foo' replace with 'bar' recursively with grep
-grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 
 # Make a directory and all subdirectories one thru six and don't echo errors if they already exist
 mkdir -p one/two/three/four/five/six
-
-# Grep a file to answer true for "foo" in if argument
-if grep -Fq "foo" /path/to/file; then
-echo "is true"; fi
-
-# Grep to see if something is in a file
-if grep -q "WhatYouWantToFind" "/path/to/searched/file"; then
-echo "I found it!"
-fi
 
 # Remove broken symlinks
 cd /path/to/dir
