@@ -1,0 +1,76 @@
+#!/bin/sh
+
+# Directories
+
+## Move to directory
+cd directory
+
+## Move up a directory
+cd ..
+
+## Move to home
+cd
+
+## Move up and back to another directory
+cd ../another
+
+# Copy/remove
+
+## Copy foo to bar
+cp foo bar
+
+## Copy directory foo to directory bar
+cp -r foo bar
+
+## Copy a file or directory to current directory
+cp -r /full/path .
+
+## Delete a file
+rm file
+
+## Delete "force" (no questions)
+rm -f file
+
+## Delete directory
+rm -r directory
+
+## Delete directory "force"
+rm -rf directory
+
+# Creating
+
+## Create a file if it doesn't exist
+touch newfilename
+
+## Create a directory
+mkdir direactory
+
+## Make a directory and all "parent" directories, no questions
+mkdir -p /my/entire/path/i/will/create
+
+## Make directories one, two, and three, right here
+mkdir one two three
+
+# Link
+## Create a symlink
+ln -s /original/full/path /full/path/to/destination
+
+## Create a symlink in current directory
+ln -s /original/full/path .
+
+## Create symlink, update existing links, "force" (no questions)
+ln -sfn /original/full/path /full/path/to/destination
+
+# List
+
+## List current directory
+l
+
+## List currend directory "simple"
+ls
+
+## List "simple" "all" (including hidden)
+ls -a
+
+## List "simple" another directory
+ls /path/to/direcory
