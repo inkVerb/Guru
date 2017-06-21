@@ -15,6 +15,12 @@ grep "complex string" * -R
 grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 
 
+## Test with grep if "foo" is in a file
+if grep -Fq "foo" /path/to/file; then
+echo "foo is true"
+fi
+
+
 # sed
 
 ## Find 'foo' and replace with 'bar'
