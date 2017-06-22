@@ -54,3 +54,14 @@ echo "$RANDOMCHAR"
 if [ $(echo "${GREATER_NUMBER}>${LESSER_NUMBER}"|bc) = 1 ]; then
 echo "Yep, it's greater."
 fi
+
+# Check if a repo has already been added
+## This example repo is: deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe
+## Note in setting the variable $vrk_add_repo_universe, we put $(lsb_release -sc) outside the quotes
+if [ ! -f "/var/local/vrk/.vubuntu-studiolite-repo-universe" ]; then
+vrk_add_repo_universe="eb http://archive.ubuntu.com/ubuntu "$(lsb_release -sc)" universe"
+ if ! grep -q "^deb .*$vrk_add_repo_universe" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+touch /var/local/vrk/.vubuntu-studiolite-repo-universe
+ fi
+fi
