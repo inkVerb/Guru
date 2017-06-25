@@ -14,6 +14,18 @@ else
 DO THIS OTHERWISE
 fi
 
+# Perform an OR test with response (either test answers 'true')
+if [ THIS IS TEST ONE ] || [ THIS IS TEST two ]
+then
+DO THIS IN RESPONSE
+fi
+
+# Perform an AND test with response (BOTH tests must answer 'true')
+if [ THIS IS TEST ONE ] && [ THIS IS TEST two ]
+then
+DO THIS IN RESPONSE
+fi
+
 # Put if-then on one line
 if [ THIS IS THE TEST ]; then
 DO THIS IN RESPONSE
@@ -21,6 +33,11 @@ fi
 
 # Put everything on one line
 if [ THIS IS THE TEST ]; then; DO THIS IN RESPONSE; fi
+
+# Put if-then OR test on one line
+if [ THIS IS TEST ONE ] || [ THIS IS TEST two ] ; then
+DO THIS IN RESPONSE
+fi
 
 # Test if a file exists
 if [ -f /path/to/file ]; then
