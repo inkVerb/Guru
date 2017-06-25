@@ -11,7 +11,7 @@ Linux must know the UUID of swap, which changes when you remake a partition. If 
 2. Open a GUI editor with GUI password entry (because GUI is easy and kind of the point)
 `gksu gedit /etc/fstab`
 
-`gksu` is like `sudo` except for GUI. `gedit` is the editor. `/etc/fstab` is the settings file.
+`gksu` is like `sudo`, but for GUI. `gedit` is the editor. `/etc/fstab` is the settings file.
 
 *If you don't have* `gedit`*, you can use* `mousepad` (Xfce) *or* `kate` (KDE) *or* `pluma` (MATE/Cinnamon) *or whatever else instead. Nothing is stopping you from using* `vim` *or* `nano` *in the terminal either.*
 
