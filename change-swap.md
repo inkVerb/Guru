@@ -1,7 +1,6 @@
 # Chane swap UUID in fstab
 
 Linux must know the UUID of swap, which changes when you remake a partition. If you remake your swap partition after installing, Linux will be confused and take a long time to start up.
-
 *(You'll be looking at that pretty graphic called a 'Plymouth' forever at every boot up.)*
 
 1. Get a list of your partitions:
