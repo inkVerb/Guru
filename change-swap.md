@@ -24,6 +24,6 @@ Now, look at the `/etc/fstab` file that opened in the GUI. It has the swap UUID 
 
 Copy that long UUID number for swap from the terminal (Ctrl+Shift+C for terminal) and use that to replace the UUID swap number in `/etc/fstab`.
 
-Save, close, relogin.
+Save & close.
 
-All is good and right in the world.
+All is good and right in the world at next boot.
