@@ -1,6 +1,8 @@
 # Chane swap UUID in fstab
 
-Linux must know the UUID of swap, which changes when you remake a partition. If you remake your swap partition after installing, Linux will be confused and take a long time to start up. (You'll be looking at that pretty graphic called a 'Plymouth' forever at every boot up.)
+Linux must know the UUID of swap, which changes when you remake a partition. If you remake your swap partition after installing, Linux will be confused and take a long time to start up.
+
+*(You'll be looking at that pretty graphic called a 'Plymouth' forever at every boot up.)*
 
 1. Get a list of your partitions:
 `sudo blkid`
@@ -10,7 +12,7 @@ Linux must know the UUID of swap, which changes when you remake a partition. If 
 2. Open a GUI editor with GUI password entry (because GUI is easy and kind of the point)
 `gksu gedit /etc/fstab`
 
-*If you don't have* `gedit`*, you can use* `mousepad` (Xfce) *or* `kate` (KDE) *or* `pluma` (MATE/Cinnamon) * or whatever else instead. Nothing is stopping you from using* `vim` *or* `nano` *in the terminal either.*
+*If you don't have* `gedit`*, you can use* `mousepad` (Xfce) *or* `kate` (KDE) *or* `pluma` (MATE/Cinnamon) *or whatever else instead. Nothing is stopping you from using* `vim` *or* `nano` *in the terminal either.*
 
 Now, look at the /etc/fstab file that opened in the GUI. It has the swap UUID two times, the first was swap at install, usually "ext4" and not "swap". Later is the actual swap. Change the actual one.
 
