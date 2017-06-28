@@ -38,6 +38,8 @@ Copy and paste. *Ctrl+C, Ctrl+V*
 
 `#!/bin/sh`
 
+Save *Ctrl+S*
+
 Close *Alt+F4*
 
 `ls`
@@ -49,6 +51,8 @@ Close *Alt+F4*
 Copy and paste. *Ctrl+C, Ctrl+V*
 
 `<?xml version="1.0" encoding="UTF-8"?>`
+
+Save *Ctrl+S*
 
 Close *Alt+F4*
 
@@ -73,6 +77,8 @@ Copy and paste. *Ctrl+C, Ctrl+V*
 ` `
 
 `</body>`
+
+Save *Ctrl+S*
 
 Close *Alt+F4*
 
@@ -116,9 +122,9 @@ To edit any file, html for example, type:
 
 `cd `
 
-`cd WORK/xml`
+`cd WORK/html`
 
-`gedit new.xml`
+`gedit new.html`
 
-...And get coding
+...And get coding!
 
