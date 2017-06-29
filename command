@@ -12,6 +12,14 @@ sudo chown -R user directory
 # This is a set of semi-complex commands that might prove useful
 
 
+# See if an application is already installed
+## This will see if Pluma the text editor for MATE is installed.
+if [ -x "$(command -v pluma)" ]; then
+echo "Pluma!"
+else
+echo "No Pluma."
+fi
+
 # Make a directory and all subdirectories one thru six and don't echo errors if they already exist
 mkdir -p one/two/three/four/five/six
 
