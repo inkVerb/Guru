@@ -79,4 +79,6 @@ if [ "$variable" != "I am blue" ]; then
 echo "It's a blueberry!"
 fi
 
-# More with math: http://www.thegeekstuff.com/2010/06/bash-conditional-expression/
+# More with math:
+## http://www.thegeekstuff.com/2010/06/bash-conditional-expression/
+## https://www.tutorialspoint.com/unix/unix-basic-operators.htm
