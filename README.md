@@ -16,7 +16,13 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `cd `
 
-`cd WORK` (whatever you called it when you installed Vrk)
+`cd Work` (whatever you called your WORK folder when you installed Vrk)
+
+`ls`
+
+`nautilus .`
+
+Open a new tab. *Ctrl+Shift+T*
 
 `mkdir shell`
 
