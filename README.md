@@ -24,6 +24,8 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 Open a new tab. *Ctrl+Shift+T*
 
+`cd Work` (get badk to the same folder in the new tab)
+
 `mkdir shell`
 
 `mkdir xml`
