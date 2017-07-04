@@ -66,6 +66,8 @@ Copy and paste. *Ctrl+C, Ctrl+V*
 
 `<!DOCTYPE html>`
 
+`<html>`
+
 `<head>`
 
 `<title></title>`
@@ -77,6 +79,8 @@ Copy and paste. *Ctrl+C, Ctrl+V*
 ` `
 
 `</body>`
+
+`</html>`
 
 Save *Ctrl+S*
 
