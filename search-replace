@@ -52,6 +52,14 @@ sed -i "s/foo1.*.foo2/bar/g" /path/to/file
 sed -i "s/\/path\/foo\.md/\/dir\/bar\.md/g" /path/to/file
 
 
+# rename
+
+## Simple
+rename 's/foo.old.name/barnewname/' /path/to/files/*
+
+## Use quotes with variables
+rename "s/foo.old.name/${barnewname}/" /path/to/files/*
+
 # sed characters to cancel with \
 ## unless inside a character set wtih brackets like this: [ ... ]
 $ ^ * [ ] / \
