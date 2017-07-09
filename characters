@@ -3,6 +3,5 @@
 # from upper to lower case
 tr "[A-Z]" "[a-z]"
 
-
 # from lower to upper case
 tr "[a-z]" "[A-Z]"
