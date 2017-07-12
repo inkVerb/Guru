@@ -3,13 +3,25 @@
 
 # dbus
 
+# dconf
+## GUI: apt install dconf-tools; dconf-editor
+
+
 # gsettings
+## GUI: apt install dconf-tools; gconf-editor
+gsettings list-schemas
+gsettings list-children net.launchpad.plank
+
 
 # gconftool-2
 ## GUI: gconf-editor
+## Get info:
+gconftool-2 --all-dirs /apps/docky-2/Docky/Services
+gconftool-2 --all-entries /apps/docky-2/Docky/Interface/DockPreferences/Dock1
+## Set:
+gconftool-2 --set "/apps/docky-2/Docky/Services/ThemeService/Theme" --type string "Transparent"
+gconftool-2 --type list --list-type string --set "/apps/docky-2/Docky/Interface/DockPreferences/Dock1/SortList" "[usr/share/applications/nautilus.desktop,/usr/share/applications/chromium-browser.desktop,/usr/share/applications/firefox.desktop,/usr/share/applications/thunderbird.desktop,/usr/share/applications/libreoffice-writer.desktop,/usr/share/applications/gedit.desktop,/usr/share/applications/rhythmbox.desktop]"
 
-# dconf
-## GUI: dconf-editor
 
 # xfconf-query
 ### For Xfce
