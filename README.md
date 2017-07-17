@@ -16,7 +16,9 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `cd `
 
-`cd Work` (whatever you called your WORK folder when you installed Vrk)
+*IF* you don't have a `Work` folder, create it: `mkdir Work`
+
+`cd Work` (OR whatever you called your WORK folder when you installed [Vrk](http://verb.ink))
 
 `ls`
 
