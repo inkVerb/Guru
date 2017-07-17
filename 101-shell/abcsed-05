@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "These are variables:
+\$0: $0
+\$1: $1
+\$2: $2
+\$3: $3
+For \$10 and above, use: \${10}"
