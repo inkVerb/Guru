@@ -1,4 +1,4 @@
-# Shell 101
+# Lesson 01
 *F12 (guake) OR Ctrl + Alt + T (new terminal)*
 
 `cd Work/shell`
