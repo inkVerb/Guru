@@ -136,7 +136,7 @@ To edit any file, html for example, type:
 
 `cd `
 
-`cd WORK/html`
+`cd Work/html`
 
 `gedit new.html`
 
