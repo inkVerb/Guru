@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# This file explains how variables and shell scripts work
+
+# This is a comment
+
+## We have "commented" the line below so it is here, but does nothing:
+#sed -i "s/$FOO/$BAR/" $FILE
+
 echo "These are variables:
 \$0: $0
 \$1: $1
