@@ -23,5 +23,3 @@
 `./how2var a b abcd`
 
 `./how2var ink "is a" verb`
-
-Now, you know how sed, echo, and variables work!
