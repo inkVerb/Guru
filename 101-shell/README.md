@@ -24,3 +24,7 @@
 ### [Lesson 1](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
 ### [Lesson 2](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
+
+### [Lesson 3](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
+
+Now, you know how sed, echo, and variables work!
