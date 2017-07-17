@@ -6,7 +6,7 @@
 
 `cd Work/shell`
 
-`nautilus .` OR Xfce/UbuntuStudio `thunar .`
+`nautilus .` OR Xfce/Xubuntu/UbuntuStudio `thunar .`
 
 *Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
 
