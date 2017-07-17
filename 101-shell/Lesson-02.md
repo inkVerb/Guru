@@ -7,9 +7,23 @@
 
 *Input abcsed as this:* [abcsed-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-01)
 
+`./abcsed`
+
+*Note the error message*
+
+`ls`
+
+*Note the colors of the files*
+
 `chmod +x abcsed`
 
+`ls`
+
+*Note the colors of the files*
+
 `./abcsed a`
+
+*Now, it works, no error*
 
 *gedit: Reload abcd*
 
