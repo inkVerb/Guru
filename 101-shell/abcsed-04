@@ -1,0 +1,7 @@
+#!/bin/sh
+
+FOO=$1
+BAR=$2
+FILE=$3
+
+sed -i "s/$FOO/$BAR/" $FILE
