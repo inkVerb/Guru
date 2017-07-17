@@ -18,6 +18,8 @@
 
 `cd Work/shell`
 
+`chmod +x how2var`
+
 `./how2var one two three`
 
 `./how2var a b abcd`
