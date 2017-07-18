@@ -96,3 +96,5 @@
 `./abcsed z j abcd`
 
 *gedit: Reload abcd*
+
+#### [Lesson 3](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
