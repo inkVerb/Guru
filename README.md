@@ -130,6 +130,10 @@ Move everything into place
 
 *Ctrl+Shift+V* Paste
 
+*Ctrl+Shift+T* Open a new tab
+
+*Ctrl+Shift+W* Close a tab
+
 ## Next
 
 To edit any file, html for example, type:
