@@ -49,7 +49,7 @@
 
 *gedit: Reload abcd*
 
-`./abcsed f z`
+`./abcsed z j`
 
 *gedit: Reload abcd*
 
@@ -59,13 +59,23 @@
 
 *Change abcsed to this:* [abcsed-03](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-03)
 
+`./abcsed z j`
+
+*gedit: Reload abcd*
+
+`./abcsed f z`
+
+*gedit: Reload abcd*
+
+`./abcsed z j`
+
+*gedit: Reload abcd*
+
+*Change abcsed to this:* [abcsed-04](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-04)
+
 `echo "Apples like foo." > applefoo`
 
 `gedit applefoo`
-
-*Open new tab or terminal*
-
-`cd Work/shell`
 
 `./abcsed foo bar applefoo`
 
@@ -77,7 +87,7 @@
 
 `./abcsed z j abcd`
 
-*Change abcsed to this:* [abcsed-04](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-04)
+*Change abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
 
 `./abcsed h z abcd`
 
@@ -86,17 +96,3 @@
 `./abcsed z j abcd`
 
 *gedit: Reload abcd*
-
-`gedit how2var`
-
-*Open new tab or terminal*
-
-`cd Work/shell`
-
-*Change how2var to this:* [how2var-05](https://github.com/inkVerb/pinker/blob/master/101-shell/how2var-05)
-
-`./how2var one two three`
-
-`./how2var a b abcd`
-
-`./how2var ink "is a" verb`
