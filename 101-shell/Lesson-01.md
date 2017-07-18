@@ -24,3 +24,5 @@
 `sed -i "s/bar//" abcd`
 
 *gedit: Reload*
+
+#### [Lesson 2](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
