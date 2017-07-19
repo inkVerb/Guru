@@ -7,9 +7,10 @@
 ## We have "commented" the line below so it is here, but does nothing:
 #sed -i "s/$FOO/$BAR/" $FILE
 
-echo "These are variables:
+# For $10 and above, use: ${10}
+
+echo "These are the variables:
 \$0: $0
 \$1: $1
 \$2: $2
-\$3: $3
-For \$10 and above, use: \${10}"
+\$3: $3"
