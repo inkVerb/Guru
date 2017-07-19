@@ -87,14 +87,4 @@
 
 `./abcsed z j abcd`
 
-*Change abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
-
-`./abcsed h z abcd`
-
-*gedit: Reload abcd*
-
-`./abcsed z j abcd`
-
-*gedit: Reload abcd*
-
 #### [Lesson 3](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
