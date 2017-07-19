@@ -1,7 +1,7 @@
 #!/bin/sh
 
-FOO=$1
-BAR=$2
-FILE=$3
+myFOO=$1
+myBAR=$2
+myFILE=$3
 
-sed -i "s/$FOO/$BAR/g" $FILE
+sed -i "s/$myFOO/$myBAR/g" $myFILE
