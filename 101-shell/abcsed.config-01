@@ -1,0 +1,4 @@
+# This is a configuration file
+## This only sets variables to be included in another shell script
+
+File=abcd
