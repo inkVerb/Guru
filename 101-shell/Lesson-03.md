@@ -8,7 +8,7 @@
 
 `gedit how2var`
 
-*Input how2var as this:* [how2var-00](https://github.com/inkVerb/pinker/blob/master/101-shell/how2var-00)
+*Input how2var as this:* [how2var-01](https://github.com/inkVerb/pinker/blob/master/101-shell/how2var-01)
 
 *Open new tab or terminal*
 
