@@ -112,7 +112,7 @@ Move everything into place
 
 ### Tips
 
-*Ctrl+A* selects everything
+*Ctrl+A* select All
 
 *Ctrl+X* Cut
 
