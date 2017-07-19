@@ -26,4 +26,6 @@
 
 ### [Lesson 3](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
 
-Now, you know how sed, echo, variables, chmod, shell script, and gedit work from the terminal!
+### [Lesson 4](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
+
+Now, you know how sed, echo, variables, chmod, shell script, settings files, and gedit work from the terminal!
