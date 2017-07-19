@@ -1,7 +1,3 @@
-`echo "Apples like foo." > applefoo`
-
-`gedit applefoo`
-
 *Open new tab or terminal*
 
 `cd Work/shell`
