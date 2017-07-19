@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Set the variables first, then use them in the sed command
+
 myFOO=$1
 myBAR=$2
 myFILE=$3
