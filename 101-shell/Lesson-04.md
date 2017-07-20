@@ -24,3 +24,5 @@
 `./abcsed z j abcd`
 
 *gedit: Reload abcd*
+
+#### [Lesson 5](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-05.md)
