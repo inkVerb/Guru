@@ -57,7 +57,7 @@
 
 *gedit: Reload abcd*
 
-*Change abcsed to this:* [abcsed-03](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-03)
+*Update abcsed to this:* [abcsed-03](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-03)
 
 `./abcsed z j`
 
@@ -71,7 +71,7 @@
 
 *gedit: Reload abcd*
 
-*Change abcsed to this:* [abcsed-04](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-04)
+*Update abcsed to this:* [abcsed-04](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-04)
 
 `echo "Apples like foo." > applefoo`
 
