@@ -35,7 +35,7 @@
 
 *gedit: Reload abcd*
 
-*Change abcsed to this:* [abcsed-02](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-02)
+*Update abcsed to this:* [abcsed-02](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-02)
 
 `./abcsed d z`
 
