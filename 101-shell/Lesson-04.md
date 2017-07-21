@@ -1,6 +1,8 @@
 # Shell 101
 ## Lesson 04
 
+`cd ~/Work/Pinker/shell/101`
+
 `gedit abcd abcsed abcsed.config`
 
 *Change abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
