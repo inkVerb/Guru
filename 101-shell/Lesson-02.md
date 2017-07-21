@@ -1,6 +1,8 @@
 # Shell 101
 ## Lesson 02
 
+`cd Work/Pinker/shell/101`
+
 `gedit abcsed abcd`
 
 *Note the two tabs in gedit*
