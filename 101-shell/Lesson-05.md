@@ -3,6 +3,8 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+*Open everything with gedit*
+
 `gedit *`
 
 `cat applefoo`
