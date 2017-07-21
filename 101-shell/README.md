@@ -4,13 +4,17 @@
 
 *F12 (guake) OR Ctrl + Alt + T (new terminal)*
 
-`cd Work/shell`
+`cd Work/Pinker/shell`
+
+`mkdir 101`
+
+`cd 101`
 
 `nautilus .` OR Xfce/Xubuntu/UbuntuStudio `thunar .`
 
 *Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
 
-`cd Work/shell`
+`cd Work/Pinker/shell/101`
 
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
 
@@ -18,7 +22,7 @@
 
 *Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
 
-`cd Work/shell`
+`cd Work/Pinker/shell/101`
 
 ### [Lesson 1](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
