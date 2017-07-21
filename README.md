@@ -7,10 +7,9 @@
 2. Install Vrk and Vubuntu via the commands at [http://verb.ink]
 3. Type with correct fingers. Learn here: [http://write.pink/88]
 
-## Prep Work
-### Get into your "Work" folder
+## Prep Folders
 
-*Watch in the file explorer if you want, in your WORK folder*
+*Watch in the file explorer if you want, in your Work folder*
 
 Open Terminal *F12 / Ctrl+Alt+T*
 
@@ -20,13 +19,17 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `cd Work` (OR whatever you called your WORK folder when you installed [Vrk](http://verb.ink))
 
+`mkdir Pinker`
+
 `ls`
 
 `nautilus .`
 
 Open a new tab. *Ctrl+Shift+T*
 
-`cd Work` (get badk to the same folder in the new tab)
+`cd Work/Pinker` (get badk to the same folder in the new tab)
+
+`cd Pinker`
 
 `mkdir shell`
 
