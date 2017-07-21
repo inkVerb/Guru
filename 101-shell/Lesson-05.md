@@ -19,6 +19,8 @@
 
 `./comboshell applefoo foo bar`
 
+`cat abcd`
+
 `./comboshell abcd jjjjjjjjj "Apple likes to say abcdefghi and "`
 
 `./comboshell abcd j "zz "`
