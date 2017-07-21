@@ -1,6 +1,16 @@
 # Shell 101
 ## Lesson 01
 
+`cd Work/Pinker/shell/101`
+
+`echo "abcdefghijklmnopqrstuvwxyz" > abcd`
+
+`gedit abcd`
+
+*Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
+
+`cd Work/Pinker/shell/101`
+
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
 
 *gedit: Reload*
