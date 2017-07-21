@@ -1,9 +1,7 @@
 # Shell 101
 ## Lesson 03
 
-*Open new tab or terminal*
-
-`cd Work/shell`
+`cd Work/Pinker/shell/101`
 
 `gedit how2var`
 
