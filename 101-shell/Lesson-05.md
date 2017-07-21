@@ -13,7 +13,7 @@
 
 `gedit comboshell`
 
-*Input abcsed.config as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
+*Input comboshell as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
 
 `./comboshell applefoo foo bar`
 
