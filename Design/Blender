@@ -1,0 +1,103 @@
+[https://wiki.blender.org/index.php/]
+Filmic-blender: [https://github.com/sobotka/filmic-blender]
+Why filmic-blender: [https://www.youtube.com/watch?v=m9AT7H4GGrA]
+
+#### Pi Menu
+Ctrl + Alt + U (File > User Preferences...)
+> Add-ons > Categories > User Interface
+- Pi Menu
+- Save User Settings
+
+#### Mouse
+Scroll = zoom
+Middle + Move = orbit
+Shift + Middle + Move = pan
+Ctrl + LeftClick = Circle select
+
+Shift + Space / Ctrl + Up/Down = Max
+Ctrl + Space = hide arrows
+Alt + Space = Orientation
+
+Select:
+Ctrl + Tab / Ctrl + LeftClick + Drag
+
+Q = Pi Menu
+Z = Pi Mode Menu (no Pi = wire frame / solid)
+
+A = select all/none
+B = border select
+C = circle select
+
+Tab = Edit mode on/off:
+Ctrl + Tab = edit menu
+
+#### Edge
+Ctrl + E = Edges menu
+Ctrl + Tab + RightClick = select edge ring (+ Shift to add more)
+> Ctrl + R = loop cut (mouse wheel = add more)
+>> LeftClick, move = set place (+ Ctrl = snapping)
+>>> LeftClick = apply place
+>>> Esc = cancel place and use original
+> K = Knife tool
+>> LeftClick = drag/click to cut
+>> Enter/Space = apply cut
+>> Esc/RightClick = cancel cuts
+>> Ctrl = place cut at midpoint of affected lines
+>> Shift = allow cut point NOT on an edge
+>> E = start a new cut line
+>> C = 45° snapping
+>> Z = also cut all edges and surfaces behind view
+
+### View
+1 = front
+2 = orbit back
+3 = right side
+4 = orbit left
+5 = orthogonal/perspective toggle
+6 = orbit right
+7 = top
+8 = orbit forward
+9 = 
+0 = camera view
+1 + Ctrl = back
+2 + Ctrl = pan down
+3 + Ctrl = left side
+4 + Ctrl = pan left
+6 + Ctrl = pan right
+7 + Ctrl = bottom
+8 + Ctrl = pan up
+9 + Ctrl =
+0 + Ctrl = set active opject as camera
+0 + Ctrl + Alt = set user view as camera
++ = zoom in
+- = zoom out
+/ = toggle local view
+. = view selected
+
+X/Y/Z = axis (again for local)
+Shift + X/Y/Z = plane (again for local)
+G = Grab
+S = Scale
+R = Rotate
+
+Ctrl + Alt + Q = 4-View
+
+Shift + Z = quick render
+Shift + A = add
+
+Ctrl + J = join
+Ctrl + Alt + Shift + C = origin to geometry
+Ctrl + P = parent Set
+Alt + P = parent clear
+
+Shift + D = duplicate
+Alt + D = linked duplicate
+Ctrl + L = make links
+
+#### Groups
+Ctrl + G = new group
+Ctrl + Alt + G = remove from groups
+Ctrl + Ald + Shift + G = remobe from all groups
+Ctrl + Shift + G = add selected to active group
+Alt + Shift + G = remove selected to active group
+Ctrl + 1 = subdivision
