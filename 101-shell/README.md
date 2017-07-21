@@ -14,16 +14,6 @@
 
 *Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
 
-`cd Work/Pinker/shell/101`
-
-`echo "abcdefghijklmnopqrstuvwxyz" > abcd`
-
-`gedit abcd`
-
-*Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
-
-`cd Work/Pinker/shell/101`
-
 ### [Lesson 1](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
 ### [Lesson 2](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
