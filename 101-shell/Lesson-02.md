@@ -7,7 +7,7 @@
 
 *Note the two tabs in gedit*
 
-*Input abcsed as this:* [abcsed-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-01)
+*Create abcsed as this:* [abcsed-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-01)
 
 `./abcsed`
 
