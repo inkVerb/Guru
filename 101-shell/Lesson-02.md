@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 02
 
-`cd Work/Pinker/shell/101`
+`cd ~/Work/Pinker/shell/101`
 
 `gedit abcsed abcd`
 
