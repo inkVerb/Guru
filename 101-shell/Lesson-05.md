@@ -3,6 +3,8 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit *`
+
 `cat applefoo`
 
 `sed -i "s/bar/foo/" applefoo`
