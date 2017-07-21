@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 01
 
-`cd Work/Pinker/shell/101`
+`cd ~/Work/Pinker/shell/101`
 
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
 
