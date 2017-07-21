@@ -1,3 +1,6 @@
+# Shell 101
+## Lesson 05
+
 `cat applefoo`
 
 `sed -i "s/bar/foo/" applefoo`
