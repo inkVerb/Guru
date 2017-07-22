@@ -63,7 +63,7 @@ Close *Alt+F4*
 
 Copy and paste. *Ctrl+C, Ctrl+V*
 
-`<?xml version="1.0" encoding="UTF-8"?>`
+`<?xml version="1.0" encoding="utf-8"?>`
 
 Save *Ctrl+S*
 
