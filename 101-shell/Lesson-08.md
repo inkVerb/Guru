@@ -26,3 +26,5 @@
 `./comboshell abcd j "z-"`
 
 *gedit: Reload sedoutput.text*
+
+#### [Lesson 9](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-09.md)
