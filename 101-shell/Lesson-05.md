@@ -37,4 +37,4 @@
 
 `./comboshell abcd j " zz"`
 
-#### [Lesson 6](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-06.md)
+#### [Lesson 6: tee](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-06.md)
