@@ -9,9 +9,15 @@
 
 `cat applefoo`
 
+`sed "s/bar/foo/" applefoo`
+
+`cat applefoo`
+
 `sed -i "s/bar/foo/" applefoo`
 
 `cat applefoo`
+
+`sed "s/bar/foo/" applefoo`
 
 `cat applefoo | sed "s/foo/bar/"`
 
