@@ -31,3 +31,9 @@
 ### [Lesson 8](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
 
 ### [Lesson 9](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-09.md)
+
+### [Lesson 10](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-10.md)
+
+### [Lesson 11](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-11.md)
+
+### [Lesson 12](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-12.md)
