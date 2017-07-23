@@ -17,7 +17,7 @@
 
 *Update abcsed to this:* [abcsed-06](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-06)
 
-*Create abcsed.setting as this:* [abcsed.set-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed.setting-01)
+*Create abcsed.setting as this:* [abcsed.setting-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed.setting-01)
 
 `./abcsed i z`
 
