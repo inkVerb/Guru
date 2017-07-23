@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 01
+## Lesson 01: echo & sed
 
 `cd ~/Work/Pinker/shell/101`
 
