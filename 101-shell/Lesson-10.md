@@ -23,4 +23,4 @@
 
 `grep -R "Apples like" *`
 
-#### [Lesson 11](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-11.md)
+#### [Lesson 11: grep with Special Characters](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-11.md)
