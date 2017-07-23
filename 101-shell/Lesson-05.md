@@ -64,6 +64,7 @@
 `./comboshell abcd jjjjjjjjj "Apple likes to say abcdefghi and "`
 
 `./comboshell abcd j "zz "`
+`./comboshell abcd j "z-"`
 
 *Update comboshell to this:* [comboshell-02](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-02)
 
