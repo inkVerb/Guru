@@ -89,4 +89,4 @@
 
 `./abcsed z j abcd`
 
-#### [Lesson 3](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
+#### [Lesson 3: Autoset Variable Review](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
