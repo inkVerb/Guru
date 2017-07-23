@@ -2,11 +2,23 @@
 
 # Sent output of a command to a file
 
-### List a directory to "mylist.txt"
+## Format
+COMMAND > FILENAME
+
+## Format for errors
+COMMAND 2> FILENAME
+
+## list a directory to "mylist.txt"
 ls > mylist.txt
 
-### grep to "mygrep.txt"
+## grep to "mygrep.txt"
 grep "foo" * > mygrep.txt
+
+## list a directory and send only errors to "errors.txt"
+ls 2> errors.txt
+
+## list a directory to "mylist.txt", send errors to "errors.txt"
+ls > mylist.txt 2> errors.txt
 
 
 # Combine different commands
