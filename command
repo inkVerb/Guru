@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Create a super user
+# Create a super user password
 sudo passwd
 
 # Make executable
