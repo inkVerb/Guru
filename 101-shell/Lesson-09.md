@@ -1,11 +1,11 @@
 # Shell 101
-## Lesson 09: find & grep
+## Lesson 09: find
 
 `cd ~/Work/Pinker/shell/101`
 
 *Open everything with gedit*
 
-`gedit
+`gedit *`
 
 `mkdir abc abc-dir`
 
@@ -46,21 +46,5 @@
 `find . -type f -iname "*png"`
  
 `find . -type d -iname "*png"`
-
-`grep jj *`
-
-*Note the error about directories*
-
-`grep jj *.*`
-
-`grep -R jj *`
-
-`grep -R Apple *`
-
-`grep -R Apples like *`
-
-*Notice the errors*
-
-`grep -R "Apples like" *`
 
 #### [Lesson 10](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-10.md)
