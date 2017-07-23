@@ -1,6 +1,53 @@
 #!/bin/sh
 
-# Grep
+# find
+
+## Options
+
+### Name
+#### exact name: -name
+#### ignore case: -iname
+
+### Type
+#### files and directoryes: (nothing)
+#### files: -type f
+#### directories: -type d
+
+### Permissions
+#### 664 permissions: -perm 0664
+#### 777 permissions: -perm 0777
+
+### Size
+#### Over 100kb: -size +100k
+#### Exactly 1MB: -size 1M
+#### Under 1MB: -size -1M
+
+### NOT
+#### Not *.php any case: -not -iname "*.php"
+#### Not *.PNG: -not -name "*.PNG"
+
+### Recursive directory depth
+#### Only this directory: -maxdepth 1
+#### Into two lower directories: -maxdepth 3
+
+
+## Examples
+find /dir/path -type f -name "filename.ext"
+find /dir/path -type f -iname "filename.ext"
+
+
+# grep
+
+## Format
+grep findthis file file2 file3
+
+## Options
+### ignore case: -i
+### show line number: -n
+### only output the name of a file: -l
+### recursive: -r
+### Recursive and symlinks: -R
+### Fixed string (ignore special characters): -F 'YOUR FIXED STRING WITH ^&%*!@'
 
 ## Find 'foo' recursively
 grep foo * -R
@@ -10,9 +57,6 @@ grep 'complex string' * -R
 
 ### OR
 grep "complex string" * -R
-
-## Find 'foo' and replace with 'bar' recursively with grep
-grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
 
 ## Test with grep if "foo" is in a file
 if grep -Fq "foo" /path/to/file; then
@@ -60,7 +104,20 @@ rename 's/foo.old.name/barnewname/' /path/to/files/*
 ## Use quotes with variables
 rename "s/foo.old.name/${barnewname}/" /path/to/files/*
 
+
+# Combining commands
+
+## xargs
+### Find 'foo' and replace with 'bar' recursively with grep
+grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
+
+## -exec ....... {} +
+### Find .html files and grep it for contents "Ink is a verb."
+find .-type -f -iname "*.html" -exec grep -i -n "Ink is a verb." {} +
+
+
 # sed characters to cancel with \
+
 ## unless inside a character set wtih brackets like this: [ ... ]
 $ ^ * [ ] / \
 
@@ -72,3 +129,7 @@ $i_am_variable
 ${also_variable}
 
 ## The rest of the time, sed can be crazy, so try and search
+
+
+# Links
+## grep https://www.computerhope.com/unix/ugrep.htm
