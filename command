@@ -1,13 +1,5 @@
 #!/bin/sh
 
-# Create a super user password
-sudo passwd
-
-# Make executable
-chmod +x executeme
-
-# Own directory by user
-sudo chown -R user directory
 
 # This is a set of semi-complex commands that might prove useful
 
