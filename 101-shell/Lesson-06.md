@@ -22,4 +22,4 @@
 
 *gedit: Reload sedoutput.text*
 
-#### [Lesson 7](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
+#### [Lesson 7: cat vs echo](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
