@@ -35,5 +35,4 @@
 
 `grep -RF '!!' *`
 
-# Done! Have a cookie:
-### ###
+# Done! Have a cookie: ### #
