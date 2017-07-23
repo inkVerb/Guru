@@ -22,3 +22,5 @@
 `echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd) | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
+
+#### [Lesson 8](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
