@@ -3,7 +3,7 @@
 
 `cd ~/Work/Pinker/shell/101`
 
-`echo "abcdefghijklmnopqrstuvwxyz" > abcd`
+`echo "Just added this via echo" > abcd`
 
 `gedit abcd`
 
