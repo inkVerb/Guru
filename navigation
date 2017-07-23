@@ -15,37 +15,40 @@ cd
 cd ../another
 
 
-# Copy/remove
+# Copy/move/remove
 
 ## Copy foo to bar
 cp foo bar
+cp -f foo bar
 
-## Copy directory foo to directory bar
+## Copy directory foo to directory bar (-f force overwrite, don't show errors)
 cp -r foo bar
+cp -rf foo bar
 
 ## Copy a file or directory to current directory
 cp -r /full/path .
+cp -rf /full/path .
 
-## Delete a file
+## Move file or directory (-f force overwrite, don't show errors)
+mv file destination
+mv -f file destination
+
+## Delete a file (-f force overwrite, don't show errors)
 rm file
-
-## Delete "force" (no questions)
 rm -f file
 
 ## Delete directory
 rm -r directory
-
-## Delete directory "force"
 rm -rf directory
 
 
 # Creating
 
 ## Create a file if it doesn't exist
-touch newfilename
+touch newfilename file2 newfile3
 
 ## Create a directory
-mkdir direactory
+mkdir directory
 
 ## Make a directory and all "parent" directories, no questions
 mkdir -p /my/entire/path/i/will/create
@@ -55,6 +58,7 @@ mkdir one two three
 
 
 # Link
+
 ## Create a symlink
 ln -s /original/full/path /full/path/to/destination
 
@@ -67,28 +71,90 @@ ln -sfn /original/full/path /full/path/to/destination
 
 # List
 
-## List current directory
+# List files
+## Full list (extra info for monochrome)
 l
 
-## List currend directory "simple"
+## Short list
 ls
 
-## List "simple" "all" (including hidden)
+## State path
+l /path/to/list
+ls /path/to/list
+
+## Reverse
+l -r
+ls -r
+
+## All (include hidden)
+l -a
 ls -a
 
-## List "simple" another directory
-ls /path/to/direcory
+## Long (owner & permissions)
+l -l
+ls -l
+
+## Combine options
+l -a /path/to/list
+ls -a /path/to/list
+l -al /path/to/list
+ls -al /path/to/list
+
+
+# Meaning of a list (ls -l)
+
+UUUGGGPPP (User, Group, Public)
+7 	rwx   read, write, and execute
+6 	rw- 	read and write
+5 	r-x 	read and execute
+4 	r-- 	read only
+3   -wx 	write and execute
+2   -w- 	write only
+1 	--x 	execute only
+0 	--- 	none
+
+
+# Owner
+
+## File
+chown user:group file file2 file3
+
+## Directory
+chown -R user:group file file2 file3
+
+# Permissions
+## make eXecutable
+chmod +x file
+
+## make not eXecutable
+chmod -x file
+
+## make fully available to everyone
+chmod 777 file
+
+## make read/write to owner, unavaliable to public
+chmod 660 file
+
+# Edit with different editors
+
+## In terminal
+nano file
+vim file
+
+## GUI
+gedit file file2
+kate file file2
 
 
 # Names with spaces
 
-## This is two different files
+## These are two different files
 My Stuff
 
 ## This is one file
 "My Stuff"
 
-## This will open gedit to edit "My"
+## This will open gedit to edit "My" and "Stuff" as separate files
 gedit My Stuff
 
 ## This will open gedit to edit "My Stuff"
