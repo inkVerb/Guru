@@ -5,5 +5,14 @@
 
 *Open everything with gedit*
 
-`gedit *`
+`gedit
 
+`mkdir abc`
+
+`ls`
+
+`find "abc*"`
+
+*Note the error message*
+
+`find "abc*" .`
