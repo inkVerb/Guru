@@ -15,6 +15,8 @@
 
 `sed -i "s/bar/foo/" applefoo`
 
+*gedit: Reload applefoo*
+
 `cat applefoo`
 
 `sed "s/bar/foo/" applefoo`
