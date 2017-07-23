@@ -23,13 +23,9 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `ls`
 
-`nautilus .`
-
-Open a new tab. *Ctrl+Shift+T*
-
-`cd Work/Pinker` (get badk to the same folder in the new tab)
-
 `cd Pinker`
+
+`nautilus .`
 
 `mkdir shell`
 
