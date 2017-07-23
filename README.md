@@ -133,7 +133,7 @@ Move everything into place
 
 *Ctrl+Shift+W* Close a tab
 
-## Next
+### Note
 
 To edit any file, html for example, type:
 
@@ -144,5 +144,7 @@ To edit any file, html for example, type:
 `gedit new.html`
 
 ...And get coding!
+
+## Next
 
 # [Shell 101](https://github.com/inkVerb/pinker/tree/master/101-shell)
