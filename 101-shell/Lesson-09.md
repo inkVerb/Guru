@@ -47,4 +47,4 @@
  
 `find . -type d -iname "*png"`
 
-#### [Lesson 10](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-10.md)
+#### [Lesson 10: grep](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-10.md)
