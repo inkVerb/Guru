@@ -27,4 +27,4 @@
 
 *gedit: Reload abcd*
 
-#### [Lesson 5](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-05.md)
+#### [Lesson 5: Combine & Pipe Commands into Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-05.md)
