@@ -1,8 +1,6 @@
 #!/bin/sh
 
-
 # This is a set of semi-complex commands that might prove useful
-
 
 # See if an application is already installed
 ## This will see if Pluma the text editor for MATE is installed.
