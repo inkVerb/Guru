@@ -7,11 +7,11 @@
 
 `gedit *`
 
-`echo $(cat applefoo | sed "s/foo/bar/")`
+`sed "s/foo/bar/" applefoo`
 
-`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /")`
+`echo $(sed "s/foo/bar/" applefoo)`
 
-`cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /"`
+`echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd)`
 
 `sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd`
 
@@ -20,6 +20,10 @@
 `echo $(cat abcd)`
 
 `echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd) | tee sedoutput.text`
+
+*gedit: Reload sedoutput.text*
+
+`sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
 
