@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 05
+## Lesson 05: Combine & Pipe Commands into Variables
 
 `cd ~/Work/Pinker/shell/101`
 
@@ -12,6 +12,8 @@
 `sed -i "s/bar/foo/" applefoo`
 
 `cat applefoo`
+
+`cat applefoo | sed "s/foo/bar/"`
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
