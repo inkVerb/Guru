@@ -4,7 +4,7 @@
 
 *F12 (guake) OR Ctrl + Alt + T (new terminal)*
 
-`cd Work/Pinker/shell`
+`cd ~/Work/Pinker/shell`
 
 `mkdir 101`
 
