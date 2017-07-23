@@ -139,7 +139,7 @@ To edit any file, html for example, type:
 
 `cd `
 
-`cd Work/html`
+`cd Work/Pinker/html`
 
 `gedit new.html`
 
