@@ -15,4 +15,4 @@
 
 `./how2var ink "is a" verb`
 
-#### [Lesson 4](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
+#### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
