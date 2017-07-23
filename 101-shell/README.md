@@ -31,5 +31,3 @@
 ### [Lesson 8](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
 
 ### [Lesson 9](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-09.md)
-
-Now, you know how sed, echo, variables, chmod, shell script, settings files, and gedit work from the terminal!
