@@ -23,7 +23,7 @@
 
 *gedit: Reload*
 
-`echo "foo" >> abcd`
+`echo "foo :-)" >> abcd`
 
 *gedit: Reload*
 
@@ -35,7 +35,7 @@
 
 *gedit: Reload*
 
-`echo "foo" >> abcd`
+`echo "add foo and then some" >> abcd`
 
 *gedit: Reload*
 
