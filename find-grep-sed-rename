@@ -106,21 +106,6 @@ rename 's/foo.old.name/barnewname/' /path/to/files/*
 rename "s/foo.old.name/${barnewname}/" /path/to/files/*
 
 
-# Combining commands
-
-## Command as variable
-### Find .html files and grep it for contents "Ink is a verb", show line number & filename
-grep -nH "Ink is a verb" $(find -type f -name "*.html")
-
-## -exec ....... {} +
-### Find .html files and grep it for contents "Ink is a verb" show line number & filename
-find .-type -f -iname "*.html" -exec grep -i -nH "Ink is a verb" {} +
-
-## xargs
-### Find 'foo' and replace with 'bar' recursively with grep
-grep -rl 'foo' * | xargs sed -i 's/foo/bar/g'
-
-
 # sed characters to cancel with \
 
 ## unless inside a character set wtih brackets like this: [ ... ]
