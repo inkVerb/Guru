@@ -1,9 +1,9 @@
 # Shell 101
-## Lesson 04
+## Lesson 04: Setting Variables & Setting Files
 
 `cd ~/Work/Pinker/shell/101`
 
-`gedit abcd abcsed abcsed.config`
+`gedit abcd abcsed abcsed.setting`
 
 *Update abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
 
@@ -17,7 +17,7 @@
 
 *Update abcsed to this:* [abcsed-06](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-06)
 
-*Create abcsed.config as this:* [abcsed.config-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed.config-01)
+*Create abcsed.setting as this:* [abcsed.set-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed.setting-01)
 
 `./abcsed i z`
 
