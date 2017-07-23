@@ -55,6 +55,8 @@
 
 *Create comboshell as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
 
+`chmod +x comboshell`
+
 `./comboshell applefoo foo bar`
 
 `cat abcd`
