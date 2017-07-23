@@ -25,9 +25,15 @@
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
+`echo $(cat applefoo | sed "s/foo/bar/") > sedoutput.text`
+
+`gedit sedoutput.text`
+
 `echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /")`
 
-`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /") > sedapplefoo.text`
+`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /") >> sedoutput.text`
+
+*gedit: Reload sedoutput.text*
 
 `gedit comboshell`
 
@@ -40,3 +46,15 @@
 `./comboshell abcd jjjjjjjjj "Apple likes to say abcdefghi and "`
 
 `./comboshell abcd j "zz "`
+
+*Update comboshell to this:* [comboshell-02](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-02)
+
+`./comboshell abcd j "z-"`
+
+*gedit: Reload sedoutput.text*
+
+*Update comboshell to this:* [comboshell-03](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-03)
+
+`./comboshell abcd "z-" j`
+
+*gedit: Reload sedoutput.text*
