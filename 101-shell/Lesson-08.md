@@ -23,6 +23,10 @@
 
 *gedit: Reload sedoutput.text*
 
+`echo "Took out the trash." > sedoutput.text`
+
+*gedit: Reload sedoutput.text*
+
 *Update comboshell to this:* [comboshell-04](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-04)
 
 `./comboshell abcd j "z-"`
