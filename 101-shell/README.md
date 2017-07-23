@@ -24,9 +24,9 @@
 
 ### [Lesson 5: Combine & Pipe Commands into Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-05.md)
 
-### [Lesson 6](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-06.md)
+### [Lesson 6: tee](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-06.md)
 
-### [Lesson 7](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
+### [Lesson 7: cat vs echo](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
 
 ### [Lesson 8](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
 
