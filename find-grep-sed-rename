@@ -47,6 +47,7 @@ grep findthis file file2 file3
 ### only output the name of a file: -l
 ### recursive: -r
 ### Recursive and symlinks: -R
+### sHow filename (default, but if it is hidden): -H
 ### Fixed string (ignore special characters): -F 'YOUR FIXED STRING WITH ^&%*!@'
 
 ## Find 'foo' recursively
@@ -107,13 +108,17 @@ rename "s/foo.old.name/${barnewname}/" /path/to/files/*
 
 # Combining commands
 
-## xargs
-### Find 'foo' and replace with 'bar' recursively with grep
-grep -rl 'foo' * -R | xargs sed -i 's/foo/bar/g'
+## Command as variable
+### Find .html files and grep it for contents "Ink is a verb", show line number & filename
+grep -nH "Ink is a verb" $(find -type f -name "*.html")
 
 ## -exec ....... {} +
-### Find .html files and grep it for contents "Ink is a verb."
-find .-type -f -iname "*.html" -exec grep -i -n "Ink is a verb." {} +
+### Find .html files and grep it for contents "Ink is a verb" show line number & filename
+find .-type -f -iname "*.html" -exec grep -i -nH "Ink is a verb" {} +
+
+## xargs
+### Find 'foo' and replace with 'bar' recursively with grep
+grep -rl 'foo' * | xargs sed -i 's/foo/bar/g'
 
 
 # sed characters to cancel with \
