@@ -35,4 +35,4 @@
 
 *gedit: Reload money.file*
 
-#### [Lesson 12](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-12.md)
+#### [Lesson 12: grep with Special Characters](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-12.md)
