@@ -27,6 +27,8 @@
 
 `echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /")`
 
+`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /") > sedapplefoo.text`
+
 `gedit comboshell`
 
 *Create comboshell as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
