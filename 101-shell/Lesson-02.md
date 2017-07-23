@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 02
+## Lesson 02: Autoset Variables
 
 `cd ~/Work/Pinker/shell/101`
 
