@@ -1,0 +1,38 @@
+# Shell 101
+## Lesson 11: Quote/Escape Special Characters
+
+`cd ~/Work/Pinker/shell/101`
+
+*Open everything with gedit*
+
+`gedit *`
+
+`echo "$$//" > money.file`
+
+`gedit money.file`
+
+`echo "\$\$//" > money.file`
+
+*gedit: Reload money.file*
+
+`sed -i "s///!/g" money.file`
+
+*Notice the error*
+
+`sed -i "s/\//\!/g" money.file`
+
+*gedit: Reload money.file*
+
+`sed -i "s/$/@/g" money.file`
+
+*gedit: Reload money.file*
+
+`sed -i "s/\$/@/g" money.file`
+
+*gedit: Reload money.file*
+
+`sed -i 's/\$/@/g' money.file`
+
+*gedit: Reload money.file*
+
+#### [Lesson 12](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-12.md)
