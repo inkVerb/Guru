@@ -19,7 +19,7 @@
 
 *Update comboshell to this:* [comboshell-03](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-03)
 
-`./comboshell abcd "z-" j`
+`./comboshell abcd j "z-"`
 
 *gedit: Reload sedoutput.text*
 
