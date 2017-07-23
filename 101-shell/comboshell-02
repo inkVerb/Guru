@@ -10,6 +10,6 @@
 ## DO THIS | THEN DO THIS TO IT | THEN DO THIS TO THAT
 
 # $(SOMETHING-HERE) puts the output of a command as one object
-myOutput=$(cat $1 | sed "a/$2/$3/g")
+myOutput=$(cat $1 | sed "s/$2/$3/g")
 
 echo "$myOutput" >> sedoutput.text
