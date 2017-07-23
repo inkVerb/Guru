@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # This runs a command for each item in a space-separated array
 
 # Set the array variable
