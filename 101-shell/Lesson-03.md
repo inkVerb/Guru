@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 03: Autoset variable review
+## Lesson 03: Autoset Variable Review
 
 `cd ~/Work/Pinker/shell/101`
 
