@@ -21,3 +21,5 @@
 `echo $(sed "s/foo/bar/" applefoo) | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
+
+#### [Lesson 7](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
