@@ -19,9 +19,17 @@
 
 `cat applefoo`
 
-`sed "s/bar/foo/" applefoo`
+`sed "s/foo/bar/" applefoo`
 
 `cat applefoo | sed "s/foo/bar/"`
+
+`echo $(cat applefoo | sed "s/foo/bar/")`
+
+`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /")`
+
+`cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /"`
+
+`sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd`
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
@@ -29,9 +37,17 @@
 
 `gedit sedoutput.text`
 
-`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /")`
+`echo "Adding a line" >> sedoutput.text`
+
+*gedit: Reload sedoutput.text*
+
+`echo $(cat applefoo | sed "s/foo/bar/") | tee sedoutput.text`
 
 `echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /") >> sedoutput.text`
+
+*gedit: Reload sedoutput.text*
+
+`echo $(cat abcd | sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /") | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
 
