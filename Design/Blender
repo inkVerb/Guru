@@ -21,15 +21,21 @@ Alt + Space = Orientation
 Select:
 Ctrl + Tab / Ctrl + LeftClick + Drag
 
-Q = Pi Menu
-Z = Pi Mode Menu (no Pi = wire frame / solid)
+Q = Pi View Menu
+Z = Pi Shade Menu (no Pi = wire frame / solid)
+Tab = Pi Mode Menu (no Pi = Edit mode on/off)
 
 A = select all/none
 B = border select
 C = circle select
+E = 
 
-Tab = Edit mode on/off:
-Ctrl + Tab = edit menu
+Shift + A = add menu
+Shift + S = snap menu
+Shift + Z = quick render
+
+## Edit Mode:
+Ctrl + Tab = Mesh select mode
 
 #### Edge
 Ctrl + E = Edges menu
@@ -80,11 +86,13 @@ G = Grab
 S = Scale
 R = Rotate
 
+Shift + V = Vertical slide
+
 Ctrl + Alt + Q = 4-View
 
-Shift + Z = quick render
-Shift + A = add
+Ctrl + H = hooks menu
 
+Ctrl + M = merg
 Ctrl + J = join
 Ctrl + Alt + Shift + C = origin to geometry
 Ctrl + P = parent Set
