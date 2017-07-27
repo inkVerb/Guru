@@ -4,15 +4,17 @@
 
 *F12 (guake) OR Ctrl + Alt + T (new terminal)*
 
-`cd ~/Work/Pinker/shell`
+`mkdir -p ~/Work/Pinker/shell/101`
 
-`mkdir 101`
+`cd ~/Work/Pinker/shell/101`
 
-`cd 101`
+`nautilus .` OR MAYBE in Xfce/Xubuntu/UbuntuStudio `thunar .`
 
-`nautilus .` OR Xfce/Xubuntu/UbuntuStudio `thunar .`
+*Ctrl + Shift + T (new tab in terminal)*
 
-*Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
+`gedit`
+
+*Ctrl + Shift + T (new tab in terminal)*
 
 ### [Lesson 1: echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
