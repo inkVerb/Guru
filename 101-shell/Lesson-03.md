@@ -15,4 +15,12 @@
 
 `./how2var ink "is a" verb`
 
+`printenv`
+
+`echo $USER`
+
+`echo DESKTOP_SESSION`
+
+`echo $PWD`
+
 #### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
