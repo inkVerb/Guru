@@ -9,10 +9,6 @@
 
 `gedit abcd`
 
-*Ctrl + Shift + T (new tab) OR Ctrl + Alt + T (new terminal)*
-
-`cd Work/Pinker/shell/101`
-
 `echo "abcdefghijklmnopqrstuvwxyz"`
 
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
