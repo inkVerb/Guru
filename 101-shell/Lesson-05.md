@@ -25,6 +25,14 @@
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
+`echo $PWD`
+
+`echo $USER`
+
+`echo $DESKTOP_SESSION`
+
+`echo $(dpkg --print-architecture)`
+
 `gedit comboshell`
 
 *Create comboshell as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
