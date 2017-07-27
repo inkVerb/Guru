@@ -27,4 +27,6 @@
 
 `echo $PWD`
 
+`./how2var $PWD $DESKTOP_SESSION Pinker`
+
 #### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
