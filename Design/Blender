@@ -8,6 +8,12 @@ Ctrl + Alt + U (File > User Preferences...)
 - Pi Menu
 - Save User Settings
 
+#### Extra Objects
+Ctrl + Alt + U (File > User Preferences...)
+> Add-ons > Categories > Add Mesh
+- Extra Objects
+- Save User Settings
+
 #### Mouse
 Scroll = zoom
 Middle + Move = orbit
@@ -28,14 +34,17 @@ Tab = Pi Mode Menu (no Pi = Edit mode on/off)
 A = select all/none
 B = border select
 C = circle select
-E = 
 
 Shift + A = add menu
 Shift + S = snap menu
 Shift + Z = quick render
 
+Ctrl + Alt + Shift + C = Set Origin
+- Origin to Geometry, etc
+
 ## Edit Mode:
 Ctrl + Tab = Mesh select mode
+E = extrude
 
 #### Edge
 Ctrl + E = Edges menu
@@ -86,12 +95,26 @@ G = Grab
 S = Scale
 R = Rotate
 
+### Verticies
+Ctrl + V
+
+Add Modifier > Subdivision Surface (smooth via adding verticies)
+
+####### Pi Menu
+Ctrl + Alt + U (File > User Preferences...)
+> Add-ons > Categories > User Interface
+- Pi Menu
+- Save User Settings
+
+Shift + A = Add
+
 Shift + V = Vertical slide
 
 Ctrl + Alt + Q = 4-View
 
 Ctrl + H = hooks menu
 
+Shift + D = duplicate
 Ctrl + M = merg
 Ctrl + J = join
 Ctrl + Alt + Shift + C = origin to geometry
