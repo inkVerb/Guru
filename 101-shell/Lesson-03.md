@@ -23,7 +23,7 @@
 
 `echo $USER`
 
-`echo DESKTOP_SESSION`
+`echo $DESKTOP_SESSION`
 
 `echo $PWD`
 
