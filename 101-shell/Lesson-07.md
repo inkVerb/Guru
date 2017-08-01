@@ -27,4 +27,8 @@
 
 *gedit: Reload sedoutput.text*
 
+cat abcd | tee sedoutput.text
+
+*gedit: Reload sedoutput.text*
+
 #### [Lesson 8: echo, cat, and tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
