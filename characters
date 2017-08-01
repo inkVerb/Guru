@@ -5,3 +5,6 @@ tr "[A-Z]" "[a-z]"
 
 # from lower to upper case
 tr "[a-z]" "[A-Z]"
+
+# all to lower case
+sed -i 's/\(.*\)/\L\1/' file
