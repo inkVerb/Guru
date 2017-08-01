@@ -27,7 +27,7 @@
 
 *gedit: Reload sedoutput.text*
 
-cat abcd | tee sedoutput.text
+`cat abcd | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
 
