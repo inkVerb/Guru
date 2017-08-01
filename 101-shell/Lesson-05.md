@@ -13,6 +13,18 @@
 
 `cat applefoo`
 
+`sed -e "s/bar/foo/g" applefoo > newapplefoo`
+
+`ls`
+
+`cat newapplefoo`
+
+`cat applefoo`
+
+`rm newapplefoo`
+
+`ls`
+
 `sed -i "s/bar/foo/" applefoo`
 
 *gedit: Reload applefoo*
