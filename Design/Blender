@@ -46,6 +46,10 @@ Ctrl + Alt + Shift + C = Set Origin
 Ctrl + Tab = Mesh select mode
 E = extrude
 
+Ctrl + R = add mid lines; Mouse Wheel > more
+Ctrl + B = bevel edges; Mouse Wheel > more
+Ctrl + Shift + B = bevel verticies; Mouse Wheel > more
+
 #### Edge
 Ctrl + E = Edges menu
 Ctrl + Tab + RightClick = select edge ring (+ Shift to add more)
