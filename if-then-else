@@ -15,13 +15,13 @@ DO THIS OTHERWISE
 fi
 
 # Perform an OR test with response (either test answers 'true')
-if [ THIS IS TEST ONE ] || [ THIS IS TEST two ]
+if [ THIS IS TEST ONE ] || [ THIS IS TEST TWO ]
 then
 DO THIS IN RESPONSE
 fi
 
 # Perform an AND test with response (BOTH tests must answer 'true')
-if [ THIS IS TEST ONE ] && [ THIS IS TEST two ]
+if [ THIS IS TEST ONE ] && [ THIS IS TEST TWO ]
 then
 DO THIS IN RESPONSE
 fi
@@ -35,7 +35,7 @@ fi
 if [ THIS IS THE TEST ]; then; DO THIS IN RESPONSE; fi
 
 # Put if-then OR test on one line
-if [ THIS IS TEST ONE ] || [ THIS IS TEST two ] ; then
+if [ THIS IS TEST ONE ] || [ THIS IS TEST TWO ] ; then
 DO THIS IN RESPONSE
 fi
 
@@ -75,8 +75,8 @@ echo "It's a blueberry!"
 fi
 
 # Test if a variable is NOT the same as something (quotes are optional, but safe)
-if [ "$variable" != "I am blue" ]; then
-echo "It's a blueberry!"
+if [ "$variable" != "I am blue." ]; then
+echo "It's not a blueberry!"
 fi
 
 # More with math:
