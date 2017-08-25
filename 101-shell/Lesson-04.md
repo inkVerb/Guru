@@ -23,7 +23,7 @@
 
 *gedit: Reload abcd*
 
-`./abcsed z j abcd`
+`./abcsed z j`
 
 *gedit: Reload abcd*
 
