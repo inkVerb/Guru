@@ -2,8 +2,11 @@
 
 Find=$1
 Replace=$2
-
-# The variable $File comes from the setting file, include it this way:
 . ./abcsed.setting
 
 sed -i "s/$Find/$Replace/g" $File
+
+
+# The variable $File comes from the setting file, include it this way:
+#. ./abcsed.setting
+# v06
