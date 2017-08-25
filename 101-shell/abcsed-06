@@ -1,10 +1,10 @@
 #!/bin/sh
 
-Find=$1
-Replace=$2
+myFOO=$1
+myBAR=$2
 . ./abcsed.setting
 
-sed -i "s/$Find/$Replace/g" $File
+sed -i "s/$Find/$Replace/g" $myFILE
 
 
 # The variable $File comes from the setting file, include it this way:
