@@ -9,25 +9,23 @@
 
 `cat applefoo`
 
-`sed "s/bar/foo/" applefoo`
+`sed -i "s/bar/foo/" applefoo`
+
+*gedit: Reload applefoo*
 
 `cat applefoo`
 
-`sed -e "s/bar/foo/g" applefoo > newapplefoo`
+`sed "s/foo/bar/" applefoo`
+
+`sed -e "s/foo/bar/g" applefoo > newapplefoo`
 
 `ls`
 
 `cat newapplefoo`
 
-`cat applefoo`
-
 `rm newapplefoo`
 
 `ls`
-
-`sed -i "s/bar/foo/" applefoo`
-
-*gedit: Reload applefoo*
 
 `cat applefoo`
 
@@ -42,6 +40,8 @@
 `echo $USER`
 
 `echo $DESKTOP_SESSION`
+
+`dpkg --print-architecture`
 
 `echo $(dpkg --print-architecture)`
 
