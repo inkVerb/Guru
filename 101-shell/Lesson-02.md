@@ -89,4 +89,6 @@
 
 `./abcsed z j abcd`
 
+*gedit: Reload abcd*
+
 #### [Lesson 3: Autoset Variable Review](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
