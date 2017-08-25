@@ -7,19 +7,19 @@
 
 `gedit *`
 
-`sed "s/foo/bar/" applefoo`
-
-`echo $(sed "s/foo/bar/" applefoo)`
-
-`echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd)`
-
-`sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd`
-
 `cat abcd`
 
 `echo $(cat abcd)`
 
-`echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd) | tee sedoutput.text`
+`sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd`
+
+`echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd)`
+
+`cat abcd | tee sedoutput.text`
+
+*gedit: Reload sedoutput.text*
+
+`echo $(cat abcd) | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
 
@@ -27,7 +27,7 @@
 
 *gedit: Reload sedoutput.text*
 
-`cat abcd | tee sedoutput.text`
+`echo $(sed "s/jjjjjjjjj/Apple likes to say abcdefghi and /" abcd) | tee sedoutput.text`
 
 *gedit: Reload sedoutput.text*
 
