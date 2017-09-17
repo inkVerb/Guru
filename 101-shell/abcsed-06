@@ -4,7 +4,7 @@ myFOO=$1
 myBAR=$2
 . ./abcsed.setting
 
-sed -i "s/$Find/$Replace/g" $myFILE
+sed -i "s/$myFOO/$myBAR/g" $myFILE
 
 
 # The variable $File comes from the setting file, include it this way:
