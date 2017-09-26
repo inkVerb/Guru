@@ -42,9 +42,14 @@ Shift + Z = quick render
 Ctrl + Alt + Shift + C = Set Origin
 - Origin to Geometry, etc
 
+Shift + D = Duplicate
+Alt + D = Duplicate as Link
+U = Unlink menu
+
 ## Edit Mode:
 Ctrl + Tab = Mesh select mode
 E = extrude
+P = sPlit to new object
 
 Ctrl + R = add mid lines; Mouse Wheel > more
 Ctrl + B = bevel edges; Mouse Wheel > more
