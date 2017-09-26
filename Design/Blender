@@ -43,8 +43,11 @@ Ctrl + Alt + Shift + C = Set Origin
 - Origin to Geometry, etc
 
 Shift + D = Duplicate
-Alt + D = Duplicate as Link
+Alt + D = Duplicate as link
+Ctrl + L = Link objects to last selected
+Shift + L = Select Link menu
 U = Unlink menu
+L = make Local
 
 ## Edit Mode:
 Ctrl + Tab = Mesh select mode
