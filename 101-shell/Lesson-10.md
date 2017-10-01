@@ -7,6 +7,10 @@
 
 `gedit *`
 
+`echo "jjj" > abc/yoyo`
+
+`echo "Apple Jay" > abc/jayapple`
+
 `grep jj *`
 
 *Note the error about directories*
