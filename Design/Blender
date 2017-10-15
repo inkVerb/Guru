@@ -130,8 +130,6 @@ Shift + D = duplicate
 Ctrl + M = merg
 Ctrl + J = join
 Ctrl + Alt + Shift + C = origin to geometry
-Ctrl + P = parent Set
-Alt + P = parent clear
 
 Shift + D = duplicate
 Alt + D = linked duplicate
@@ -144,3 +142,9 @@ Ctrl + Ald + Shift + G = remobe from all groups
 Ctrl + Shift + G = add selected to active group
 Alt + Shift + G = remove selected to active group
 Ctrl + 1 = subdivision
+##### See Groups
+- Properties menu (Picture of the cube on right)
+
+#### Parenting
+Ctrl + P = parent set
+Alt + P = parent clear
