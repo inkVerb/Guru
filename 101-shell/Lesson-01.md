@@ -3,9 +3,9 @@
 
 `cd ~/Work/Pinker/shell/101`
 
-`echo "Just added this via echo"`
+`echo "No destination? Output to terminal, just like this."`
 
-`echo "Just added this via echo" > abcd`
+`echo "Designate a file? Output goes to the file, just like this." > abcd`
 
 `gedit abcd`
 
