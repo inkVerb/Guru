@@ -13,15 +13,15 @@
 
 *Note the error message*
 
-`ls`
+`ls -l`
 
-*Note the colors of the files*
+*Note the colors of the files and letters "-rw-"*
 
 `chmod +x abcsed`
 
-`ls`
+`ls -l`
 
-*Note the colors of the files*
+*Note the colors of the files and letters "-rw-"*
 
 `./abcsed a`
 
