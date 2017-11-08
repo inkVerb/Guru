@@ -137,14 +137,14 @@ Ctrl + L = make links
 
 #### Groups
 Ctrl + G = new group
-Shift + G = group/parentselect menu
 Ctrl + Alt + G = remove from groups
 Ctrl + Ald + Shift + G = remobe from all groups
 Ctrl + Shift + G = add selected to active group
 Alt + Shift + G = remove selected to active group
 Ctrl + 1 = subdivision
-##### See Groups
+##### See Groups (Two ways)
 - Properties menu (Picture of the cube on right)
+- Shift + G = group/parentselect menu
 
 #### Parenting
 Ctrl + P = parent set
