@@ -50,30 +50,33 @@ U = Unlink menu
 L = make Local
 
 ## Edit Mode:
-Ctrl + Tab = Mesh select mode
+Ctrl + Tab = Mesh Select Mode (Vertex, Face, Edge)
 E = extrude
 P = sPlit to new object
 
 Ctrl + R = add mid lines; Mouse Wheel > more
 Ctrl + B = bevel edges; Mouse Wheel > more
 Ctrl + Shift + B = bevel verticies; Mouse Wheel > more
-
-#### Edge
 Ctrl + E = Edges menu
-Ctrl + Tab + RightClick = select edge ring (+ Shift to add more)
-> Ctrl + R = loop cut (mouse wheel = add more)
->> LeftClick, move = set place (+ Ctrl = snapping)
->>> LeftClick = apply place
->>> Esc = cancel place and use original
-> K = Knife tool
->> LeftClick = drag/click to cut
->> Enter/Space = apply cut
->> Esc/RightClick = cancel cuts
->> Ctrl = place cut at midpoint of affected lines
->> Shift = allow cut point NOT on an edge
->> E = start a new cut line
->> C = 45° snapping
->> Z = also cut all edges and surfaces behind view
+Ctrl + RightClick = select range
+
+Ctrl + Alt + RightClick = selecte entire UV loop
+...changes with Vertex, Face, Edge Mesh Select Mode
+
+Ctrl + R = loop cut (mouse wheel = add more)
+> LeftClick, move = set place (+ Ctrl = snapping)
+>> LeftClick = apply place
+>> Esc = cancel place and use original
+
+K = Knife tool
+> LeftClick = drag/click to cut
+> Enter/Space = apply cut
+> Esc/RightClick = cancel cuts
+> Ctrl = place cut at midpoint of affected lines
+> Shift = allow cut point NOT on an edge
+> E = start a new cut line
+> C = 45° snapping
+> Z = also cut all edges and surfaces behind view
 
 ### View
 1 = front
