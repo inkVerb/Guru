@@ -19,6 +19,8 @@ ___
 
 `bg 1`
 
+`jobs`
+
 `killall gedit`
 
 *Note gedit closed*
