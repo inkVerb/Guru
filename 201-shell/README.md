@@ -6,16 +6,19 @@ ___
 
 This will include:
 - if
-- chown
-- chmod
 - pause
 - read
 - set -e
 
 Terminal:
+- chown
+- chmod
 - Multiple commands & lines: ; && \
 - Output as parameters: echo \`ls\` > lsoutput
+- pwd
+- w
 - top
 - ps aux
 - pgrep NAME
 - kill PID
+- man / info
