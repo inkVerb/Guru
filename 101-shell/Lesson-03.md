@@ -3,6 +3,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 `gedit how2var`
 
 *Create how2var as this:* [how2var-01](https://github.com/inkVerb/pinker/blob/master/101-shell/how2var-01)
