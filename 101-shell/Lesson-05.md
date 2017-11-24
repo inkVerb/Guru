@@ -3,6 +3,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 *Open everything with gedit*
 
 `gedit *`
@@ -37,9 +41,15 @@
 
 `echo $PWD`
 
+`printenv PWD`
+
 `echo $USER`
 
+`printenv USER`
+
 `echo $DESKTOP_SESSION`
+
+`printenv DESKTOP_SESSION`
 
 `dpkg --print-architecture`
 
