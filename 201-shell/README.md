@@ -4,4 +4,14 @@
 ___
 # Under Construction
 
-This will include if, chown, chmod, pause, read, and "set -e"
+This will include:
+- if
+- chown
+- chmod
+- pause
+- read
+- set -e
+- top
+- ps aux
+- pgrep NAME
+- kill PID
