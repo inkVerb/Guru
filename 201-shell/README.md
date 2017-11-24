@@ -2,4 +2,4 @@
 
 ## Prerequisite: Shell 101
 
-This will include if, pause, and read
+This will include if, chown, chmod, pause, and read
