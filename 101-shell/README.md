@@ -16,7 +16,7 @@
 
 *Ctrl + Shift + T (new tab in terminal)*
 
-### [Lesson 1: Terminal, gedit, echo, & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
+### [Lesson 1: Terminal, gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
 ### [Lesson 2: Autoset Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
 
@@ -30,7 +30,7 @@
 
 ### [Lesson 7: cat vs echo](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
 
-### [Lesson 8: echo, cat, & tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
+### [Lesson 8: echo, cat & tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
 
 ### [Lesson 9: find](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-09.md)
 
