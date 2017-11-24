@@ -11,6 +11,10 @@ This will include:
 - set -e
 
 Terminal:
+- cp
+- mv
+- ln -s
+- rm
 - chown
 - chmod
 - ls -l
