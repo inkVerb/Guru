@@ -3,6 +3,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 `gedit abcsed abcd`
 
 *Note the two tabs in gedit*
