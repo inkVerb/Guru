@@ -27,9 +27,15 @@ ___
 
 `echo $USER`
 
+`printenv USER`
+
 `echo $DESKTOP_SESSION`
 
+`printenv DESKTOP_SESSION`
+
 `echo $PWD`
+
+`printenv DESKTOP_SESSION`
 
 `./how2var $PWD $DESKTOP_SESSION Pinker`
 
