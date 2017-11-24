@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 08: echo, cat, and tee in scripts
+## Lesson 08: echo, cat & tee in scripts
 
 `cd ~/Work/Pinker/shell/101`
 
