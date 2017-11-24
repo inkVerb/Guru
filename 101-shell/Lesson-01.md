@@ -1,11 +1,35 @@
 # Shell 101
-## Lesson 01: echo & sed
+## Lesson 01: Terminal, gedit, echo, & sed
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
 ___
+
+`gedit`
+
+*In Terminal: Ctrl + Z*
+
+`jobs`
+
+*gedit's job number should be 1*
+
+`fg 1`
+
+*Terminal: Ctrl + Z*
+
+`bg 1`
+
+`killall gedit`
+
+*Note gedit closed*
+
+`jobs`
+
+*Start gedit so it does not control the terminal*
+
+`gedit &`
 
 `echo "No destination? Output to terminal, just like this."`
 
