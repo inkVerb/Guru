@@ -1,6 +1,6 @@
 # Bash 301 - Born Again Shell
 
-## Prerequisite: Shell 201
+## Prerequisite: [Shell 201](https://github.com/inkVerb/Pinker/tree/master/201-shell)
 
 functions, menues, etc
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
