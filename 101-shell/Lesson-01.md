@@ -3,6 +3,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 `echo "No destination? Output to terminal, just like this."`
 
 `echo "Designate a file? Output goes to the file, just like this." > abcd`
