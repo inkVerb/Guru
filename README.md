@@ -1,6 +1,8 @@
 # Pinker
 ## Learn Command Line Linux and Web Code via Vrk
 
+For more beyond this crash course, visit [http://tldp.org/](The Linux Documentation Project)
+
 *First, you must have everything set-up and installed.*
 
 1. Install Ubuntu via YouTube method at [http://verb.ink]
