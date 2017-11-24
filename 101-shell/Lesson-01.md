@@ -7,13 +7,19 @@ ___
 
 `gedit`
 
+*Note gedit opened*
+
 *In Terminal: Ctrl + Z*
+
+*Note gedit turns dark after a few moments*
 
 `jobs`
 
 *gedit's job number should be 1*
 
 `fg 1`
+
+*Note gedit is no longer dark*
 
 *Terminal: Ctrl + Z*
 
