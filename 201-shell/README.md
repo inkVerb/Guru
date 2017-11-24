@@ -13,6 +13,7 @@ This will include:
 Terminal:
 - chown
 - chmod
+- ls -l
 - Multiple commands & lines: ; && \
 - Output as parameters: echo \`ls\` > lsoutput
 - pwd
