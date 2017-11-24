@@ -4,6 +4,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 *Open everything with gedit*
 
 `gedit *`
