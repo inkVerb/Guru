@@ -14,6 +14,7 @@ This will include:
 
 Terminal:
 - Multiple commands & lines: ; && \
+- Output as parameters echo \`ls\` > lsoutput
 - top
 - ps aux
 - pgrep NAME
