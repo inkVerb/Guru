@@ -3,8 +3,6 @@
 
 `cd ~/Work/Pinker/shell/101`
 
-`gedit &`
-
 ___
 
 `gedit`
@@ -27,7 +25,7 @@ ___
 
 `jobs`
 
-*Start gedit so it does not control the terminal*
+*Start gedit so it does not occupy the terminal foreground*
 
 `gedit &`
 
