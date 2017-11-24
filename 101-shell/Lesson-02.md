@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 02: Autoset Variables
+## Lesson 02: Arguments & Variables
 
 `cd ~/Work/Pinker/shell/101`
 
