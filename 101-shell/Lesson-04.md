@@ -3,6 +3,10 @@
 
 `cd ~/Work/Pinker/shell/101`
 
+`gedit &`
+
+___
+
 `gedit abcd abcsed abcsed.setting`
 
 *Update abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
