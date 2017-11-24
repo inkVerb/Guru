@@ -2,4 +2,4 @@
 
 ## Prerequisite: Shell 101
 
-This will include if, for-do, pause, and read
+This will include if, pause, and read
