@@ -11,6 +11,9 @@ This will include:
 - pause
 - read
 - set -e
+
+Terminal:
+- Multiple commands & lines: ; && \
 - top
 - ps aux
 - pgrep NAME
