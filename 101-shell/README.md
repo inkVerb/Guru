@@ -20,7 +20,7 @@
 
 ### [Lesson 2: Arguments & Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
 
-### [Lesson 3: Arguments & Variable Review](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
+### [Lesson 3: Arguments & Variables Review](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
 
 ### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
 
