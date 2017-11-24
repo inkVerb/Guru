@@ -2,5 +2,10 @@
 
 ## Prerequisite: Shell 201
 
-This will include functions, menues, etc, starting with
-http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
+This will include functions, menues, etc
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
+
+- for-in-do, while-do & until-do
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
