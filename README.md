@@ -1,7 +1,7 @@
 # Pinker
 ## Learn Command Line Linux and Web Code via Vrk
 
-For more beyond this crash course, visit [The Linux Documentation Project](http://tldp.org/)
+For more beyond this crash course, visit [The Linux Documentation Project at tldp.org](http://tldp.org/)
 
 *First, you must have everything set-up and installed.*
 
