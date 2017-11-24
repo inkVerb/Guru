@@ -1,5 +1,5 @@
 # Shell 101
-## Lesson 03: Arguments & Variable Review
+## Lesson 03: Arguments & Variables Review
 
 `cd ~/Work/Pinker/shell/101`
 
