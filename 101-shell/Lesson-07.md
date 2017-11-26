@@ -35,4 +35,16 @@ ___
 
 *gedit: Reload sedoutput.text*
 
+`echo OneOneOne > one`
+
+`echo TwoTwoTwo > two`
+
+`cat one two > onetwo`
+
+`cat onetwo`
+
+*Note cat combined one and two into onetwo*
+
+`rm one two onetwo`
+
 #### [Lesson 8: echo, cat & tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
