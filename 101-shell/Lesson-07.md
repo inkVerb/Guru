@@ -51,6 +51,14 @@ ___
 
 *Note cat combined one and two into onetwo*
 
-`rm one two onetwo`
+`echo ThreeThreeThree > three`
+
+`cat three two one >> onetwo`
+
+`cat onetwo`
+
+*Note cat also appended to onetwo via >>*
+
+`rm one two three onetwo`
 
 #### [Lesson 8: echo, cat & tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
