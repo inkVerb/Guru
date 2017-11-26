@@ -21,6 +21,10 @@ rwx
 ugo = 777, 000, etc
 uuugggooo = rwxrwxrwx, ---------, etc
 
++ add
+- remove
+= only
+
 # examples
 
 chmod 700 foo
@@ -34,3 +38,6 @@ chmod ug+x foo
 
 chmod ug+rx,o-rwx foo
 # add read & executable to user and group; remove read, write, & execute from public
+
+chmod u=x foo
+# make the file only executable for the user and allow no other permissions
