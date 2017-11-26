@@ -9,8 +9,28 @@ r-x 5
 rw- 6
 rwx 7
 
-owner - group - public
+r read
+w write
+x execute
+
+u user (owner)
+g group (owner's group)
+o others (public)
+
+rwx
+ugo = 777, 000, etc
+uuugggooo = rwxrwxrwx, ---------, etc
 
 # examples
 
-chmod 700 foo # 7 for owner, 0 for group, 0 for public
+chmod 700 foo
+# 7 for owner, 0 for group, 0 for public; replaces all other settings
+
+chmod u+x foo
+# add executable to user
+
+chmod ug+x foo
+# add executable to user and group
+
+chmod ug+rx,o-rwx foo
+# add read & executable to user and group; remove read, write, & execute from public
