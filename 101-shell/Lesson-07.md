@@ -39,6 +39,12 @@ ___
 
 `echo TwoTwoTwo > two`
 
+`cat one`
+
+`cat two`
+
+`cat one two`
+
 `cat one two > onetwo`
 
 `cat onetwo`
