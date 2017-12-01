@@ -31,6 +31,8 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `mkdir shell`
 
+`ls`
+
 `mkdir xml html php`
 
 `ls`
