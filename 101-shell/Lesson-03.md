@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 03: Arguments & Variables Review
+## Lesson 3: Arguments & Variables Review
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 `gedit how2var`
