@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 09: find
+## Lesson 9: find
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
