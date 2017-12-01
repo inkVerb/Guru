@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 02: Arguments & Variables
+## Lesson 2: Arguments & Variables
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 `gedit abcsed abcd`
