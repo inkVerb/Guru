@@ -1,41 +1,12 @@
 # Shell 101
-## Lesson 01: Terminal, gedit, echo & sed
+## Lesson 1: gedit, echo & sed
 
 `cd ~/Work/Pinker/shell/101`
 
-___
-
-`gedit`
-
-*Note gedit opened*
-
-*In Terminal: Ctrl + Z*
-
-*Note gedit turns dark after a few moments*
-
-`jobs`
-
-*gedit's job number should be 1*
-
-`fg 1`
-
-*Note gedit is no longer dark*
-
-*Terminal: Ctrl + Z*
-
-`bg 1`
-
-`jobs`
-
-`killall gedit`
-
-*Note gedit closed*
-
-`jobs`
-
-*Start gedit so it does not occupy the terminal foreground*
-
 `gedit &`
+
+`nautilus . &`
+___
 
 `echo "No destination? Output to terminal, just like this."`
 
