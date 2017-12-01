@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 07: cat vs echo
+## Lesson 7: cat vs echo
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
