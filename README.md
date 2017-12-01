@@ -31,9 +31,7 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `mkdir shell`
 
-`mkdir xml`
-
-`mkdir html`
+`mkdir xml html php`
 
 `ls`
 
@@ -99,6 +97,22 @@ Close *Alt+F4*
 
 `ls`
 
+##### PHP
+
+`gedit head.php`
+
+Copy and paste. *Ctrl+C, Ctrl+V*
+
+`<?php`
+
+`?>`
+
+Save *Ctrl+S*
+
+Close *Alt+F4*
+
+`ls`
+
 ### Move files
 
 Move everything into place
@@ -108,6 +122,8 @@ Move everything into place
 `mv head.xml xml`
 
 `mv head.html html`
+
+`mv head.php php`
 
 `ls`
 
