@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 04: Setting Variables & Setting Files
+## Lesson 4: Setting Variables & Setting Files
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 `gedit abcd abcsed abcsed.setting`
