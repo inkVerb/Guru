@@ -33,13 +33,13 @@ ___
 
 `jobs`
 
-*Note gedit registeres "Terminated"*
+*Note the terminal registeres gedit "Terminated"*
 
 `gedit`
 
 *Terminal: Ctrl + C*
 
-*Note gedit closed and the terminal registered "Done"*
+*Note gedit closed and the terminal registers gedit "Done"*
 
 *Start gedit so it does not occupy the terminal foreground*
 
