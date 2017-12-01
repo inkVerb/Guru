@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 05: Combine & Pipe Commands into Variables
+## Lesson 5: Combine & Pipe Commands into Variables
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
