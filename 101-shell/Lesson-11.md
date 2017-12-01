@@ -5,6 +5,7 @@
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
