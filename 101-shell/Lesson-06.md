@@ -1,11 +1,12 @@
 # Shell 101
-## Lesson 06: tee
+## Lesson 6: tee
 ## tee = T
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
