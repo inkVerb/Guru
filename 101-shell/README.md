@@ -6,16 +6,6 @@
 
 `mkdir -p ~/Work/Pinker/shell/101`
 
-`cd ~/Work/Pinker/shell/101`
-
-`nautilus .` OR MAYBE in Xfce/Xubuntu/UbuntuStudio `thunar .`
-
-*Ctrl + Shift + T (new tab in terminal)*
-
-`gedit`
-
-*Ctrl + Shift + T (new tab in terminal)*
-
 ### [Lesson 1: Terminal, gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
 ### [Lesson 2: Arguments & Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
