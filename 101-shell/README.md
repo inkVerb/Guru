@@ -6,7 +6,9 @@
 
 `mkdir -p ~/Work/Pinker/shell/101`
 
-### [Lesson 1: Terminal, gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
+### [Lesson 0: Terminal Control](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-00.md)
+
+### [Lesson 1: gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
 
 ### [Lesson 2: Arguments & Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
 
