@@ -1,10 +1,11 @@
 # Shell 101
-## Lesson 08: echo, cat & tee in scripts
+## Lesson 8: echo, cat & tee in scripts
 
 `cd ~/Work/Pinker/shell/101`
 
 `gedit &`
 
+`nautilus . &`
 ___
 
 *Open everything with gedit*
