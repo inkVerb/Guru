@@ -9,6 +9,8 @@ Libraries:
 - http://www.mediafire.com/file/ezk9cbj4njbr0z1/LazerBlade+sample+collection.zip
 - Music Radar
 - http://www.musicradar.com/news/tech/free-music-samples-download-loops-hits-and-multis-627820
+  - http://www.musicradar.com/news/sampleradar-244-free-big-impact-samples
+  - http://www.musicradar.com/news/tech/sampleradar-214-free-8-bit-bonanza-samples-627132
 
 Plugins:
 - VST4FREE
