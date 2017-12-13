@@ -40,6 +40,8 @@ ___
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
+`echo ``cat applefoo | sed "s/foo/bar/"```
+
 `echo $PWD`
 
 `printenv PWD`
@@ -55,6 +57,8 @@ ___
 `dpkg --print-architecture`
 
 `echo $(dpkg --print-architecture)`
+
+`echo ``dpkg --print-architecture```
 
 `gedit comboshell`
 
