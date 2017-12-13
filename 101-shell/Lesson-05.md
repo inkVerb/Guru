@@ -40,7 +40,7 @@ ___
 
 `echo $(cat applefoo | sed "s/foo/bar/")`
 
-`echo ` `cat applefoo | sed "s/foo/bar/"` ``
+``echo `cat applefoo | sed "s/foo/bar/"```
 
 `echo $PWD`
 
@@ -58,7 +58,7 @@ ___
 
 `echo $(dpkg --print-architecture)`
 
-`echo ` `dpkg --print-architecture` ``
+``echo `dpkg --print-architecture```
 
 `gedit comboshell`
 
