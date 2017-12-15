@@ -1,6 +1,14 @@
 # Shell 201
 
 ## Prerequisite: [Shell 101](https://github.com/inkVerb/Pinker/tree/master/101-shell)
+
+## Prepare
+
+*F12 (guake) OR Ctrl + Alt + T (new terminal)*
+
+`mkdir -p ~/Work/Pinker/shell/201`
+
+### [Lesson 1: gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-01.md)
 ___
 # Under Construction
 
