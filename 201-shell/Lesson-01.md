@@ -64,7 +64,7 @@ ___
 
 `ls`
 
-*Note file5 is not "broken"*
+*Note file5 is "broken"*
 
 `touch file4`
 
