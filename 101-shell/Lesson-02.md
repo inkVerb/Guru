@@ -6,9 +6,9 @@
 `gedit &`
 
 `nautilus . &`
-___
 
 `gedit abcsed abcd`
+___
 
 *Note the two tabs in gedit*
 
