@@ -1,4 +1,6 @@
 [https://wiki.blender.org/index.php/]
+Blender Hotkeys: [http://download.blender.org/documentation/BlenderHotkeyReference.pdf]
+Filmic Blender
 Filmic-blender: [https://github.com/sobotka/filmic-blender]
 Why filmic-blender: [https://www.youtube.com/watch?v=m9AT7H4GGrA]
 
