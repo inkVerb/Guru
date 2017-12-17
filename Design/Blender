@@ -26,18 +26,26 @@ Alt + Space = Orientation
 
 Select:
 Ctrl + Tab / Ctrl + LeftClick + Drag
-
-Q = Pi View Menu
-Z = Pi Shade Menu (no Pi = wire frame / solid)
-Tab = Pi Mode Menu (no Pi = Edit mode on/off)
-
 A = select all/none
 B = border select
 C = circle select
 
+Q = Pi View Menu
+Z = Pi Shade Menu (no Pi = wire frame / solid)
+Tab = Pi Mode Menu (no Pi = Edit mode on/off)
+N = Properties panel
+
 Shift + A = add menu
 Shift + S = snap menu
 Shift + Z = quick render
+
+X/Y/Z = axis (again for local)
+Shift + X/Y/Z = plane (again for local)
+G = Grab
+S = Scale
+R = Rotate
+
+Ctrl + A = Apply menu (Apply the Location/Rotation/Scale changes BEFORE doing other operations such as Bevel)
 
 Ctrl + Alt + Shift + C = Set Origin
 - Origin to Geometry, etc
@@ -54,6 +62,7 @@ Ctrl + Tab = Mesh Select Mode (Vertex, Face, Edge)
 E = extrude
 P = sPlit to new object
 
+**NOTE: Apply any scaling changes (Ctrl + A) BEFORE Bevel, otherwise bevel will be scaled as well.
 Ctrl + R = add mid lines; Mouse Wheel > more
 Ctrl + B = bevel edges; Mouse Wheel > more
 Ctrl + Shift + B = bevel verticies; Mouse Wheel > more
@@ -103,12 +112,6 @@ K = Knife tool
 - = zoom out
 / = toggle local view
 . = view selected
-
-X/Y/Z = axis (again for local)
-Shift + X/Y/Z = plane (again for local)
-G = Grab
-S = Scale
-R = Rotate
 
 ### Verticies
 Ctrl + V
