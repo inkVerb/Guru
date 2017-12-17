@@ -4,6 +4,10 @@ Filmic Blender
 Filmic-blender: [https://github.com/sobotka/filmic-blender]
 Why filmic-blender: [https://www.youtube.com/watch?v=m9AT7H4GGrA]
 
+#### Differencing Objects
+Snap [https://blender.stackexchange.com/questions/39784/snapping-two-objects-by-edge-in-object-mode]
+Boolean Modifier [https://www.youtube.com/watch?v=lDweCpDAB_o]
+
 #### Pi Menu
 Ctrl + Alt + U (File > User Preferences...)
 > Add-ons > Categories > User Interface
