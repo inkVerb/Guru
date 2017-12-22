@@ -32,6 +32,8 @@ ___
 
 `ln -s file4 file5`
 
+`ls`
+
 *Note file5 is a different color because it is a symlink*
 
 `gedit file4 file5`
