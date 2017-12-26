@@ -1,5 +1,8 @@
 Best Friend, all main fonts: http://www.gust.org.pl/projects/e-foundry
-GUST Foundry
+GUST Foundry fonts begin with
+- LM ...
+- Tex Gyre ...
+...These cover most main typefaces and are free viz http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
 
 copy fonts to ~/.fonts
 run: fc-cache -f -v
