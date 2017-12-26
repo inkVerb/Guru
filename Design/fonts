@@ -4,6 +4,8 @@ GUST Foundry fonts begin with
 - Tex Gyre ...
 ...These cover most main typefaces and are free viz http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
 
+More fonts: https://www.fontsquirrel.com
+
 copy fonts to ~/.fonts
 run: fc-cache -f -v
 
