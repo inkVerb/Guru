@@ -1,4 +1,5 @@
 Best Friend, all main fonts: http://www.gust.org.pl/projects/e-foundry
+GUST Foundry
 
 copy fonts to ~/.fonts
 run: fc-cache -f -v
