@@ -78,13 +78,11 @@ ___
 
 `touch file4`
 
-`ls`
-
-`ls -l`
-
 `cat file4`
 
 *gedit: Reload file4*
+
+`ls -l`
 
 *Note file5 is no longer broken, but file4 has changed*
 
