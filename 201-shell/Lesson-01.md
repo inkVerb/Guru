@@ -36,6 +36,10 @@ ___
 
 *Note file5 is a different color because it is a symlink*
 
+`ls -l`
+
+*Note file5 points to file4, indicating where the symlink leads*
+
 `gedit file4 file5`
 
 `echo FILE-5 >> file5`
@@ -56,9 +60,13 @@ ___
 
 `ls`
 
+`ls -l`
+
 `rm file6`
 
 `ls`
+
+`ls -l`
 
 *Note file4 remains*
 
@@ -71,6 +79,8 @@ ___
 `touch file4`
 
 `ls`
+
+`ls -l`
 
 `cat file4`
 
