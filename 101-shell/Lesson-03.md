@@ -36,8 +36,14 @@ ___
 
 `echo $PWD`
 
-`printenv DESKTOP_SESSION`
+`printenv PWD`
+
+*Here is a little trick, just for the PWD (Present Working Directory)... ;-)*
+
+`pwd`
 
 `./how2var $PWD $DESKTOP_SESSION Pinker`
+
+`./how2var $USER USER pwd`
 
 #### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
