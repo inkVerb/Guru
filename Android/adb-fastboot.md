@@ -1,14 +1,10 @@
-# Android Commands using adb and fastboot
+# Android root, custom ROM, and using adb & fastboot
 
-1. These must be run via sudo (even when online instructions omit 'sudo', you need to use it.)
-2. First, install adb and fastboot
-3. Know the difference
+#### adb (tool)
+`adb` accesses the phone when it's running the normal Android OS or a "recovery" (like TWRP).
 
-#### adb
-`adb` accesses the phone when it's running the normal Android OS or a "recovery".
-
-#### fastboot
-`fastboot` accesses the phone when it's booted to "fastboot".
+#### fastboot (PC tool & phone boot mode)
+`fastboot` accesses the phone when it's booted to "fastboot" mode.
 
 "Fastboot" is the very early boot mode, similar to how BIOS is the first mode you can access on a PC.
 - On many phones, fastboot is a mode selected from the bootloader.
@@ -24,35 +20,70 @@ Recoveries are semi-special boot moads, comparable to the GRUB menu on steroids 
 - Recoveries can have other tools, like a terminal emulator, file manager, etc.
 - Recoveries are very, very small, maybe 12MB.
 
+###### *You DO NOT need an Android .apk or app from the Play market for any of this! Ubuntu/Linux terminal is easier!*
+Many instructions for "rooting" your phone and installing a custom ROM involve Android apps. But, it's not necessary. Keep it simple. Making things complicated just to be simple often just makes things too complicated. If you have Ubuntu then you already have what you need.
+
 #### ROM
 A ROM is the actual operating system, the "flavor" of Android in a zip file that you download and install after unlocking the phone.
 - A "stock" ROM is the ROM that comes with the phone.
-- A stock ROM is usually locked and unlocking it requires a key from the manufacturer's website, usually with a registration and signin.
+- A stock ROM is usually locked and unlocking it requires a key from the manufacturer's website, usually with a registration and signin. If a phone is "locked", it means the "bootloader" is locked and the ROM can't be changed... yet ;-)
 - Usually a stock ROM is not rooted and can't be rooted. A rooted ROM usually must be the custom ROM.
-- ROMs are big, usually 600MB-1GB or more.
+- Custom ROMs are made by humans who love people. They do it for the love. They HATE feature requests because they already thought of them all and know the headache of trying to make it all work. If they can make your wonderful idea for a custom ROM work, then it's already out there. If what you want isn't there, either wait or give up. Don't make feature requests for custom ROMs without donating *serious* money to the ROM developer.
+- ROM developers are called "chefs" because Android versions are named after deserts.
+- ROMs are usually 200MB-1GB or more.
 
-### How it all works with a phone
-fastboot and adb need to be installed onto Ubuntu
+#### Bootloader
+- This is simply the start of the bootup of your phone, much like BIOS.
+- A "locked bootloader" means the ROM can't be changed.
+- Many phones come "locked", meaning the bootloader is locked, meaning you can't make any changes to the operating system.
+- This must be unlocked before you can install a custom ROM, usually involving the manufacturer's unique key and using fastboot from the PC terminal.
+- Sometimes, this is a menu allowing you to choose "recovery" or "fastboot" modes, othertimes you never see it on the screen at all; it all depends on the manufacturer.
 
-A ROM and recovery must be downloaded specifically for your phone. Google usually tells you how.
+#### How adb and fastboot work
+- fastboot will "flash" files onto the phone.
+- adb will "push" files onto the phone.
+- Both must be run via `sudo` (even when online instructions omit 'sudo', you need to use it in the Linux PC terminal.)
 
-fastboot will "flash" files onto the phone.
+## Custom ROM
+### A. Get your tools
+#### 1. adb & fastboot on Ubuntu
+- install with this:
+`sudo apt install android-tools-adb android-tools-fastboot`
+#### 2. Custom ROM
+- A ROM and recovery must be downloaded specifically for your phone.
+- Great place to search and learn: [http://forum.xda-developers.com]
+- Some well-known ROM packages:
+    - AOSP
+    - FoxMod
+    - XenonHD
+    - VenomOS
+    - Resurrection Remix
+    - Dirty Unicorns
+    - SlimRoms
+    - LineageOS
+    - SlimRoms
+    - Paranoid Android
+    - Cyanogen
+ #### 3. TWRP (recovery)
+- TWRP home: [https://twrp.me/]
+- XDA Developer TWRP how-to article: [https://www.xda-developers.com/how-to-install-twrp/]
+- Note: This is a `.img` file, sometimes named `boot.img`, othertimes `my-long-version.1.2.3.4.5.6.7.8.9.img`. *The name doesn't matter when you install it.*
 
-adb will "push" files onto the phone.
+### B. Unlock the bootloader
 
-### Unlocking
-
-#### Android Settings
+#### 1. Android Settings
 1. In Android: Settings: About Phone: Tap "Build number" seven times
 2. In Android: Settings: Developer options: Enable "Debugging" mode
 3. In Android: Settings: Battery: Disable "Fast boot" (for HTC phones; note "Fast boot" is not *fastboot*)
 
-#### Developer Unlock
-Here is an example: [https://htc-one.gadgethacks.com/how-to/unlock-bootloader-root-your-htc-one-running-android-4-4-2-kitkat-0151186/]
+#### 2. Developer Unlock Bootloader
+Basically, follow instructions per phone.
 
-Here is where to go for HTC: [http://htcdev.com/]
+Here is an example with an HTC: [https://htc-one.gadgethacks.com/how-to/unlock-bootloader-root-your-htc-one-running-android-4-4-2-kitkat-0151186/]
 
 Here is another site with concise instructions: [https://forum.xda-developers.com/showthread.php?t=1432199]
+
+For HTC...
 
 `sudo fastboot oem get_identifier_token`
 
@@ -68,19 +99,29 @@ Here are some other examples of other devices:
 
 `sudo fastboot -i 0x2a96 oem unlock`
 
+##### Some brands developer unlock links...
+- HTC: [http://htcdev.com/]
+- Sony: [https://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/]
+- Samsung: (Some say it's easy.) [https://www.youtube.com/watch?v=oQ2t-6qyxTY] then `sudo fastboot oem unlock`
+- Google: Much like Samsung. *No keys needed, just use* `sudo fastboot oem unlock` *(One reason people love Google phones!)*
+- ASUS: fat chance. If they support unlocking, it may require an .apk.
+- iPhone: You even know how to find this web page!? Since you learned this much, your phone doesn't use Android. No way in Heaven, Earth, or the four chambers of Tartarus.
 
-##### After unlocking...
-
+#### Install the right stuff
 1. Download the custom ROM of choice and the recovery that your trusted websites advise you to, usually TWRP or CWM.
 2. OPTIONAL/easiest: Copy your custom ROM onto your phone's "sdcard" folder (usually permanently inside the phone) or to the "external" SD card itself.
 3. Boot to bootloader/fastboot mode, connect it to your PC via USB, then "fastboot flash" a recovery to the phone from the PC terminal.
 (This usually will not hurt your phone and your phone can still boot normally.)
+
+`sudo fastboot flash boot recovery-i-downloaded-prolly-twrp-3.x.2.x.1.x.zip`
+
 4. You need to boot to rhe recovery, which will help you install your custom ROM.
 (Sometimes the bootloader can boot to the revoery. Sony: only when a recovery is installed, the LED will briefly light up on boot; when the LED lights, press VOLUME UP to enter recovery)
 5. Use the recovery to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
-
 6. Use the recovery to install your ROM. adb "sideload" is another option if you didn't copy the ROM to the SD card. Choose to install via sideload, then `sudo adb sideload...` from the PC terminal.
 (Sideload instructions are below and usually in the recovery itself!)
+
+### adb and fastboot commands
 
 ###### Install adb and fastboot
 `sudo apt install android-tools-adb android-tools-fastboot`
