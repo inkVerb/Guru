@@ -104,7 +104,7 @@ Here are some other examples of other devices:
 - Sony: [https://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/]
 - Samsung: (Some say it's easy.) [https://www.youtube.com/watch?v=oQ2t-6qyxTY] then `sudo fastboot oem unlock`
 - Google: Much like Samsung. *No keys needed, just use* `sudo fastboot oem unlock` *(One reason people love Google phones!)*
-- ASUS: fat chance. If they support unlocking, it may require an .apk.
+- ASUS: fat chance. If they support unlocking, it may require an .apk and no one probably makes a ROM for them because they rarely support unlocking.
 - iPhone: You even know how to find this web page!? Since you learned this much, your phone doesn't use Android. No way in Heaven, Earth, or the four chambers of Tartarus.
 
 #### Install the right stuff
