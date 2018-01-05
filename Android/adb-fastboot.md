@@ -48,10 +48,25 @@ adb will "push" files onto the phone.
 3. In Android: Settings: Battery: Disable "Fast boot" (for HTC phones; note "Fast boot" is not *fastboot*)
 
 #### Developer Unlock
-Here is an example: []
+Here is an example: [https://htc-one.gadgethacks.com/how-to/unlock-bootloader-root-your-htc-one-running-android-4-4-2-kitkat-0151186/]
+
+Here is where to go for HTC: [http://htcdev.com/]
+
+Here is another site with concise instructions: [https://forum.xda-developers.com/showthread.php?t=1432199]
 
 `sudo fastboot oem get_identifier_token`
-...
+
+... follow instructions from website and get your email...
+
+`sudo fastboot flash unlocktoken Unlock_code.bin`
+
+Here are some other examples of other devices:
+
+`sudo fastboot -i 0x2a96 oem unlock`
+
+`sudo fastboot -i 0x2b4c oem unlock`
+
+`sudo fastboot -i 0x2a96 oem unlock`
 
 
 ##### After unlocking...
@@ -72,6 +87,10 @@ Here is an example: []
 `sudo fastboot devices` # list attached devices to see if everything is working
 
 `sudo fastboot oem device-info`
+
+`sudo fastboot oem lock` # in case you want to lock your phone again after unlocking it from the manufacturer
+
+`sudo fastboot oem unlock` # if you want to unlock your phone if/after you don't need a key from the manufacturer
 
 `sudo fastboot flash boot boot.img` # puts the recovery on the phone
 
