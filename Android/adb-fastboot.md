@@ -77,7 +77,9 @@ Here are some other examples of other devices:
 (This usually will not hurt your phone and your phone can still boot normally.)
 4. You need to boot to rhe recovery, which will help you install your custom ROM.
 (Sometimes the bootloader can boot to the revoery. Sony: only when a recovery is installed, the LED will briefly light up on boot; when the LED lights, press VOLUME UP to enter recovery)
-5. Use the recovery to install your ROM. adb "sideload" is another option if you didn't copy the ROM to the SD card. Choose to install via sideload, then `sudo adb sideload...` from the PC terminal.
+5. Use the recovery to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
+
+6. Use the recovery to install your ROM. adb "sideload" is another option if you didn't copy the ROM to the SD card. Choose to install via sideload, then `sudo adb sideload...` from the PC terminal.
 (Sideload instructions are below and usually in the recovery itself!)
 
 ###### Install adb and fastboot
