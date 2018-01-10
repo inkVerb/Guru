@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-`gedit abcd abcsed abcsed.setting`
+`gedit abcsed abcsed.setting abcd`
 
 *Update abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
 
