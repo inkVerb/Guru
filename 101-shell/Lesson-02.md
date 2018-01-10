@@ -7,8 +7,10 @@
 
 `nautilus . &`
 
-`gedit abcsed abcd`
+`gedit abcd`
 ___
+
+`gedit abcsed`
 
 *Note the two tabs in gedit*
 
