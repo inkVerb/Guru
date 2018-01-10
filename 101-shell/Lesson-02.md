@@ -7,12 +7,11 @@
 
 `nautilus . &`
 
-`gedit abcd`
 ___
 
-`gedit abcsed`
+`gedit abcsed abcd`
 
-*Note the two tabs in gedit*
+*Note the two tabs in gedit; abcsed is open, but the file does not exist*
 
 *Create abcsed as this:* [abcsed-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-01)
 
