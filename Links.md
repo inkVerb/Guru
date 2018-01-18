@@ -1,5 +1,3 @@
-https://explainshell.com
-
 http://askubuntu.com
 
 http://stackexchange.com
