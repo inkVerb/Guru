@@ -22,6 +22,8 @@ ___
 
 `sed "s/foo/bar/" applefoo`
 
+`ls`
+
 `sed -e "s/foo/bar/g" applefoo > newapplefoo`
 
 `ls`
