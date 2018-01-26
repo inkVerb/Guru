@@ -86,4 +86,4 @@ ___
 
 *Note file5 is no longer broken, but file4 has changed*
 
-#### [Lesson 2: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
+#### [Lesson 2: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-02.md)
