@@ -14,7 +14,7 @@ ___
 
 This will include:
 - if
-- pause
+- sleep
 - read
 - set -e
 
