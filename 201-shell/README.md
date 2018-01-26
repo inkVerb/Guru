@@ -10,9 +10,9 @@
 
 ### [Lesson 1: cp, mv, ln -s & rm](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-01.md)
 
-### [Lesson 2: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
+### [Lesson 2: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-02.md)
 
-### [Lesson 3: tar & xz](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
+### [Lesson 3: tar & xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
 
 ___
 # Under Construction
