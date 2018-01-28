@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 2: ls -l, chown, chmod, users
+## Lesson 3: ls -l, chown, chmod, users
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -68,4 +68,4 @@ ___
 
 `sudo deluser pinkypurple`
 
-#### [Lesson 3: tar & xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
+#### [Lesson 4: tar, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
