@@ -82,4 +82,4 @@ ___
 
 `sudo deluser pinkypurple`
 
-#### [Lesson 4: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
+#### [Lesson 4: apt install, git clone, wget, curl](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
