@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 5: NEW
+## Lesson 5: tar, gzip, bzip2, zip, xz
 
 `cd ~/Work/Pinker/shell/201`
 
