@@ -40,19 +40,6 @@ Terminal:
 - Multiple commands & \
 - Output as parameters: echo \`ls\` > lsoutput
 
-Compression:
-- tar
-  - view: -t
-  - compress: -c
-  - extract: -x
-  - verboze: -v
-  - file: -f (must be last)
-  - tar: -cvf -xvf .tar
-  - gzip -z: -cvzf -xvzf .tar.gz
-  - bzip2 -j -y: -cvjf -xvjf .tar.bz2 (smaller)
-- xz (smallest)
-- zip
-
 Management:
 - pwd
 - top
