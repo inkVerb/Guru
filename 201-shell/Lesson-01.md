@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 1: cp, mv, ln -s & rm
+## Lesson 1: cp, mv, ln -s, mkdir, rm
 
 `cd ~/Work/Pinker/shell/201`
 
