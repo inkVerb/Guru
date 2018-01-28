@@ -8,6 +8,7 @@
 `nautilus . &`
 ___
 
+*Compression cheat-sheet:* [Pinker: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Pinker/blob/master/tar-gzip-bzip2-zip-xz)
 
 
 #### [Lesson 5: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
