@@ -54,6 +54,7 @@ Management:
 - who
 - w
 - su
+network traffic https://askubuntu.com/questions/257263/how-to-display-network-traffic-in-the-terminal
 
 Text:
 - nano
