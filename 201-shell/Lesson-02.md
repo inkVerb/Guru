@@ -56,7 +56,7 @@ ___
 
 `rm newdir`
 
-*Note the error message even though directory is empry*
+*Note the error message about directories*
 
 `cd newdir`
 
@@ -66,10 +66,24 @@ ___
 
 `cd ..`
 
-*Use -r (RECURSIVE) to remove directories*
+*Use* `-r` *(RECURSIVE) to remove directories*
 
 `rm -r newdir`
 
 `ls`
+
+`cp directory cpdir`
+
+*Note the error message about directories; use* `-r` *with* `cp` *as well as* `rm` *for directories*
+
+`cp -r directory cpdir`
+
+`ls`
+
+`cd cpdir`
+
+`ls`
+
+`cd ..`
 
 #### [Lesson 3: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
