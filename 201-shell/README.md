@@ -35,11 +35,9 @@
 ___
 # Under Construction
 
-This will include:
-
 
 Terminal:
-- Multiple commands & lines: ; && \
+- Multiple commands & \
 - Output as parameters: echo \`ls\` > lsoutput
 
 Compression:
