@@ -46,13 +46,25 @@ ___
 
 `sudo adduser pinkypurple`
 
-`chown pinkypink:pinkypink youown`
+`sudo chown pinkypink:pinkypink youown`
 
 `ls -l`
 
-`chown pinkypurple:pinkypurple theyown`
+`sudo chown pinkypurple:pinkypurple theyown`
 
 `ls -l`
+
+`chown pinkypurple:pinkypurple youown`
+
+*Note the error message because you don't own it anymore! Use* `sudo`
+
+`mkdir ownrship`
+
+`ls -l`
+
+*Use -R for directories (must be CAPITAL with chown!)*
+
+`sudo chown -R pinkypink:pinkypink ownrship`
 
 `rm youown`
 
@@ -61,6 +73,8 @@ ___
 `sudo rm youown`
 
 `sudo rm theyown`
+
+`sudo rm -r ownrship`
 
 `ls -l`
 
