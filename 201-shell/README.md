@@ -43,6 +43,7 @@ Terminal:
 Management:
 - pwd
 - top
+- netstat
 - ps aux
 - pgrep NAME
 - kill PID
@@ -54,7 +55,8 @@ Management:
 - who
 - w
 - su
-network traffic https://askubuntu.com/questions/257263/how-to-display-network-traffic-in-the-terminal
+- htop (apt install)
+- tcptrack (apt install)
 
 Text:
 - nano
