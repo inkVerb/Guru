@@ -14,9 +14,9 @@
 
 ### [Lesson 3: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
 
-### [Lesson 4: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
+### [Lesson 4: apt install, git clone, wget, curl](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
 
-### [Lesson 5: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+### [Lesson 5: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
 
 ### [Lesson 6: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
 
