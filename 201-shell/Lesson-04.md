@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 4: tar, gzip, bzip2, zip, xz
+## Lesson 4: apt install, git clone, wget, curl
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -8,7 +8,6 @@
 `nautilus . &`
 ___
 
-*Compression cheat-sheet:* [Pinker: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Pinker/blob/master/tar-gzip-bzip2-zip-xz)
 
 
-#### [Lesson 5: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+#### [Lesson 5: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
