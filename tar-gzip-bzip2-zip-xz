@@ -4,8 +4,11 @@ extract: -x
 verboze: -v
 file: -f (must be last)
 
-tar: -cvf -xvf .tar
+Tar with compress
+tar -c -x: -cvf -xvf .tar
 gzip -z: -cvzf -xvzf .tar.gz
 bzip2 -j -y: -cvjf -xvjf .tar.bz2 (smaller)
-xz (smallest)
-zip
+xz -c -d: xz -9 -c - > file.tar.xz, xz -d file.tar.xz (smallest)
+
+No tar
+zip: file.zip directory
