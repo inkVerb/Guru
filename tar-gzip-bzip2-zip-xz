@@ -12,3 +12,7 @@ xz -c -d: xz -9 -c - > file.tar.xz, xz -d file.tar.xz (smallest)
 
 No tar
 zip: file.zip directory
+
+
+GitHub instructions:
+https://github.com/jrcharney/rigel/wiki/Download-using-curl-and-tar
