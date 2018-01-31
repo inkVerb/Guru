@@ -80,7 +80,17 @@ ___
 
 `ls`
 
-###### unpack the tarball via curl
+*Untar it*
+
+`tar xzf vrk.tar`
+
+`ls`
+
+*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*...that's it, delete it with* `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+###### tarball via curl & untar (single command)
 
 *Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
 
@@ -88,7 +98,7 @@ ___
 
 `ls`
 
-*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+*Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
 
 *...that's it, delete it with* `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
