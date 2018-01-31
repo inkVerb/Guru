@@ -88,7 +88,9 @@ ___
 
 *Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
 
-*...that's it, delete it with* `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
+*...that's it, delete it with:*
+
+> `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
 ###### tarball via curl & untar (single command)
 
@@ -100,7 +102,9 @@ ___
 
 *Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
 
-*...that's it, delete it with* `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
+*...that's it, delete it with:*
+
+> `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
 ###### repo via git clone
 
