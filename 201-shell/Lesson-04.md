@@ -32,9 +32,9 @@ ___
 
 `firefox verb.ink.html`
 
-##### Download the inkVerb/vrk repo from GitHub
+## Download the inkVerb/vrk repo from GitHub
 
-###### zip via wget
+### zip via wget
 
 *Download Vrk using wget*
 
@@ -52,7 +52,7 @@ ___
 
 `rm master.zip`
 
-###### zip via curl
+### zip via curl
 
 `curl https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
 
@@ -72,7 +72,7 @@ ___
 
 `rm vkr-curl.zip`
 
-###### tarball via curl
+### tarball via curl
 
 *Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& include output file*
 
@@ -92,7 +92,7 @@ ___
 
 > `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
-###### tarball via curl & untar (single command)
+### tarball via curl & untar (single command)
 
 *Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
 
@@ -106,7 +106,7 @@ ___
 
 > `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
-###### repo via git clone
+### repo via git clone
 
 `git clone https://github.com/inkVerb/vrk`
 
