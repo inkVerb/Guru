@@ -92,6 +92,10 @@ ___
 
 > `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
 
+*We don't need to keep that tarball either*
+
+`rm vrk.tar`
+
 ### tarball via curl & untar (single command)
 
 *Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
@@ -109,6 +113,14 @@ ___
 ### repo via git clone
 
 `git clone https://github.com/inkVerb/vrk`
+
+`ls`
+
+`rm -r vrk`
+
+*Note the error message; you don't own it!*
+
+`sudo rm -r vrk`
 
 `ls`
 
