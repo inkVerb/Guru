@@ -144,7 +144,11 @@ zip [recursive] [newfilename.zip] [source]
 
 #### gzip
 
+`ls`
+
 `gzip vrk.tar > vrk.tar.gz`
+
+*Answer "y" to overwrite, though the file doesn't already exist*
 
 `ls`
 
@@ -161,6 +165,8 @@ zip [recursive] [newfilename.zip] [source]
 *Note:* `-c` *is for "Create, keep original"*
 
 `gzip -c vrk.tar > vrk.tar.gz`
+
+*Note there was no question this time;* `-c` *is a good idea*
 
 `cp vrk.tar.gz ../`
 
@@ -192,10 +198,12 @@ zip [recursive] [newfilename.zip] [source]
 
 `ls`
 
-#### Review sizes
+### Review sizes
 
 `cd ..`
 
 `ls -l`
+
+*Case and point: xz is smallest*
 
 #### [Lesson 6: cat & hash compressed files](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
