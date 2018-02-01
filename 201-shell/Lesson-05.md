@@ -112,7 +112,7 @@ ___
 
 `cd compress`
 
-*Note: no* `-v` *for "Verbose"*
+*Note: without* `-v` *for "Verbose" it is nice and quiet*
 
 `tar -cf - vrk | xz > vrk.tar.xz`
 
