@@ -24,7 +24,7 @@ ___
 
 `mkdir compress`
 
-### zip `zip -r newfile.zip dir`; `unzip file.zip`
+### zip `zip -r file.zip dir`; `unzip file.zip`
 
 `zip -r vrk.zip vrk`
 
