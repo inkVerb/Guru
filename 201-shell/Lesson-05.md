@@ -204,4 +204,4 @@ ___
 
 *Case and point: xz is smallest and takes a little more time*
 
-#### [Lesson 6: tar xf, dash, cat, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
+#### [Lesson 6: tar xf, dash, add, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
