@@ -59,6 +59,7 @@ Management:
 - su
 - htop (apt install)
 - tcptrack (apt install)
+- cron.d
 
 Text:
 - nano
