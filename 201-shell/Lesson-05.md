@@ -122,4 +122,38 @@ zip [recursive] [newfilename.zip] [source]
 
 `ls -l`
 
+#### gzip
+
+`gzip vrk`
+
+`cp vrk.tar.gz ../`
+
+`rm -r vrk`
+
+`ls`
+
+`gzip x vrk.tar.gz`
+
+`ls`
+
+#### bzip2
+
+`bzip2 vrk`
+
+`cp vrk.tar.bz2 ../`
+
+`rm -r vrk`
+
+`ls`
+
+`bzip2 x vrk.tar.bz2`
+
+`ls`
+
+#### Review sizes
+
+`cd ..`
+
+`ls -l`
+
 #### [Lesson 6: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
