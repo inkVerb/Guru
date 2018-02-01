@@ -96,6 +96,10 @@ ___
 
 `ls`
 
+*Create the .tar.xz file without removing the original using* `-c`
+
+`xz -c vrk.tar > vrk.tar.xz`
+
 ### Compare types
 
 `cd ..`
