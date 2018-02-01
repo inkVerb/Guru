@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 6: tar, cat, hash, dash
+## Lesson 6: tar xf, dash, cat, hash
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -14,6 +14,8 @@ ___
 
 `cd compress`
 
+### `tar tf`
+
 *Look at what's in the files*
 
 `tar -tf vrk.tar.gz`
@@ -27,6 +29,8 @@ ___
 `tar tf vrk.tar`
 
 *Note tar can figure out the format, also with decompressing:*
+
+### `tar xf`
 
 `ls`
 
