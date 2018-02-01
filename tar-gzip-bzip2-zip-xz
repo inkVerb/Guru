@@ -8,7 +8,7 @@ Tar with compress
 tar -c -x: tar -cvf FILE.tar DIR1 DIR2 FILE1 FILE2, tar -xvf FILE.tar
 gzip -c -d: gzip -cvf FILE.tar > FILE.tar.gz , gzip -dvf FILE.tar.gz (small)
 bzip2 -c -d: bzip2 -cvf FILE > FILE.tar, bzip2 -dvf FILE.tar.bz2 (smaller)
-xz -c -d: xz -9 -c FILE.tar > FILE.tar.xz, xz -d FILE.tar.xz (smallest)
+xz -c -d: xz -c FILE.tar > FILE.tar.xz, xz -d FILE.tar.xz (smallest)
 
 No tar
 zip: zip -r FILE.zip DIR, unzip FILE.zip
