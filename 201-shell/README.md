@@ -16,9 +16,9 @@
 
 ### [Lesson 4: apt install, git clone, wget, curl](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
 
-### [Lesson 5: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+### [Lesson 5: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
 
-### [Lesson 6: cat & hash compressed files](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
+### [Lesson 6: tar xf, dash, cat, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
 
 ### [Lesson 7: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
 
