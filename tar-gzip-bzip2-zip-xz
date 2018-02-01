@@ -5,14 +5,13 @@ verboze: -v
 file: -f (must be last)
 
 Tar with compress
-tar -c -x: -cvf -xvf .tar
-gzip -z: -cvzf -xvzf .tar.gz
-bzip2 -j -y: -cvjf -xvjf .tar.bz2 (smaller)
-xz -c -d: xz -9 -c - > file.tar.xz, xz -d file.tar.xz (smallest)
+tar -c -x: tar -cvf FILE.tar DIR1 DIR2 FILE1 FILE2, tar -xvf FILE.tar
+gzip -c -d: gzip -cvf FILE.tar > FILE.tar.gz , gzip -dvf FILE.tar.gz (small)
+bzip2 -c -d: bzip2 -cvf FILE > FILE.tar, bzip2 -dvf FILE.tar.bz2 (smaller)
+xz -c -d: xz -9 -c FILE.tar > FILE.tar.xz, xz -d FILE.tar.xz (smallest)
 
 No tar
-zip: file.zip directory
-
+zip: zip -r FILE.zip DIR, unzip FILE.zip
 
 Combo instructions:
 https://github.com/jrcharney/rigel/wiki/Download-using-curl-and-tar
