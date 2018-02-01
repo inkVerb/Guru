@@ -124,4 +124,4 @@ ___
 
 `ls`
 
-#### [Lesson 5: tar, gzip, bzip2, zip, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+#### [Lesson 5: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
