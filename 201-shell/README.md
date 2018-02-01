@@ -44,6 +44,8 @@ Management:
 - pwd
 - top
 - netstat
+- netstat -natu
+- tcpdump
 - ps aux
 - pgrep NAME
 - kill PID
