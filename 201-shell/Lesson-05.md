@@ -24,9 +24,7 @@ ___
 
 `mkdir compress`
 
-### zip
-
-zip [recursive] [newfilename.zip] [source]
+### zip `zip -r newfile.zip directory`; `unzip file.zip`
 
 `zip -r vrk.zip vrk`
 
@@ -48,7 +46,7 @@ zip [recursive] [newfilename.zip] [source]
 
 `cd ..`
 
-### tar (Tape ARchive)
+### tar (Tape ARchive) 
 
 *Note:* `-c` *is for "Create";* `-v` *is for "Verbose";* `-f` *is for "File"*
 
@@ -74,7 +72,7 @@ zip [recursive] [newfilename.zip] [source]
 
 `rm -r vrk`
 
-### xz (best compressor, needs a single file)
+### xz `xz sourcefile`; `unxz file.xz`
 
 `xz vrk.tar`
 
