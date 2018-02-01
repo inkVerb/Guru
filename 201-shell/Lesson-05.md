@@ -24,7 +24,7 @@ ___
 
 `mkdir compress`
 
-### zip `zip -r newfile.zip directory`; `unzip file.zip`
+### zip `zip -r newfile.zip dir`; `unzip file.zip`
 
 `zip -r vrk.zip vrk`
 
@@ -46,7 +46,7 @@ ___
 
 `cd ..`
 
-### tar (Tape ARchive) 
+### tar (Tape ARchive) `tar -cvf file.tar dir`; `tar -xvf file.tar`
 
 *Note:* `-c` *is for "Create";* `-v` *is for "Verbose";* `-f` *is for "File"*
 
@@ -72,7 +72,7 @@ ___
 
 `rm -r vrk`
 
-### xz `xz sourcefile`; `unxz file.xz`
+### xz `xz file`; `unxz file.xz`
 
 `xz vrk.tar`
 
