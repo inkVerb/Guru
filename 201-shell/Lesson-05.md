@@ -48,9 +48,15 @@ zip [recursive] [newfilename.zip] [source]
 
 `cd ..`
 
-### tar
+### tar (Tape ARchive)
 
-`tar -cf - vrk > vrk.tar`
+*Note:* `-c` *is for "Create";* `-v` *is for "Verbose";* `-f` *is for "File"*
+
+`tar -cvf vrk.tar vrk`
+
+*Take a look at what's in the tarball*
+
+`tar -tf vrk.tar`
 
 `ls -l`
 
@@ -60,25 +66,31 @@ zip [recursive] [newfilename.zip] [source]
 
 `cd compress`
 
-`tar -xf vrk.tar`
+*Note:* `-x` *is for "eXtract";* `-v` *is for "Verbose";* `-f` *is for "File"*
+
+`tar -xvf vrk.tar`
 
 `ls`
 
 `rm -r vrk`
 
-### xz
+### xz (best compressor, needs a single file)
 
 `xz vrk.tar`
 
 `ls`
 
-*Note it replaced the original file*
+*Note it replaced the original file* `vrk.tar`
 
 `cp *.xz ../`
+
+*Note:* `-d` *is for "Decompress"*
 
 `xz -d vrk.tar.xz`
 
 `ls`
+
+*Note the .tar.xz file is gone*
 
 *Now you would normally want to untar it*
 
@@ -96,35 +108,59 @@ zip [recursive] [newfilename.zip] [source]
 
 *Notice which files are larger and smaller: .tar .zip .tar.xz*
 
-### Combine with tar
+### Combine into one, quiet command with tar
 
 `cp -r vrk compress/`
 
 `cd compress`
 
+*Note: no* `-v` *for "Verbose"*
+
 `tar -cf - vrk | xz > vrk.tar.xz`
 
 `ls`
 
-### More compression
+### Stronger compression
 
 `mv vrk.tar.xz simple-vrk.tar.xz`
 
-`tar -cf - vrk | xz -9 -c - > vrk.tar.xz`
+*Note:* `-9` *is the compression level;* `-v` *is for "Verbose"*
+
+`tar -cvf - vrk | xz -9 -c - > vrk.tar.xz`
 
 `ls -l`
 
-`rm vrk.tar.xz`
+*Note the size difference*
 
 *Or you could xz from the tarball*
+
+`rm vrk.tar.xz`
 
 `xz -9 -c vrk.tar > vrk.tar.xz`
 
 `ls -l`
 
+### Other compression tools: gzip & bzip2
+
 #### gzip
 
-`gzip vrk`
+`gzip vrk.tar > vrk.tar.gz`
+
+`ls`
+
+*Note it replaced the original file* `vrk.tar`
+
+`cp ../vrk.tar .`
+
+`ls`
+
+`rm vrk.tar.gz`
+
+`ls`
+
+*Note:* `-c` *is for "Create, keep original"*
+
+`gzip -c vrk.tar > vrk.tar.gz`
 
 `cp vrk.tar.gz ../`
 
@@ -132,13 +168,17 @@ zip [recursive] [newfilename.zip] [source]
 
 `ls`
 
-`gzip x vrk.tar.gz`
+*Note:* `-d` *is for "Decompress"*
+
+`gzip -d vrk.tar.gz`
 
 `ls`
 
 #### bzip2
 
-`bzip2 vrk`
+*Note:* `-c` *is for "Create, keep original" just as with gzip*
+
+`bzip2 -c vrk.tar > vrk.tar.bz2`
 
 `cp vrk.tar.bz2 ../`
 
@@ -146,7 +186,9 @@ zip [recursive] [newfilename.zip] [source]
 
 `ls`
 
-`bzip2 x vrk.tar.bz2`
+*Note:* `-d` *is for "Decompress"*
+
+`bzip2 -d vrk.tar.bz2`
 
 `ls`
 
@@ -156,4 +198,4 @@ zip [recursive] [newfilename.zip] [source]
 
 `ls -l`
 
-#### [Lesson 6: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
+#### [Lesson 6: cat & hash compressed files](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
