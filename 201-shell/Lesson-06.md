@@ -14,7 +14,7 @@ ___
 
 `cd compress`
 
-### `tar tf`
+## `tar tf`
 
 *Look at what's in the files*
 
@@ -30,7 +30,7 @@ ___
 
 *Note tar can figure out the format, also with decompressing:*
 
-### `tar xf`
+## `tar xf`
 
 `ls`
 
