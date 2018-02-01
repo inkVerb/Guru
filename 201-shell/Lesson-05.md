@@ -118,13 +118,11 @@ ___
 
 `ls`
 
-### Stronger compression
-
-`mv vrk.tar.xz simple-vrk.tar.xz`
+### Stronger compression level 9
 
 *Note:* `-9` *is the compression level;* `-v` *is for "Verbose"*
 
-`tar -cvf - vrk | xz -9 -c - > vrk.tar.xz`
+`tar -cvf - vrk | xz -9 -c - > vrk-level-9.tar.xz`
 
 `ls -l`
 
@@ -132,15 +130,17 @@ ___
 
 *Or you could xz from the tarball*
 
-`rm vrk.tar.xz`
+`rm vrk-level-9.tar.xz`
 
-`xz -9 -c vrk.tar > vrk.tar.xz`
+`xz -9 -c vrk.tar > vrk.9.tar.xz`
 
 `ls -l`
 
+`cp vrk.9.tar.xz ../`
+
 ### Other compression tools: gzip & bzip2
 
-#### gzip
+#### gzip `gzip -c file > file.gz`; `gzip -d file.gz`
 
 `ls`
 
@@ -178,7 +178,7 @@ ___
 
 `ls`
 
-#### bzip2
+#### bzip2 `bzip2 -c file > file.bz2`; `bzip2 -d file.bz2`
 
 *Note:* `-c` *is for "Create, keep original" just as with gzip*
 
