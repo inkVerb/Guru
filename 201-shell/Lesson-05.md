@@ -80,7 +80,7 @@ ___
 
 *Note it replaced the original file* `vrk.tar`
 
-`cp *.xz ../`
+`cp vrk.tar.xz ../`
 
 *Note:* `-d` *is for "Decompress"*
 
@@ -96,8 +96,6 @@ ___
 
 `ls`
 
-`rm -r vrk`
-
 ### Compare types
 
 `cd ..`
@@ -107,8 +105,6 @@ ___
 *Notice which files are larger and smaller: .tar .zip .tar.xz*
 
 ### Combine into one, quiet command with tar
-
-`cp -r vrk compress/`
 
 `cd compress`
 
@@ -202,6 +198,6 @@ ___
 
 `ls -l`
 
-*Case and point: xz is smallest*
+*Case and point: xz is smallest and takes a little more time*
 
 #### [Lesson 6: cat & hash compressed files](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
