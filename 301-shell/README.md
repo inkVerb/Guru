@@ -38,7 +38,7 @@ ___
 - read
 - set -e
 
-if, for-in-do, while-do, until-do
+if, elif, for-in-do, while-do, until-do
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
 -z -f -d -n -e
  ; &&
@@ -50,3 +50,4 @@ functions, menues, etc
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
+- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
