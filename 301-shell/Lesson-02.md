@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 2: if then else fi
+## Lesson 2: else
 
 `cd ~/Work/Pinker/shell/301`
 
@@ -30,4 +30,4 @@ ___
 
 `./02-if-else-e otherdir`
 
-#### [Lesson 3: if then elif else fi](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
+#### [Lesson 3: elif](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
