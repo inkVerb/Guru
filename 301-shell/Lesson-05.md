@@ -8,6 +8,10 @@
 `nautilus . &`
 ___
 
+`sleep 1`
+
+`sleep 3`
+
 `gedit 05-sleep-1`
 
 `./05-sleep-1`
@@ -15,6 +19,10 @@ ___
 `gedit 05-sleep-2`
 
 `./05-sleep-2 "I like apples."`
+
+`read`
+
+*Now type something and/or press Enter*
 
 `gedit 05-read-1`
 
