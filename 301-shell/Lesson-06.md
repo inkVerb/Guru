@@ -10,7 +10,7 @@ ___
 
 `gedit 06-while-question`
 
-*Note -z means "Zero" or "Zip" or "Zilch" for a variable that is empty (This is not the best way to do a -z test; it's simple to teach -z only for this lessin.)*
+*Note -z means "Zero" or "Zip" or "Zilch" for a variable that is empty (This is not the best way to do a -z test, but it's enough to make the point in Shell 301.)*
 
 `./06-while-question`
 
