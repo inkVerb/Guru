@@ -22,4 +22,20 @@ ___
 
 `./03-if-elif`
 
+`gedit 03-oneline`
+
+`./03-oneline myfile`
+
+`./03-oneline otherfile`
+
+`./03-oneline`
+
+`gedit 03-lines`
+
+`./03-lines myfile`
+
+`./03-lines otherfile`
+
+`./03-lines`
+
 #### [Lesson 4: for VAR in WUT do done](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-04.md)
