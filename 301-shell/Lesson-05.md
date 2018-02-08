@@ -20,6 +20,6 @@ ___
 
 `./05-read-1`
 
-*Now you have to type something, then press <Enter>*
+*Now you have to type something, then press \<Enter>*
 
 #### [Lesson 6: NEXT](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
