@@ -10,7 +10,11 @@ ___
 
 ### *Note* `for - in -` *loops can't accept variables*
 
+`ls`
+
 `touch 1.t.one 2.t.one 3.t.one 4.t.one 1.c.one 2.c.one 3.c.one 4.c.one one one-1 one-2 one-3 one-4 one-5 one-1-c one-2-c one-3-c one-4-c one-5-c one-1-t one-2-t one-3-t one-4-t one-5-t`
+
+`ls`
 
 one*
 
