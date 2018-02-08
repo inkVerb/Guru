@@ -42,4 +42,4 @@ ___
 
 `./01-if-dir otherdir`
 
-#### [Lesson 2: if then else fi](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-02.md)
+#### [Lesson 2: else](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-02.md)
