@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 2: NEW
+## Lesson 2: if then else fi
 
 `cd ~/Work/Pinker/shell/301`
 
@@ -8,6 +8,26 @@
 `nautilus . &`
 ___
 
+`gedit 02-if-else-file`
 
+`./02-if-else-file myfile`
 
-#### [Lesson 3: NEXT](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
+`./02-if-else-file otherfile`
+
+`gedit 02-if-else-dir`
+
+`./02-if-else-dir mydir`
+
+`./02-if-else-dir otherdir`
+
+`gedit 02-if-else-e`
+
+`./02-if-else-e myfile`
+
+`./02-if-else-e otherfile`
+
+`./02-if-else-e mydir`
+
+`./02-if-else-e otherdir`
+
+#### [Lesson 3: if then elif else fi](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
