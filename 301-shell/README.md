@@ -6,7 +6,13 @@
 
 *F12 (guake) OR Ctrl + Alt + T (new terminal)*
 
-`mkdir -p ~/Work/Pinker/shell/301`
+`mkdir -p ~/Work/Pinker/shell`
+
+`cd ~/Work/Pinker/shell`
+
+`git clone https://github.com/inkVerb/301`
+
+`cd 301`
 
 ### [Lesson 1: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-01.md)
 
