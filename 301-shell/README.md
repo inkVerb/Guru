@@ -14,15 +14,15 @@
 
 `cd 301`
 
-### [Lesson 1: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-01.md)
+### [Lesson 1: if then fi](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-01.md)
 
-### [Lesson 2: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-02.md)
+### [Lesson 2: else](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-02.md)
 
-### [Lesson 3: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
+### [Lesson 3: elif](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
 
-### [Lesson 4: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-04.md)
+### [Lesson 4: for VAR in WUT do done](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-04.md)
 
-### [Lesson 5: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-05.md)
+### [Lesson 5: sleep read](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-05.md)
 
 ### [Lesson 6: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
 
