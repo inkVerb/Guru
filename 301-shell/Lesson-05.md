@@ -58,4 +58,4 @@ ___
 
 `./05-read-6`
 
-#### [Lesson 6: NEXT](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
+#### [Lesson 6: Combos](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
