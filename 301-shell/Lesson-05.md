@@ -20,6 +20,42 @@ ___
 
 `./05-read-1`
 
-*Now you have to type something, then press \<Enter>*
+*Now you have to type something, then press Enter*
+
+*Note -p is for "Prompt", making things simpler*
+
+`gedit 05-read-2`
+
+`./05-read-2`
+
+`ls`
+
+*Note -s is for "Silent", no output to the terminal*
+
+`gedit 05-read-3`
+
+`./05-read-3`
+
+`ls`
+
+*See, it created the file*
+
+`gedit 05-read-4`
+
+`./05-read-4`
+
+*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
+
+*Note -r is for "Raw", to allow all special characters*
+
+`gedit 05-read-5`
+
+`./05-read-5`
+
+*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
+
+`gedit 05-read-6`
+
+`./05-read-6`
 
 #### [Lesson 6: NEXT](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
