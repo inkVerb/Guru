@@ -42,25 +42,25 @@ one-1*
 
 `./04-do-echo-5`
 
-*3*
+\*3*
 
 `gedit 04-do-echo-6`
 
 `./04-do-echo-6`
 
-*one* "is a file."
+\*one* "is a file."
 
 `gedit 04-do-echo-7`
 
 `./04-do-echo-7`
 
-*.one %one
+\*.one %one
 
 `gedit 04-do-echo-8`
 
 `./04-do-echo-8`
 
-*t.one %t.one
+\*t.one %t.one
 
 `gedit 04-do-echo-9`
 
