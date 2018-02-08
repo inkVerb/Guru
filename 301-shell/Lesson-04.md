@@ -68,9 +68,13 @@ one-1*
 
 `ls`
 
+`gedit 04-do-mv-1`
+
 `./04-do-mv-1`
 
 `ls`
+
+`gedit 04-do-mv-2`
 
 `./04-do-mv-2`
 
@@ -79,6 +83,8 @@ one-1*
 `rename "s/one/TWO/" *`
 
 `ls`
+
+`gedit 04-do-rm`
 
 `./04-do-rm`
 
