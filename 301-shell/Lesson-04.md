@@ -54,13 +54,13 @@ one-1*
 
 `./04-do-echo-7`
 
-\*.one %one
+*.one %one
 
 `gedit 04-do-echo-8`
 
 `./04-do-echo-8`
 
-\*t.one %t.one
+*t.one %t.one
 
 `gedit 04-do-echo-9`
 
