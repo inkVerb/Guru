@@ -20,9 +20,11 @@ ___
 
 `./07-create`
 
+`ls`
+
 `gedit 07-check`
 
-*Note* `||` *means "OR"* `&&` *means "AND"*
+*Note* `&&` *means "AND"* `||` *means "OR"*
 
 `./07-check`
 
