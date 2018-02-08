@@ -22,17 +22,17 @@ ___
 
 *Now you have to type something, then press Enter*
 
-*Note -p is for "Prompt", making things simpler*
-
 `gedit 05-read-2`
+
+*Note -p is for "Prompt", making things simpler*
 
 `./05-read-2`
 
 `ls`
 
-*Note -s is for "Silent", no output to the terminal*
-
 `gedit 05-read-3`
+
+*Note -s is for "Silent", no output to the terminal*
 
 `./05-read-3`
 
