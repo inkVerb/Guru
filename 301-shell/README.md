@@ -24,9 +24,9 @@
 
 ### [Lesson 5: sleep read](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-05.md)
 
-### [Lesson 6: Combos](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
+### [Lesson 6: while](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
 
-### [Lesson 7: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-07.md)
+### [Lesson 7: Combos](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-07.md)
 
 ### [Lesson 8: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
 
