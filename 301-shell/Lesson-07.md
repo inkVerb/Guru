@@ -8,6 +8,8 @@
 `nautilus . &`
 ___
 
+### I. Read a max number and count
+
 `gedit 07-while-count-read`
 
 `./07-while-count-read`
@@ -15,6 +17,8 @@ ___
 *Enter nothing, then enter letters, then enter nothing*
 
 `./07-while-count-read`
+
+### II. Read files & types, then check
 
 `gedit 07-create`
 
