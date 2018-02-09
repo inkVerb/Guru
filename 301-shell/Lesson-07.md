@@ -40,4 +40,4 @@ Dirs: `1-Z` `2-Z` `3-Z` `4-Z` `5-Z` `6-Z` `7-Z` `8-Z` `9-Z` `0-Z`
 
 Links: `1.l` `2.l` `3.l` `4.l` `5.l` `6.l` `7.l` `8.l` `9.l` `0.l`
 
-#### [Lesson 8: NEXT](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
+#### [Lesson 8: until](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
