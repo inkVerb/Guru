@@ -13,6 +13,18 @@ For places to get help and specific examples, visit [Pinker/Links](https://githu
 2. Install Vrk and Vubuntu via the commands at [http://verb.ink]
 3. Type with correct fingers. Learn here: [http://write.pink/88]
 
+## Shell Crash Course
+
+# [Shell 101](https://github.com/inkVerb/pinker/tree/master/101-shell)
+
+# [Shell 201](https://github.com/inkVerb/pinker/tree/master/201-shell)
+
+# [Shell 301](https://github.com/inkVerb/pinker/tree/master/301-shell)
+
+# [Shell 401](https://github.com/inkVerb/pinker/tree/master/401-shell)
+
+___
+
 ## Prep Folders
 
 *Watch in the file explorer if you want, in your Work folder*
@@ -168,7 +180,3 @@ To edit any file, html for example, type:
 `gedit new.html`
 
 ...And get coding!
-
-## Next
-
-# [Shell 101](https://github.com/inkVerb/pinker/tree/master/101-shell)
