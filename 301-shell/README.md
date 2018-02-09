@@ -28,28 +28,25 @@
 
 ### [Lesson 7: Combos](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-07.md)
 
-### [Lesson 8: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
+### [Lesson 8: until](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
 
-### [Lesson 9: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
+### [Lesson 9: pwgen](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
 
-### [Lesson 10: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-10.md)
+### [Lesson 10: Auto Answer](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-10.md)
 
-### [Lesson 11: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-11.md)
+### [Lesson 11: bc](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-11.md)
 
-### [Lesson 12: NEW](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-12.md)
+### [Lesson 12: Data Types](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-12.md)
 ___
 # Under Construction
 
-- sleep
-- read
-- set -e
-
-if, elif, for-in-do, while-do, until-do
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-7.html
--z -f -d -n -e
- ; &&
-
-arithmatic via bc & versioning
+- until-do
+- pwgen
+- arithmatic via bc & versioning
+- data types: boolean, int, float/double, char, string
+- auto answer:
+  - echo "y" | shell-command
+  - apt install -y
 
 Born Again Shell
 functions, menues, etc
