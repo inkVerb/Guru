@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 12: NEW
+## Lesson 12: Data Types
 
 `cd ~/Work/Pinker/shell/301`
 
