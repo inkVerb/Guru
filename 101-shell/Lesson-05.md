@@ -8,9 +8,7 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
+`gedit applefoo`
 
 `cat applefoo`
 

@@ -8,10 +8,6 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
-
 `echo "$$//" > money.file`
 
 `gedit money.file`

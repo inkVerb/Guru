@@ -8,10 +8,6 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
-
 `grep -R "$" *`
 
 *Note it found everything*

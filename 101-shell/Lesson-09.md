@@ -8,10 +8,6 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
-
 `mkdir abc abc-dir`
 
 `ls`

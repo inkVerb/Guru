@@ -48,9 +48,3 @@ ___
   - echo "y" | shell-command
   - apt install -y
 
-Born Again Shell
-functions, menues, etc
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
-- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/

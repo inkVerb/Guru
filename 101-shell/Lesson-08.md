@@ -8,9 +8,7 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
+`gedit abcd comboshell sedoutput.text`
 
 `cat abcd`
 

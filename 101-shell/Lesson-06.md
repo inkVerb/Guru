@@ -9,9 +9,7 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
+`gedit applefoo`
 
 `sed "s/foo/bar/" applefoo`
 

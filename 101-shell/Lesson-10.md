@@ -8,10 +8,6 @@
 `nautilus . &`
 ___
 
-*Open everything with gedit*
-
-`gedit *`
-
 `echo "jjj" > abc/yoyo`
 
 `echo "Apple Jay" > abc/jayapple`
