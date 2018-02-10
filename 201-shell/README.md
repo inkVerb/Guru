@@ -67,3 +67,7 @@ Text:
 - less / more
 - head / tail
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-viewingtext-terminal.html
+
+Audio:
+- alsamixer
+https://linux.die.net/man/1/alsamixer
