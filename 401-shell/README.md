@@ -35,6 +35,10 @@
 ___
 # Under Construction
 
+-z & unset "the proper way" [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
+
+creating manuals
+
 Born Again Shell
 functions, menues, etc
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
