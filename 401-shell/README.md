@@ -35,9 +35,15 @@
 ___
 # Under Construction
 
--z & unset "the proper way" [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
+-z & unset "the proper way" (VAR=$1; $VAR  # Is $VAR set? # Use some arithmetic to see.) [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
 
-creating manuals
+arithmetic with string, bool, and char variables
+
+pwgen: shell vs bash
+
+debconf-set-selections
+- echo "postfix postfix/mailname string $MY_HOST" | debconf-set-selections
+- echo "postfix postfix/main_mailer_type string 'Internet Site'" | debconf-set-selections
 
 Born Again Shell
 functions, menues, etc
@@ -46,3 +52,12 @@ functions, menues, etc
 - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
 - https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
 
+Filesystem Hierarchy Standard
+- https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
+- https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+
+creating manuals
+
+create .deb installer
+
+create/add/manage ppa

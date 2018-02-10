@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 11: bc
+## Lesson 11: bc & date
 
 `cd ~/Work/Pinker/shell/301`
 
@@ -10,4 +10,4 @@ ___
 
 
 
-#### [Lesson 12: Data Types](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-12.md)
+#### [Lesson 12: MySQL](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-12.md)

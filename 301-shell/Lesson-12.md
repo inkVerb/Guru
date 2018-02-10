@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 12: Data Types
+## Lesson 12: MySQL
 
 `cd ~/Work/Pinker/shell/301`
 
