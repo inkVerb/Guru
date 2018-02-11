@@ -30,7 +30,7 @@
 
 ### [Lesson 8: until](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
 
-### [Lesson 9: Auto Answer w apt & Data Types](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
+### [Lesson 9: Auto Answer & apt](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
 
 ### [Lesson 10: wc & expr](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-10.md)
 
@@ -47,8 +47,6 @@ https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
 
 - until-do
 
-Data Types: teaching-script only accepting: bool, int, char, or string
-- data types overview: boolean, int, float, char, string, array
 - auto answer:
   - echo "y" | shell-command
   - apt: update upgrade install autoremove uninstall purge

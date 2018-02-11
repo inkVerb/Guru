@@ -10,4 +10,4 @@ ___
 
 
 
-#### [Lesson 9: Auto Answer w apt & Data Types](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
+#### [Lesson 9: Auto Answer & apt](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)

@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 9: Auto Answer w apt & Data Types
+## Lesson 9: Auto Answer & apt
 
 `cd ~/Work/Pinker/shell/301`
 
