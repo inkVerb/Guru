@@ -1,0 +1,3 @@
+# Search for word beginning with a hyphen and the next word
+
+grep -Eo -- "-\w \w+" SOURCE_FILE
