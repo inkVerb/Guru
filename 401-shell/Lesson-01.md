@@ -51,6 +51,14 @@ ___
 
 `./01-array-associative iii V`
 
+`gedit 01-array-associative-declare`
+
+`./01-array-associative-declare`
+
+*Tip: Uncomment the* `#declare` *lines (5 & 13) to* `declare` *and see that it works...*
+
+`./01-array-associative-declare`
+
 ___
 
 ## Rule 1: You CAN'T put an array inside an array
@@ -75,5 +83,11 @@ ___
 `./01-array-strings`
 
 *Note quoted strings are allowed as elements*
+
+`gedit 01-array-associative-strings`
+
+`./01-array-associative-strings`
+
+*Note associative arrays can have strings as elements too*
 
 #### [Lesson 2: Functions](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-02.md)
