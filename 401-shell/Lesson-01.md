@@ -51,6 +51,8 @@ ___
 
 `./01-array-associative iii V`
 
+___
+
 ## Rule 1: You CAN'T put an array inside an array
 ## Rule 2: Associative arrays need this first `declare -A ARRAYNAME`
 ## Rule 3: Choose associative or indexed
