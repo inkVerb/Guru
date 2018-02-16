@@ -8,9 +8,15 @@
 
 `mkdir -p ~/Work/Pinker/shell/401`
 
-### [Lesson 1: NEW](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-01.md)
+`cd ~/Work/Pinker/shell`
 
-### [Lesson 2: NEW](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-02.md)
+`git clone https://github.com/inkVerb/401`
+
+`cd 401`
+
+### [Lesson 1: Arrays](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-01.md)
+
+### [Lesson 2: Functions](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-02.md)
 
 ### [Lesson 3: NEW](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-03.md)
 
@@ -35,11 +41,42 @@
 ___
 # Under Construction
 
+## This tutorial should eventually include information about...
+
 -z & unset "the proper way" (VAR=$1; $VAR  # Is $VAR set? # Use some arithmetic to see.) [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
 
-arithmetic with string, bool, and char variables
+variables of variables
+- apple="$pear"
+- pear="peeled"
+- echo ${!apple} shows "peeled"
+- echo $apple shows "$pear"
+
+source (to include variables from a script, but not run the script)
+
+operators like these: -eq -ne -le -gt -lt -ge
+- http://tldp.org/LDP/abs/html/comparison-ops.html
+
+arithmetic with string, bool, and char variables, examples
+
+other operators
+- https://www.cyberciti.biz/faq/comparing-numbers-in-bash-shell/
+- http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm
+- http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_01.html
+- https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
+- https://www.gnu.org/software/grep/manual/html_node/Fundamental-Structure.html#Fundamental-Structure
 
 pwgen: shell vs bash
+
+source
+
+arrays, array keys
+- https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
+- https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
+case1 case2 etc
+
+getopts
+
+cat EOF
 
 debconf-set-selections
 - echo "postfix postfix/mailname string $MY_HOST" | debconf-set-selections

@@ -35,6 +35,7 @@
 ___
 # Under Construction
 
+## This tutorial should eventually include information about...
 
 Terminal:
 - Multiple commands & \

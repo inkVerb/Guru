@@ -8,6 +8,7 @@
 `nautilus . &`
 ___
 
-
+## Under Constrcution
+Lessons will continue here in the future.
 
 #### [Lesson 8: NEXT](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-08.md)
