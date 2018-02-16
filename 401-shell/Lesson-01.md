@@ -53,9 +53,13 @@ ___
 
 ## Rule 1: You CAN'T put an array inside an array
 ## Rule 2: Choose: associative or indexed
-### associative: MyArray=([key]=first [key2]=second) .. MyArray[key1] MyArray[key2]
+### associative:
+`MyArray=([key]=first [key2]=second) .. MyArray[key1] MyArray[key2]`
+
 OR
-### indexed: MyArray=(one two) .. MyArray[0] MyArray[1]
+### indexed:
+`MyArray=(one two) .. MyArray[0] MyArray[1]`
+
 NOT BOTH
 ## Rule 3: Associative arrays need this first `declare -A ARRAYNAME`
 
