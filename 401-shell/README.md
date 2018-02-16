@@ -66,7 +66,7 @@ other operators
 - https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
 - https://www.gnu.org/software/grep/manual/html_node/Fundamental-Structure.html#Fundamental-Structure
 
-pwgen: shell vs bash
+pwgen
 
 source
 
