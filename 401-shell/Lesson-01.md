@@ -59,6 +59,7 @@ OR
 ### indexed: `MyArry=(one two) .. MyArry[0] MyArry[1]`
 
 NOT BOTH
+___
 
 `gedit 01-array-keys`
 
