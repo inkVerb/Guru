@@ -1,4 +1,5 @@
 # Shell 401
+# Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
 
 ## Prerequisite: [Shell 301](https://github.com/inkVerb/Pinker/tree/master/301-shell)
 

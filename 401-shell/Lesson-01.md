@@ -1,6 +1,6 @@
 # Shell 401
 ## Lesson 1: Arrays
-## Welcome to BASH: Born Again Shell! `#!/bin/bash`
+## Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
 
 `cd ~/Work/Pinker/shell/401`
 
@@ -52,13 +52,23 @@ ___
 `./01-array-associative iii V`
 
 ## Rule 1: You CAN'T put an array inside an array
-
-## Rule 2: 
+## Rule 2: Choose: associative or indexed
+### associative: MyArray=([key]=first [key2]=second) .. MyArray[key1] MyArray[key2]
+OR
+### indexed: MyArray=(one two) .. MyArray[0] MyArray[1]
+NOT BOTH
+## Rule 3: Associative arrays need this first `declare -A ARRAYNAME`
 
 `gedit 01-array-keys`
 
 `./01-array-keys`
 
 *Note that associative arrays don't necessarily keep a predictable order*
+
+`gedit 01-array-strings`
+
+`./01-array-strings`
+
+*Note quoted strings are allowed as elements*
 
 #### [Lesson 2: Functions](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-02.md)
