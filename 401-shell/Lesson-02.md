@@ -1,6 +1,5 @@
 # Shell 401
 ## Lesson 2: Functions
-## Welcome to BASH: Born Again Shell! `#!/bin/bash`
 
 `cd ~/Work/Pinker/shell/401`
 

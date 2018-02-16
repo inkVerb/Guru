@@ -1,5 +1,6 @@
 # Shell 401
 ## Lesson 1: Arrays
+## Welcome to BASH: Born Again Shell! `#!/bin/bash`
 
 `cd ~/Work/Pinker/shell/401`
 
@@ -13,6 +14,8 @@ ___
 `./01-array`
 
 *Note @ means all elements*
+
+*Note * does the same thing as @*
 
 `gedit 01-array-index-id`
 
@@ -47,6 +50,10 @@ ___
 `./01-array-associative iv IV`
 
 `./01-array-associative iii V`
+
+## Rule 1: You CAN'T put an array inside an array
+
+## Rule 2: 
 
 `gedit 01-array-keys`
 
