@@ -13,9 +13,9 @@ For places to get help and specific examples, visit [Pinker/Links](https://githu
 
 *Optional free tools: If you want your own Linux PC super media workstation...*
 
-1. Install Ubuntu via YouTube method at [http://verb.ink]
-2. Install Vrk and Vubuntu via the commands at [http://verb.ink]
-3. Type with correct fingers. Learn here: [http://write.pink/88]
+1. Install Ubuntu via [these fast instructions on YouTube](https://www.youtube.com/watch?v=_9NvmAitlwA&list=PLizgE6nGB1Kx8jIY1JE2v9rcL9G9s_UDj)
+2. Install Vrk and Vubuntu via the commands at [http://verb.ink](verb.ink)
+3. Type with correct fingers. Learn here: [http://write.pink/88](write.pink/88)
 
 ## Shell Crash Course
 
