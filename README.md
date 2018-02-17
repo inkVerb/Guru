@@ -1,7 +1,7 @@
 # Pinker
 ## Learn Command Line Linux and Code
 
-The Linux command line only requires a bootable Linux USB, such as [Ubuntu & unetbootin](https://www.youtube.com/watch?v=sYfEs0lQA8Y&index=4&list=PLizgE6nGB1Kx8jIY1JE2v9rcL9G9s_UDj). It's the best place to begin to understand computer code, including basic commands, if-do statements, variables, and functions. If you want to become a computer genuis or if you're a "dummy" and want to make computers less scary, start with Linux. Start right here.
+The Linux command line only requires a bootable Linux USB, such as [Ubuntu & unetbootin](https://www.youtube.com/watch?v=sYfEs0lQA8Y&index=4&list=PLizgE6nGB1Kx8jIY1JE2v9rcL9G9s_UDj). It's the best place to begin to understand computer code—basic commands, if-do statements, variables, arrays, functions, and more. Learn it simple in Linux first. If you want to become a computer genuis or if you're a "dummy" and want to make computers less scary, start with Linux. Start right here.
 
 For pretty & colorful diagrams, visit [explainshell.com](https://explainshell.com)
 
