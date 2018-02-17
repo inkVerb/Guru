@@ -1,5 +1,7 @@
 # Pinker
-## Learn Command Line Linux and Web Code via Vrk
+## Learn Command Line Linux and Code
+
+The Linux command line only requires a USB-bootable Linux. It's the best place to begin to understand computer code, including basic commands, if-do statements, variables, and functions. If you want to become a computer genuis or if you're a "dummy" and want to make computers less scary, start with Linux. Start right here.
 
 For pretty & colorful diagrams, visit [explainshell.com](https://explainshell.com)
 
