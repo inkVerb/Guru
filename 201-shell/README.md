@@ -38,6 +38,9 @@ ___
 ## This tutorial should eventually include information about...
 
 Terminal:
+- du -sh *
+- df -h
+- df -k
 - Multiple commands & \
 - Output as parameters: echo \`ls\` > lsoutput
 
