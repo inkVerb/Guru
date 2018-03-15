@@ -1,5 +1,6 @@
 # These are various config settings tools in Linux
-
+To watch the scriptable commands while you change settings, run this in a terminal:
+dconf watch /
 
 # dbus
 
