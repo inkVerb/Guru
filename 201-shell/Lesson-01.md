@@ -62,6 +62,12 @@ ___
 
 `ls -l`
 
+`cat file6`
+
+`gedit file6`
+
+*Note file6 is the same as file4 & file5*
+
 `rm file6`
 
 `ls`
@@ -74,13 +80,15 @@ ___
 
 `ls`
 
+`ls -l`
+
 *Note file5 is "broken"*
 
 `touch file4`
 
 `cat file4`
 
-*gedit: Reload file4*
+*gedit: Reload file4 & file5*
 
 `ls -l`
 
