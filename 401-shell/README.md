@@ -98,4 +98,6 @@ creating manuals
 
 create .deb installer
 
+debconf-set-selections
+
 create/add/manage ppa
