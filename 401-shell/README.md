@@ -44,18 +44,32 @@ ___
 
 ## This tutorial should eventually include information about...
 
+### 3. case1 case2 etc
+
+### 4. Scripting
+
 -z & unset "the proper way" (VAR=$1; $VAR  # Is $VAR set? # Use some arithmetic to see.) [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
 
 variables of variables
-- apple="$pear"
-- pear="peeled"
-- echo ${!apple} shows "peeled"
-- echo $apple shows "$pear"
+- `apple="$pear"`
+- `pear="peeled"`
+- `echo ${!apple}` returns "peeled"
+- `echo $apple` returns "$pear"
 
 source (to include variables from a script, but not run the script)
 
-operators like these: -eq -ne -le -gt -lt -ge
-- http://tldp.org/LDP/abs/html/comparison-ops.html
+cat EOF
+
+pwgen
+
+### 5. Born Again Shell extras
+functions, menues, etc
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
+- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
+- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
+
+### 6. Arithmatic
 
 arithmetic with string, bool, and char variables, examples
 
@@ -66,38 +80,30 @@ other operators
 - https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
 - https://www.gnu.org/software/grep/manual/html_node/Fundamental-Structure.html#Fundamental-Structure
 
-pwgen
+operators like these: -eq -ne -le -gt -lt -ge
+- http://tldp.org/LDP/abs/html/comparison-ops.html
 
-source
+### 7. Setup & install
 
-arrays, array keys
-- https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
-- https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
-case1 case2 etc
+gsettings, etc
 
 getopts
-
-cat EOF
 
 debconf-set-selections
 - echo "postfix postfix/mailname string $MY_HOST" | debconf-set-selections
 - echo "postfix postfix/main_mailer_type string 'Internet Site'" | debconf-set-selections
 
-Born Again Shell
-functions, menues, etc
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
-- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
-
-Filesystem Hierarchy Standard
+### 8. Filesystem Hierarchy Standard
 - https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
 - https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 
-creating manuals
+### 9. creating manuals
 
-create .deb installer
+### 10. create .deb installer & create/add/manage ppa
 
-debconf-set-selections
+## Done
 
-create/add/manage ppa
+arrays, array keys
+- https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
+- https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
+
