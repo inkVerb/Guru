@@ -144,4 +144,4 @@ ___
 
 `mv vrk.tar.xz.HIDING vrk.tar.xz`
 
-#### [Lesson 7: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 7: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
