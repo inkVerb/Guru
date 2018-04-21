@@ -54,8 +54,6 @@ Management:
 - pgrep NAME
 - kill PID
 - man / info
-- du
-- df
 - sort / head
 - uname
 - who
@@ -63,7 +61,6 @@ Management:
 - su
 - htop (apt install)
 - tcptrack (apt install)
-- cron.d
 
 Text:
 - nano

@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 9: Auto Answer & apt
+## Lesson 9: apt & Auto Answer
 
 `cd ~/Work/Pinker/shell/301`
 

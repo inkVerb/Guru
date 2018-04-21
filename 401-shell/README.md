@@ -79,6 +79,7 @@ debconf-set-selections
 ### Filesystem Hierarchy Standard
 - https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/
 - https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+- cron.d
 
 ### creating manuals
 

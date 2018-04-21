@@ -30,7 +30,7 @@
 
 ### [Lesson 8: until](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-08.md)
 
-### [Lesson 9: Auto Answer & apt](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
+### [Lesson 9: apt & Auto Answer](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-09.md)
 
 ### [Lesson 10: wc & expr](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-10.md)
 
