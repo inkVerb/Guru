@@ -66,6 +66,7 @@ A ROM is the actual operating system, the "flavor" of Android in a zip file that
     - Cyanogen
  #### 3. TWRP (recovery)
 - TWRP home: [https://twrp.me/]
+- TWRP app downloads: [https://dl.twrp.me/twrpapp/]
 - XDA Developer TWRP how-to article: [https://www.xda-developers.com/how-to-install-twrp/]
 - Note: This is a `.img` file, sometimes named `boot.img`, othertimes `my-long-version.1.2.3.4.5.6.7.8.9.img`. *The name doesn't matter when you install it.*
 
