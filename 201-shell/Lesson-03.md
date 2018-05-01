@@ -38,7 +38,7 @@ ___
 
 `ls -l`
 
-*Refer to this cheat-sheet for more about chmod:* [Pinker: chmod](https://github.com/inkVerb/Pinker/blob/master/chmod)
+*Refer to this cheat-sheet for more about chmod:* [Pinker/Cheet-Sheets: chmod](https://github.com/inkVerb/Pinker/blob/master/Cheat-Sheets/chmod)
 
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
 
