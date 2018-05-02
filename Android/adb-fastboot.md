@@ -121,15 +121,13 @@ Here are some other examples of other devices:
 3. Boot to the recovery CWM/TWRP (probably from menues using volume/power keys in the bootloader)
 (Sometimes the bootloader can boot to the revoery. Sony: only when a recovery is installed, the LED will briefly light up on boot; when the LED lights, press VOLUME UP to enter recovery)
 4. Factory reset
-- Use the recovery to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
+- Use the recovery CWM/TWRP to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
 5. Copy the custom ROM to the phone
 - Option 1: `adb push` (below)
-- Option 2: Just copy it to the SD card or copy it some other way
-- Option 3: `adb sideload` (installs, but does not copy; skip the rest of instructions)
+- Option 2: `adb sideload` (below; installs, but does not copy; instructions are in the recovery CWM/TWRP; skip the rest of instructions)
+- Option 3: Just copy it to the SD card physically, mount as a disk in Android to "copy files", or copy it some other way to get it in the phone
 6. Install the ROM
-- In recovery (CWM/TWRP) menues, to install your ROM.
-sideload...` from the PC terminal.
-(Sideload instructions are below and usually in the recovery itself!)
+- In the recovery CWM/TWRP menues, find the options to choose and Install a ROM.
 
 ### adb and fastboot commands
 
@@ -164,5 +162,5 @@ sideload...` from the PC terminal.
 
 `sudo adb push my-custom-rom.zip destination/on/phone` # copies ROM to phone if you didn't in Android or the SD, ie: `sudo adb push my-custom-rom.zip sdcard`
 
-`sudo adb sideload my-custom-rom.zip` # sideload install method
+`sudo adb sideload my-custom-rom.zip` # sideload install method, select this option in the recovery CWM/TWRP before you enter it in the terminal
 
