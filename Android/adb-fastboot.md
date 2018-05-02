@@ -108,18 +108,27 @@ Here are some other examples of other devices:
 - ASUS: fat chance. If they support unlocking, it may require an .apk and no one probably makes a ROM for them because they rarely support unlocking.
 - iPhone: You even know how to find this web page!? Since you learned this much, your phone doesn't use Android. No way in Heaven, Earth, or the four chambers of Tartarus.
 
-#### Install the right stuff
+#### Installation stuff & steps
 1. Download the custom ROM of choice and the recovery that your trusted websites advise you to, usually TWRP or CWM.
-2. OPTIONAL/easiest: Copy your custom ROM onto your phone's "sdcard" folder (usually permanently inside the phone) or to the "external" SD card itself.
-3. Boot to bootloader/fastboot mode, connect it to your PC via USB, then "fastboot flash" a recovery to the phone from the PC terminal.
+2. Bootloader/fastboot mode 
+- Boot to bootloader/fastboot mode (probably power button & volume keys, phone-specific)
+- Connect the to your PC via USB
+- Then `fastboot flash` a recovery (CWM/TWRP) to the phone from the Linux terminal (below)
 (This usually will not hurt your phone and your phone can still boot normally.)
 
 `sudo fastboot flash boot recovery-i-downloaded-prolly-twrp-3.x.2.x.1.x.zip`
 
-4. You need to boot to rhe recovery, which will help you install your custom ROM.
+3. Boot to the recovery CWM/TWRP (probably from menues using volume/power keys in the bootloader)
 (Sometimes the bootloader can boot to the revoery. Sony: only when a recovery is installed, the LED will briefly light up on boot; when the LED lights, press VOLUME UP to enter recovery)
-5. Use the recovery to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
-6. Use the recovery to install your ROM. adb "sideload" is another option if you didn't copy the ROM to the SD card. Choose to install via sideload, then `sudo adb sideload...` from the PC terminal.
+4. Factory reset
+- Use the recovery to do a "factory reset" AKA "wipe". The new ROM can't install on top of an existing, working Android operating system.
+5. Copy the custom ROM to the phone
+- Option 1: `adb push` (below)
+- Option 2: Just copy it to the SD card or copy it some other way
+- Option 3: `adb sideload` (installs, but does not copy; skip the rest of instructions)
+6. Install the ROM
+- In recovery (CWM/TWRP) menues, to install your ROM.
+sideload...` from the PC terminal.
 (Sideload instructions are below and usually in the recovery itself!)
 
 ### adb and fastboot commands
@@ -153,7 +162,7 @@ Here are some other examples of other devices:
 
 `sudo adb devices` # list attached devices to see if everything is working
 
-`sudo adb push my-custom-rom.zip destination/on/phone` # copies ROM to phone if you didn't in Android or the SD
+`sudo adb push my-custom-rom.zip destination/on/phone` # copies ROM to phone if you didn't in Android or the SD, ie: `sudo adb push my-custom-rom.zip sdcard`
 
 `sudo adb sideload my-custom-rom.zip` # sideload install method
 
