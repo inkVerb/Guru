@@ -18,7 +18,7 @@ ___
 
 `ls -l`
 
-*Note your username*
+*Note your username in the longer, more detailed list*
 
 `chmod +x whoown`
 
