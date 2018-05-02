@@ -10,6 +10,12 @@ ___
 
 `touch whoown iown theyown youown`
 
+`ls`
+
+`ls -1`
+
+*Note the vertical list with* `-1` *(dash ONE)*
+
 `ls -l`
 
 *Note your username*
