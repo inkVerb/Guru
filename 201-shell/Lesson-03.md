@@ -80,7 +80,7 @@ ___
 
 `ls -l`
 
-*Use* `-R` *for directories (must be CAPITAL with chown!)*
+*Use* `-R` *for directories (must be CAPITAL with* `chown`*!)*
 
 `sudo chown -R pinkypink:pinkypink ownrship`
 
