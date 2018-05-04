@@ -48,7 +48,7 @@ ___
 
 ___
 ### `sudo` permissions...
-*If your current Linux user does not have `sudo` permissions, you will not be able to complete the remainder of this lesson. Skipping the remainder of this lesson will not affect prerequesites for later lessons.
+*If your current Linux user does not have* `sudo` *permissions, you will not be able to complete the remainder of this lesson. Skipping the remainder of this lesson will not affect prerequesites for later lessons.*
 
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
 
@@ -74,7 +74,7 @@ ___
 
 `chown pinkypurple:pinkypurple youown`
 
-*Note the error message because you don't own it anymore! chown requires* `sudo`
+*Note the error message because you don't own it anymore!* `chown` *requires* `sudo`
 
 `mkdir ownrship`
 
