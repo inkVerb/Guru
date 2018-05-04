@@ -46,6 +46,7 @@ ___
 
 *Refer to this cheat-sheet for more about chmod:* [Pinker/Cheet-Sheets: chmod](https://github.com/inkVerb/Pinker/blob/master/Cheat-Sheets/chmod)
 
+___
 ### `sudo` permissions...
 *If your current Linux user does not have `sudo` permissions, you will not be able to complete the remainder of this lesson. Skipping the remainder of this lesson will not affect prerequesites for later lessons.
 
@@ -95,7 +96,9 @@ ___
 
 `ls -l`
 
-*Note* `sudo` *allows you to delete files and directories you don't own. Let's cleanup this way...*
+*Note* `sudo` *allows you to delete files and directories you don't own*
+
+*Let's cleanup with* `sudo` *...*
 
 `sudo rm theyown`
 
@@ -103,7 +106,7 @@ ___
 
 `ls -l`
 
-*...also use* `sudo` *to delete the puppet users we created for this lesson*
+*...also use* `sudo` *to delete the puppet users we created for this lesson...*
 
 `sudo deluser pinkypink`
 
