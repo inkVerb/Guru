@@ -46,23 +46,34 @@ ___
 
 *Refer to this cheat-sheet for more about chmod:* [Pinker/Cheet-Sheets: chmod](https://github.com/inkVerb/Pinker/blob/master/Cheat-Sheets/chmod)
 
+### `sudo` permissions...
+*If your current Linux user does not have `sudo` permissions, you will not be able to complete the remainder of this lesson. Skipping the remainder of this lesson will not affect prerequesites for later lessons.
+
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
 
-`sudo adduser pinkypink`
+`sudo adduser pinkypink` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
 
-`sudo adduser pinkypurple`
+`sudo adduser pinkypurple` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
+
+`ls -l`
+
+*Note the owner of "youown"*
 
 `sudo chown pinkypink:pinkypink youown`
 
 `ls -l`
 
+*Note a new owner of "youown"*
+
 `sudo chown pinkypurple:pinkypurple theyown`
 
 `ls -l`
 
+*Note a new owner of "theyown"*
+
 `chown pinkypurple:pinkypurple youown`
 
-*Note the error message because you don't own it anymore! Use* `sudo`
+*Note the error message because you don't own it anymore! chown requires* `sudo`
 
 `mkdir ownrship`
 
@@ -72,17 +83,27 @@ ___
 
 `sudo chown -R pinkypink:pinkypink ownrship`
 
+`ls -l`
+
+*Note a new owner of "ownrship"*
+
 `rm youown`
 
 *Note the error message because you don't own it anymore!*
 
 `sudo rm youown`
 
+`ls -l`
+
+*Note* `sudo` *allows you to delete files and directories you don't own. Let's cleanup this way...*
+
 `sudo rm theyown`
 
 `sudo rm -r ownrship`
 
 `ls -l`
+
+*...also use* `sudo` *to delete the puppet users we created for this lesson*
 
 `sudo deluser pinkypink`
 
