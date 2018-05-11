@@ -12,6 +12,16 @@ ___
 
 `sudo apt install git curl`
 
+___
+If you don't have permission as a "sudoer", the person who administers your machine can use:
+
+`su` *input the password*
+
+`apt install git curl`
+
+`exit`
+___
+
 *Download the entire verb.ink page using wget*
 
 `wget -r http://verb.ink`
@@ -61,6 +71,8 @@ ___
 `curl -L https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
 
 *Note it dumped the raw output to the terminal rather than saving it*
+
+*Use Ctrl + C to close the output*
 
 *Solution: Specify an output file*
 
@@ -121,6 +133,17 @@ ___
 *Note the error message; you don't own it!*
 
 `sudo rm -r vrk`
+
+
+___
+If you don't have permission as a "sudoer", the person who administers your machine can use:
+
+`su` *input the password*
+
+`rm -r vrk`
+
+`exit`
+___
 
 `ls`
 
