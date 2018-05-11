@@ -28,9 +28,9 @@ ___
 
 `ls`
 
-*Open it with Firefox*
+*Open it with whatever browser you are using:*
 
-`firefox verb.ink.html`
+`firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`
 
 ## Download the inkVerb/vrk repo from GitHub
 
@@ -90,7 +90,7 @@ ___
 
 *...that's it, delete it with:*
 
-> `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
 
 *We don't need to keep that tarball either*
 
@@ -108,7 +108,7 @@ ___
 
 *...that's it, delete it with:*
 
-> `rm inkVerb-vrk-SOME_CRAZY_NUMBER`
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
 
 ### repo via git clone
 
