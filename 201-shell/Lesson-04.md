@@ -12,15 +12,15 @@ ___
 
 `sudo apt install git curl`
 
-___
-If you don't have permission as a "sudoer", the person who administers your machine can use:
-
-`su` *input the password*
-
-`apt install git curl`
-
-`exit`
-___
+> ___
+> If you don't have permission as a "sudoer", the person who administers your machine can use:
+> 
+> `su` *input the password*
+> 
+> `apt install git curl`
+> 
+> `exit`
+> ___
 
 *Download the entire verb.ink page using wget*
 
@@ -134,16 +134,15 @@ ___
 
 `sudo rm -r vrk`
 
-
-___
-If you don't have permission as a "sudoer", the person who administers your machine can use:
-
-`su` *input the password*
-
-`rm -r vrk`
-
-`exit`
-___
+> ___
+> If you don't have permission as a "sudoer", the person who administers your machine can use:
+> 
+> `su` *input the password*
+> 
+> `rm -r vrk`
+> 
+> `exit`
+> ___
 
 `ls`
 
