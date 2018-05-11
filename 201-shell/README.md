@@ -22,7 +22,7 @@
 
 ### [Lesson 7: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
 
-### [Lesson 8: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
+### [Lesson 8: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
 
 ### [Lesson 9: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
 
@@ -37,28 +37,20 @@ ___
 
 ## This tutorial should eventually include information about...
 
-Terminal:
-- du -sh *
-- df -h
-- df -k
-- Multiple commands & \
+
 - Output as parameters: echo \`ls\` > lsoutput
 
 Management:
 - pwd
-- top
-- netstat
-- netstat -natu
-- tcpdump
-- ps aux
-- pgrep NAME
-- kill PID
-- man / info
-- sort / head
 - uname
 - who
 - w
 - su
+- tcpdump
+- man / info
+- sort / head
+- netstat (apt install)
+- netstat -natu
 - htop (apt install)
 - tcptrack (apt install)
 

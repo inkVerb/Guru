@@ -34,6 +34,14 @@ ___
 
 Ctrl + C *This will CLOSE the top program*
 
+`top -n 1`
+
+*Notice the* `top` *list is not realtime;* `-n 1` *shows only one "iteration",* `-n 3` *would show three*
+
+`top -n 1 -b`
+
+*Notice* `-b` *shows everything, not limited by the size of the terminal window, only limited by the* `-n 1` *option*
+
 `ps aux`
 
 *Note the list of every running process, but it is not realtime, so you can scroll through it*
@@ -54,7 +62,7 @@ Select ONE browser you are NOT using:
 
 *This does the same thing*
 
-`pgrep firefox` or `pgrep chromium-browser` or `pgrep google-chrome` of `pgrep vivaldi`
+`pgrep firefox` or `pgrep chromium-browser` or `pgrep google-chrome` or `pgrep vivaldi`
 
 *Note the PID, it's the number*
 
@@ -84,4 +92,4 @@ Select ONE browser you are NOT using:
 
 *Now, VLC is closed*
 
-#### [Lesson 8: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
+#### [Lesson 8: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
