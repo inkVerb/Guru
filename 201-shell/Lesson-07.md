@@ -144,4 +144,4 @@ ___
 
 `mv vrk.tar.xz.HIDING vrk.tar.xz`
 
-#### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
