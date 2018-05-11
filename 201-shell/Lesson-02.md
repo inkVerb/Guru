@@ -86,4 +86,4 @@ ___
 
 `cd ..`
 
-#### [Lesson 3: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
+#### [Lesson 3: su, sudo, apt update, apt upgrade, apt install](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)

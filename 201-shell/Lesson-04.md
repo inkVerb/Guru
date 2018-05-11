@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 4: apt install, git clone, wget, curl
+## Lesson 4: ls -l, chmod
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -8,142 +8,42 @@
 `nautilus . &`
 ___
 
-*Install git and curl*
-
-`sudo apt install git curl`
-
-> ___
-> If you don't have permission as a "sudoer", the person who administers your machine can use:
-> 
-> `su` *input the password*
-> 
-> `apt install git curl`
-> 
-> `exit`
-> ___
-
-*Download the entire verb.ink page using wget*
-
-`wget -r http://verb.ink`
-
-*Download the verb.ink index page using curl*
-
-`curl http://verb.ink`
+`touch whoown iown theyown youown`
 
 `ls`
 
-*Note it only showed the html content, to save it specify an output file:*
+`ls -1`
 
-`curl http://verb.ink > verb.ink.html`
+*Note the vertical list with* `-1` *(dash ONE)*
 
-`ls`
+`ls -l`
 
-*Open it with whatever browser you are using:*
+*Note your username in the longer, more detailed list*
 
-`firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`
+`chmod +x whoown`
 
-## Download the inkVerb/vrk repo from GitHub
+`ls -l`
 
-### zip via wget
+*Note the "x" now on whoown*
 
-*Download Vrk using wget*
+`chmod -x whoown`
 
-`wget https://github.com/inkVerb/vrk/archive/master.zip`
+`ls -l`
 
-`ls`
+*Note the "x" has been removed from whoown*
 
-*Specify an output file*
+`chmod 777 whoown`
 
-`wget -O vrk.zip https://github.com/inkVerb/vrk/archive/master.zip`
+`ls -l`
 
-`ls`
+`chmod 444 whoown`
 
-*Clean up*
+`ls -l`
 
-`rm master.zip`
+`chmod 600 whoown`
 
-### zip via curl
+`ls -l`
 
-`curl https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
+*Refer to this cheat-sheet for more about chmod:* [Pinker/Cheet-Sheets: chmod](https://github.com/inkVerb/Pinker/blob/master/Cheat-Sheets/chmod)
 
-*Note the redirect message; use* `-L` *to follow redirects*
-
-`curl -L https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
-
-*Note it dumped the raw output to the terminal rather than saving it*
-
-*Use Ctrl + C to close the output*
-
-*Solution: Specify an output file*
-
-`curl -L https://github.com/inkVerb/vrk/archive/master.zip > vkr-curl.zip`
-
-`ls`
-
-*Now that you get the point, we don't need it anymore*
-
-`rm vkr-curl.zip`
-
-### tarball via curl
-
-*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& include output file*
-
-`curl -L https://api.github.com/repos/inkVerb/vrk/tarball > vrk.tar`
-
-`ls`
-
-*Untar it*
-
-`tar xzf vrk.tar`
-
-`ls`
-
-*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*...that's it, delete it with:*
-
-> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*We don't need to keep that tarball either*
-
-`rm vrk.tar`
-
-### tarball via curl & untar (single command)
-
-*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
-
-`curl -L https://api.github.com/repos/inkVerb/vrk/tarball | tar xz`
-
-`ls`
-
-*Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*...that's it, delete it with:*
-
-> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-### repo via git clone
-
-`git clone https://github.com/inkVerb/vrk`
-
-`ls`
-
-`rm -r vrk`
-
-*Note the error message; you don't own it!*
-
-`sudo rm -r vrk`
-
-> ___
-> If you don't have permission as a "sudoer", the person who administers your machine can use:
-> 
-> `su` *input the password*
-> 
-> `rm -r vrk`
-> 
-> `exit`
-> ___
-
-`ls`
-
-#### [Lesson 5: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+#### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)

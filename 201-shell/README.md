@@ -8,25 +8,27 @@
 
 `mkdir -p ~/Work/Pinker/shell/201`
 
+### [Lesson 0: sudo passwd](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-00.md)
+
 ### [Lesson 1: cp, mv, ln -s, rm](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-01.md)
 
 ### [Lesson 2: cd, ../.., mkdir, rm -r](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-02.md)
 
-### [Lesson 3: ls -l, chown, chmod, users](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
+### [Lesson 3: su, sudo, apt update, apt upgrade, apt install](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
 
-### [Lesson 4: apt install, git clone, wget, curl](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
+### [Lesson 4: ls -l, chmod](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
 
-### [Lesson 5: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
 
-### [Lesson 6: tar xf, dash, add, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
+### [Lesson 6: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
 
-### [Lesson 7: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
+### [Lesson 7: tar xf, dash, add, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
 
-### [Lesson 8: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
+### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
 
-### [Lesson 9: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
+### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
 
-### [Lesson 10: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-10.md)
+### [Lesson 10: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-10.md)
 
 ### [Lesson 11: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-11.md)
 
@@ -37,28 +39,21 @@ ___
 
 ## This tutorial should eventually include information about...
 
-
-- Output as parameters: echo \`ls\` > lsoutput
-
-Management:
-- pwd
-- uname
-- who
-- w
-- su
+Network:
 - tcpdump
-- man / info
-- sort / head
 - netstat (apt install)
 - netstat -natu
-- htop (apt install)
 - tcptrack (apt install)
+
+Management:
+- man / info
+- sort / head
+- less / more
+- head / tail
 
 Text:
 - nano
 - vi
-- less / more
-- head / tail
 https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-viewingtext-terminal.html
 
 Audio:

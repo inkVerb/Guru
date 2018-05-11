@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 7: du, df, top, ps aux, pgrep, kill
+## Lesson 7: tar xf, dash, add, hash
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -8,88 +8,140 @@
 `nautilus . &`
 ___
 
-*Go to your home directory*
+`tar -cvf cpdir.tar cpdir`
 
-`cd ~/`
+`cp cpdir.tar compress/`
 
-`du -sh *`
+`cp -r cpdir compress/`
 
-*Note the list of each directory's size*
+`cd compress`
 
-`df -k`
+### tf `tar tf`
 
-*Note it listed everything in kilobytes*
+*Look at what's in the files*
 
-`df -h`
+`tar -tf cpdir.tar`
 
-*Note it listed everything in megabytes and gigabytes, et cetera*
+*Oh, and the dash* `-` *is optional with tar*
 
-*Now go back to where our 201 directory*
+`tar -tf vrk.tar.gz`
 
-`cd ~/Work/Pinker/shell/201`
+`tar tf vrk.tar.bz2`
 
-`top`
+`tar tf vrk.tar.xz`
 
-*Notice the realtime process list*
+`tar tf vrk.tar`
 
-Ctrl + C *This will CLOSE the top program*
+*Note tar can figure out the format, also with decompressing:*
 
-`top -n 1`
+### xf `tar xf`
 
-*Notice the* `top` *list is not realtime;* `-n 1` *shows only one "iteration",* `-n 3` *would show three*
+`ls`
 
-`top -n 1 -b`
+`tar xf vrk.tar.gz`
 
-*Notice* `-b` *shows everything, not limited by the size of the terminal window, only limited by the* `-n 1` *option*
+`ls`
 
-`ps aux`
+`rm -r vrk`
 
-*Note the list of every running process, but it is not realtime, so you can scroll through it*
+`tar xf vrk.tar.bz2`
 
-Select ONE browser you are NOT using:
+`ls`
 
-`firefox &` or `chromium-browser &` or `google-chrome &` or `vivaldi &`
+`rm -r vrk`
 
-*Note we used* `&`*to keep it from blocking the terminal*
+`tar xf vrk.tar.xz`
 
-`ps aux`
+`ls`
 
-*Scroll to look for that browser's process ID (PID)*
+`rm -r vrk`
 
-*This uses pipe and grep to find it*
+`tar xf vrk.tar`
 
-`ps aux | grep firefox` or `ps aux | grep chromium-browser` or `ps aux | grep google-chrome` or `ps aux | grep vivaldi`
+`ls`
 
-*This does the same thing*
+`rm -r vrk`
 
-`pgrep firefox` or `pgrep chromium-browser` or `pgrep google-chrome` or `pgrep vivaldi`
+### Add to a .tar file
 
-*Note the PID, it's the number*
+`touch file1 file2 file3`
 
-`kill PID` e.g. `kill 71771`
+`tar cf files.tar file1 file2 cpdir`
 
-*Run it again*
+*Have a look inside*
 
-`firefox` or `chromium-browser` or `google-chrome` or `vivaldi`
+`tar tf files.tar`
 
-*Now kill it by process name using* `killall`
+*Add a file with* `-r`
 
-`killall firefox` or `killall chromium-browser` or `killall google-chrome` or `killall vivaldi`
+`tar rf files.tar file3`
 
-*Some processes, such as VLC can only be killed by PID*
+*See if it's been added*
 
-`vlc &`
+`tar tf files.tar`
 
-`killall vlc`
+### Hash security
 
-*Note it doesn't work*
+`md5sum vrk.tar.xz` (1990s. out of date, never use)
 
-`pgrep vlc`
+`sha1sum vrk.tar.xz` (1990s, better, not good enough)
 
-*Note the number*
+`sha256sum vrk.tar.xz` (better yet)
 
-`kill PID` e.g `kill 71771`
+`sha512sum vrk.tar.xz` (great, big)
 
-*Now, VLC is closed*
+*Generate a sha256sum hash*
 
-#### [Lesson 8: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
+`sha256sum vrk.tar.xz`
+
+*It's always the same, that way you are confident the file is not even 1 bit different since downloaded*
+
+`sha256sum vrk.tar.xz`
+
+*Note every file's hash is different*
+
+`sha256sum vrk.tar.gz`
+
+`sha256sum vrk.tar.bz2`
+
+`sha256sum vrk.tar`
+
+*Another way: create a hash file so we can check it all at once*
+
+`echo $(sha256sum vrk.tar.xz) > vrk.tar.xz.sha256`
+
+`ls`
+
+*Lookie what's inside*
+
+`cat vrk.tar.xz.sha256`
+
+*Now check it with* `-c` *and the hash file, in the same directory as the file*
+
+`sha256sum -c vrk.tar.xz.sha256`
+
+*The sha256sum hash file KNOWS what it's looking for, play hide-and-seek*
+
+`mv vrk.tar.xz vrk.tar.xz.HIDING`
+
+`ls`
+
+`sha256sum -c vrk.tar.xz.sha256`
+
+*FAIL*
+
+*Try an imposter*
+
+`mv vrk.tar.bz2 vrk.tar.xz`
+
+`sha256sum -c vrk.tar.xz.sha256`
+
+*FAIL*
+
+*Moral of the story: compressed files need hash checking*
+
+`mv vrk.tar.xz vrk.tar.bz2`
+
+`mv vrk.tar.xz.HIDING vrk.tar.xz`
+
+#### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)

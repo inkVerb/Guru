@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 8: COMMAND > FILE, pwd, uname, who, w
+## Lesson 8: wget, curl, git clone
 
 `cd ~/Work/Pinker/shell/201`
 
@@ -8,88 +8,128 @@
 `nautilus . &`
 ___
 
-`mkdir comdump`
+*Download the entire verb.ink page using wget*
 
-`cd comdump`
+`wget -r http://verb.ink`
 
-`ls`
+*Download the verb.ink index page using curl*
 
-`top -n 1 -b > top.file`
-
-`ls`
-
-`gedit top.file`
-
-`top -n 1 -b > top.file`
-
-*gedit: Reload top.file*
-
-*Note the file contents changed*
-
-`ps aux > psaux.file`
+`curl http://verb.ink`
 
 `ls`
 
-*Some other useful commands...*
+*Note it only showed the html content, to save it specify an output file:*
 
-`pwd`
-
-*Whoah, that's where you are!*
-
-`pwd > pwd.file`
-
-`uname`
-
-*eXcellent operationg system, I might add*
-
-`uname > uname.file`
-
-`who`
-
-*That's everyone*
-
-`who > who.file`
-
-`w`
-
-*That's everyone with a lot more info*
-
-`w > w.file`
+`curl http://verb.ink > verb.ink.html`
 
 `ls`
 
-`ls > ls.file`
+*Open it with whatever browser you are using:*
+
+`firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`
+
+## Download the inkVerb/vrk repo from GitHub
+
+### zip via wget
+
+*Download Vrk using wget*
+
+`wget https://github.com/inkVerb/vrk/archive/master.zip`
 
 `ls`
 
-`gedit ls.file`
+*Specify an output file*
 
-*You can even output* `ls` *into a file!*
-
-`ls ../`
-
-*Now output that other directory's contents into a file*
-
-`ls ../ > ls.file`
-
-*gedit: Reload ls.file*
-
-*...or into another directory*
-
-`midkr -p outputs`
+`wget -O vrk.zip https://github.com/inkVerb/vrk/archive/master.zip`
 
 `ls`
 
-`ls ../ > outputs/ls.file`
+*Clean up*
 
-`ls outputs`
+`rm master.zip`
 
-*That's in the directory you just made*
+### zip via curl
 
-`gedit outputs/ls.file`
+`curl https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
 
-*All done, get ready for the next lesson*
+*Note the redirect message; use* `-L` *to follow redirects*
 
-`cd ..`
+`curl -L https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
 
-#### [Lesson 9: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
+*Note it dumped the raw output to the terminal rather than saving it*
+
+*Use Ctrl + C to close the output*
+
+*Solution: Specify an output file*
+
+`curl -L https://github.com/inkVerb/vrk/archive/master.zip > vkr-curl.zip`
+
+`ls`
+
+*Now that you get the point, we don't need it anymore*
+
+`rm vkr-curl.zip`
+
+### tarball via curl
+
+*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& include output file*
+
+`curl -L https://api.github.com/repos/inkVerb/vrk/tarball > vrk.tar`
+
+`ls`
+
+*Untar it*
+
+`tar xzf vrk.tar`
+
+`ls`
+
+*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*...that's it, delete it with:*
+
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*We don't need to keep that tarball either*
+
+`rm vrk.tar`
+
+### tarball via curl & untar (single command)
+
+*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
+
+`curl -L https://api.github.com/repos/inkVerb/vrk/tarball | tar xz`
+
+`ls`
+
+*Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*...that's it, delete it with:*
+
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+### repo via git clone
+
+`git clone https://github.com/inkVerb/vrk`
+
+`ls`
+
+`rm -r vrk`
+
+*Note the error message; you don't own it!*
+
+`sudo rm -r vrk`
+
+> ___
+> If you don't have permission as a "sudoer", the person who administers your machine can use:
+> 
+> `su` *input the password*
+> 
+> `rm -r vrk`
+> 
+> `exit`
+> ___
+
+`ls`
+
+#### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
