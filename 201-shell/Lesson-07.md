@@ -82,7 +82,7 @@ ___
 
 ### Hash security
 
-`md5sum vrk.tar.xz` (1990s. out of date, never use)
+`md5sum vrk.tar.xz` (1990s, out of date, never use)
 
 `sha1sum vrk.tar.xz` (1990s, better, not good enough)
 
