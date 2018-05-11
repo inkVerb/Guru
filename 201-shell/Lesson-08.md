@@ -132,4 +132,4 @@ ___
 
 `ls`
 
-#### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
