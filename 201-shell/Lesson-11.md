@@ -72,4 +72,10 @@ ___
 
 `info echo`
 
+*...but not all...*
+
+`man imagemagick`
+
+`info imagemagick`
+
 #### [Lesson 12: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)

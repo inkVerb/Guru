@@ -30,7 +30,7 @@
 
 ### [Lesson 10: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-10.md)
 
-### [Lesson 11: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-11.md)
+### [Lesson 11: tcpdump, netstat -natu, man, info](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-11.md)
 
 ### [Lesson 12: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)
 
