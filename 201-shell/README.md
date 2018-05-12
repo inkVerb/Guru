@@ -39,14 +39,7 @@ ___
 
 ## This tutorial should eventually include information about...
 
-Network:
-- tcpdump
-- netstat (apt install)
-- netstat -natu
-- tcptrack (apt install)
-
 Management:
-- man / info
 - sort / head
 - less / more
 - head / tail

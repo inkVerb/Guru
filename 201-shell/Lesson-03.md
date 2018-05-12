@@ -24,9 +24,9 @@ ___
 
 *You can install more than one package...*
 
-*Install the* `curl` `alsamixer` `net-tools` `htop` and `tcptrack` *packages* (the command `netstat` comes from the package `net-tools`)
+*Install the* `curl` `alsamixer` `net-tools` and `htop` *packages* (the command `netstat` comes from the package `net-tools`)
 
-`sudo apt install -y curl alsamixer net-tools htop tcptrack` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+`sudo apt install -y curl alsamixer net-tools htop` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 
 ### For an administrator to use `su`
 > ___
@@ -48,9 +48,9 @@ ___
 > 
 > *You can install more than one package...*
 > 
-> *Install the* `curl` `alsamixer` `net-tools` `htop` and `tcptrack` *packages* (the command `netstat` comes from the package `net-tools`)
+> *Install the* `curl` `alsamixer` `net-tools` and `htop` *packages* (the command `netstat` comes from the package `net-tools`)
 > 
-> `apt install -y curl alsamixer net-tools htop tcptrack` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+> `apt install -y curl alsamixer net-tools htop` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 > 
 > `exit`
 > ___
