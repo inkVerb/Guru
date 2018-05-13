@@ -14,7 +14,7 @@
 
 ### [Lesson 2: cd, ../.., mkdir, rm -r](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-02.md)
 
-### [Lesson 3: su, sudo, apt update, apt upgrade, apt install](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-03.md)
+### [Lesson 3: su, sudo, apt update, apt upgrade, apt install, lsb_release](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-03.md)
 
 ### [Lesson 4: ls -l, chmod](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-04.md)
 
