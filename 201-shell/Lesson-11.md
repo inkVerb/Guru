@@ -47,7 +47,7 @@ ___
 
 `info gsettings`
 
-`man` *are* `info`*are useful for many things*
+*The* `man` *are* `info`*tools are useful for many things*
 
 `man lsb_release`
 
