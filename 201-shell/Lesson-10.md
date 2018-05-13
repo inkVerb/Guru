@@ -92,4 +92,4 @@ ___
 
 `cd ..`
 
-#### [Lesson 11: tcpdump, netstat -natu](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-11.md)
+#### [Lesson 11: tcpdump, netstat -natu, man, info](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-11.md)
