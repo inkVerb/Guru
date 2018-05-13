@@ -26,3 +26,7 @@
 [linuxquestions.org](http://linuxquestions.org)
 
 [linuxcommand.org](http://linuxcommand.org)
+
+## Cool blog
+
+[linuxfrombeginning.wordpress.com](http://linuxfrombeginning.wordpress.com)

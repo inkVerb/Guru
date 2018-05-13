@@ -24,6 +24,10 @@ ___
 
 `ls`
 
+*Take a peek inside*
+
+`gedit verb.ink.html`
+
 *Open it with whatever browser you are using:*
 
 `firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`

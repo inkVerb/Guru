@@ -32,25 +32,4 @@
 
 ### [Lesson 11: tcpdump, netstat -natu, man, info](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-11.md)
 
-### [Lesson 12: NEW](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)
-
-___
-# Under Construction
-
-## This tutorial should eventually include information about...
-
-Management:
-- sort / head
-- less / more
-- head / tail
-
-Text:
-- nano
-- vi
-
-https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-viewingtext-terminal.html
-
-Audio:
-- alsamixer
-
-https://linux.die.net/man/1/alsamixer
+### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)

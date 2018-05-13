@@ -78,4 +78,4 @@ ___
 
 `info imagemagick`
 
-#### [Lesson 12: NEXT](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)
+#### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)
