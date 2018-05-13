@@ -20,7 +20,6 @@ ___
 
 *Ctrl + C will close the dump*
 
-
 ### For an administrator to use `su`
 > ___
 > If you don't have permission as a "sudoer", the person who administers your machine can use:
@@ -44,13 +43,15 @@ ___
 
 *You can use* `man` *or* `info`
 
-`info gsettings`
-
-*It is useful for many things*
-
 `man gsettings`
 
 `info gsettings`
+
+`man` *are* `info`*are useful for many things*
+
+`man lsb_release`
+
+`info lsb_release`
 
 `man tcdump`
 
