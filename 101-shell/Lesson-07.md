@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 7: cat vs echo
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -60,4 +60,4 @@ ___
 
 `rm one two three onetwo`
 
-#### [Lesson 8: echo, cat & tee in scripts](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-08.md)
+#### [Lesson 8: echo, cat & tee in scripts](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-08.md)

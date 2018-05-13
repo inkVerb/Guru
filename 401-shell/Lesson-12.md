@@ -1,7 +1,7 @@
 # Shell 401
 ## Lesson 12: NEW
 
-`cd ~/Work/Pinker/shell/401`
+`cd ~/Work/Guru/shell/401`
 
 `gedit &`
 

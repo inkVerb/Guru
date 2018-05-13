@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 3: su, sudo, apt update, apt upgrade, apt install
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -55,4 +55,4 @@ ___
 > `exit`
 > ___
 
-#### [Lesson 4: ls -l, chmod](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-05.md)
+#### [Lesson 4: ls -l, chmod](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-05.md)

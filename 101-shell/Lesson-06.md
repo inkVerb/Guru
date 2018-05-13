@@ -2,7 +2,7 @@
 ## Lesson 6: tee
 ## tee = T
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -25,4 +25,4 @@ ___
 
 *gedit: Reload sedoutput.text*
 
-#### [Lesson 7: cat vs echo](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-07.md)
+#### [Lesson 7: cat vs echo](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-07.md)

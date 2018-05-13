@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 0: Terminal Control
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 ___
 
@@ -47,10 +47,10 @@ ___
 
 *Change directory to .../shell/101*
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 *Open Nautilus file explorer in that directory with:* `.`
 
 `nautilus . &`
 
-### [Lesson 1: gedit, echo & sed](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-01.md)
+### [Lesson 1: gedit, echo & sed](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-01.md)

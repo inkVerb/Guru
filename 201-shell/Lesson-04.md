@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 4: ls -l, chmod
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -44,6 +44,6 @@ ___
 
 `ls -l`
 
-*Refer to this cheat-sheet for more about chmod:* [Pinker/Cheet-Sheets: chmod](https://github.com/inkVerb/Pinker/blob/master/Cheat-Sheets/chmod)
+*Refer to this cheat-sheet for more about chmod:* [Guru/Cheet-Sheets: chmod](https://github.com/inkVerb/Guru/blob/master/Cheat-Sheets/chmod)
 
-#### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-04.md)
+#### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-04.md)

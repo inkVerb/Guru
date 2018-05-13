@@ -1,14 +1,14 @@
 # Shell 201
 ## Lesson 6: tar, zip, gzip, bzip2, xz
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
 `nautilus . &`
 ___
 
-*Compression cheat-sheet:* [Pinker: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Pinker/blob/master/tar-gzip-bzip2-zip-xz)
+*Compression cheat-sheet:* [Guru: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Guru/blob/master/tar-gzip-bzip2-zip-xz)
 
 `ls`
 
@@ -204,4 +204,4 @@ ___
 
 *Case and point: xz is smallest and takes a little more time*
 
-#### [Lesson 7: tar xf, dash, add, hash](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 7: tar xf, dash, add, hash](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)

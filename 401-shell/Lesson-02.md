@@ -1,7 +1,7 @@
 # Shell 401
 ## Lesson 2: Functions
 
-`cd ~/Work/Pinker/shell/401`
+`cd ~/Work/Guru/shell/401`
 
 `gedit &`
 
@@ -30,7 +30,7 @@ Create a variable that only exists inside the function with this:
 
 Make sure you do something...
 
-`echo "Pinker Linux tutorials are $myVariable!"`
+`echo "Guru Linux tutorials are $myVariable!"`
 
 `}` And close the function
 
@@ -42,4 +42,4 @@ Then, call the function with its name...
 
 `./02-function-breakdown`
 
-#### [Lesson 3: NEXT](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-03.md)
+#### [Lesson 3: NEXT](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-03.md)

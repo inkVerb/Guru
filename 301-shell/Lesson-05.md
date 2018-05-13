@@ -1,7 +1,7 @@
 # Shell 301
 ## Lesson 5: sleep read
 
-`cd ~/Work/Pinker/shell/301`
+`cd ~/Work/Guru/shell/301`
 
 `gedit &`
 
@@ -66,4 +66,4 @@ ___
 
 `./05-read-6`
 
-#### [Lesson 6: while](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-06.md)
+#### [Lesson 6: while](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)

@@ -1,7 +1,7 @@
 # Shell 301
 ## Lesson 2: else
 
-`cd ~/Work/Pinker/shell/301`
+`cd ~/Work/Guru/shell/301`
 
 `gedit &`
 
@@ -30,4 +30,4 @@ ___
 
 `./02-if-else-e otherdir`
 
-#### [Lesson 3: elif](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-03.md)
+#### [Lesson 3: elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)

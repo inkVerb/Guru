@@ -2,7 +2,7 @@
 ## Lesson 1: Arrays
 ## Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
 
-`cd ~/Work/Pinker/shell/401`
+`cd ~/Work/Guru/shell/401`
 
 `gedit &`
 
@@ -90,4 +90,4 @@ ___
 
 *Note associative arrays can have strings as elements too*
 
-#### [Lesson 2: Functions](https://github.com/inkVerb/pinker/blob/master/401-shell/Lesson-02.md)
+#### [Lesson 2: Functions](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-02.md)

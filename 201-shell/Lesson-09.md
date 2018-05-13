@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 9: du, df, top, ps aux, pgrep, kill
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -26,7 +26,7 @@ ___
 
 *Now go back to where our 201 directory*
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `top`
 
@@ -96,4 +96,4 @@ Select ONE browser you are NOT using:
 
 `htop`
 
-#### [Lesson 10: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-10.md)
+#### [Lesson 10: COMMAND > FILE, pwd, uname, who, w](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-10.md)

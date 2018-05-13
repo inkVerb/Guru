@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 8: wget, curl, git clone
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -136,4 +136,4 @@ ___
 
 `ls`
 
-#### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-09.md)
+#### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-09.md)

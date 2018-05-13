@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 2: cd, ../.., mkdir, rm -r
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -86,4 +86,4 @@ ___
 
 `cd ..`
 
-#### [Lesson 3: su, sudo, apt update, apt upgrade, apt install](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-03.md)
+#### [Lesson 3: su, sudo, apt update, apt upgrade, apt install](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-03.md)

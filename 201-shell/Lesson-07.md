@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 7: tar xf, dash, add, hash
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -144,4 +144,4 @@ ___
 
 `mv vrk.tar.xz.HIDING vrk.tar.xz`
 
-#### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-08.md)
+#### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-08.md)

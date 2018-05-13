@@ -1,4 +1,4 @@
-# Pinker
+# Guru
 ## Learn Command Line Linux and Code
 
 The Linux command line only requires a bootable Linux USB, such as [Ubuntu via unetbootin](https://www.youtube.com/watch?v=sYfEs0lQA8Y&index=4&list=PLizgE6nGB1Kx8jIY1JE2v9rcL9G9s_UDj). It's the best place to begin to understand computer code—basic commands, if-do statements, variables, arrays, functions, and more. Learn it simple in Linux first.
@@ -9,7 +9,7 @@ For pretty & colorful diagrams, visit [explainshell.com](https://explainshell.co
 
 For more beyond this crash course, visit [The Linux Documentation Project at tldp.org](http://tldp.org)
 
-For places to get help and specific examples, visit [Pinker/Links](https://github.com/inkVerb/Pinker/blob/master/Links.md)
+For places to get help and specific examples, visit [Guru/Links](https://github.com/inkVerb/Guru/blob/master/Links.md)
 
 *Optional free tools: If you want your own Linux PC super media workstation...*
 
@@ -19,13 +19,13 @@ For places to get help and specific examples, visit [Pinker/Links](https://githu
 
 ## Shell Crash Course
 
-# [Shell 101](https://github.com/inkVerb/pinker/tree/master/101-shell)
+# [Shell 101](https://github.com/inkVerb/guru/tree/master/101-shell)
 
-# [Shell 201](https://github.com/inkVerb/pinker/tree/master/201-shell)
+# [Shell 201](https://github.com/inkVerb/guru/tree/master/201-shell)
 
-# [Shell 301](https://github.com/inkVerb/pinker/tree/master/301-shell)
+# [Shell 301](https://github.com/inkVerb/guru/tree/master/301-shell)
 
-# [Shell 401](https://github.com/inkVerb/pinker/tree/master/401-shell)
+# [Shell 401](https://github.com/inkVerb/guru/tree/master/401-shell)
 
 ___
 
@@ -41,11 +41,11 @@ Open Terminal *F12 / Ctrl+Alt+T*
 
 `cd Work` (OR whatever you called your WORK folder when you installed [Vrk](http://verb.ink))
 
-`mkdir Pinker`
+`mkdir Guru`
 
 `ls`
 
-`cd Pinker`
+`cd Guru`
 
 `nautilus .`
 
@@ -179,7 +179,7 @@ To edit any file, html for example, type:
 
 `cd `
 
-`cd Work/Pinker/html`
+`cd Work/Guru/html`
 
 `gedit new.html`
 

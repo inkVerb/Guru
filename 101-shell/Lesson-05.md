@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 5: Combine & Pipe Commands into Variables
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -62,7 +62,7 @@ ___
 
 `gedit comboshell`
 
-*Create comboshell as this:* [comboshell-01](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-01)
+*Create comboshell as this:* [comboshell-01](https://github.com/inkVerb/guru/blob/master/101-shell/comboshell-01)
 
 `chmod +x comboshell`
 
@@ -72,4 +72,4 @@ ___
 
 `./comboshell abcd j " zz"`
 
-#### [Lesson 6: tee](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-06.md)
+#### [Lesson 6: tee](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-06.md)

@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 12: more, less, head, tail, sort, nano, vi
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 

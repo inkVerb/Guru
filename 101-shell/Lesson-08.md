@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 8: echo, cat & tee in scripts
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -14,13 +14,13 @@ ___
 
 `./comboshell abcd j "z-"`
 
-*Update comboshell to this:* [comboshell-02](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-02)
+*Update comboshell to this:* [comboshell-02](https://github.com/inkVerb/guru/blob/master/101-shell/comboshell-02)
 
 `./comboshell abcd j "z-"`
 
 *gedit: Reload sedoutput.text*
 
-*Update comboshell to this:* [comboshell-03](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-03)
+*Update comboshell to this:* [comboshell-03](https://github.com/inkVerb/guru/blob/master/101-shell/comboshell-03)
 
 `./comboshell abcd j "z00 zoo "`
 
@@ -30,10 +30,10 @@ ___
 
 *gedit: Reload sedoutput.text*
 
-*Update comboshell to this:* [comboshell-04](https://github.com/inkVerb/pinker/blob/master/101-shell/comboshell-04)
+*Update comboshell to this:* [comboshell-04](https://github.com/inkVerb/guru/blob/master/101-shell/comboshell-04)
 
 `./comboshell abcd j "z-"`
 
 *gedit: Reload sedoutput.text*
 
-#### [Lesson 9: find](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-09.md)
+#### [Lesson 9: find](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-09.md)

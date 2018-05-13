@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 9: find
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -48,4 +48,4 @@ ___
  
 `find . -type d -iname "*png"`
 
-#### [Lesson 10: grep](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-10.md)
+#### [Lesson 10: grep](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-10.md)

@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 11: tcpdump, netstat -natu, man, info
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -78,4 +78,4 @@ ___
 
 `info imagemagick`
 
-#### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-12.md)
+#### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-12.md)

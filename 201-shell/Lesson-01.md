@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 1: cp, mv, ln -s, mkdir, rm
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -94,4 +94,4 @@ ___
 
 *Note file5 is no longer broken, but file4 has changed*
 
-#### [Lesson 2: cd, ../.., mkdir, rm -r](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-02.md)
+#### [Lesson 2: cd, ../.., mkdir, rm -r](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-02.md)

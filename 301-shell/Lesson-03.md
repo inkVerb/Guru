@@ -1,7 +1,7 @@
 # Shell 301
 ## Lesson 3: elif
 
-`cd ~/Work/Pinker/shell/301`
+`cd ~/Work/Guru/shell/301`
 
 `gedit &`
 
@@ -38,4 +38,4 @@ ___
 
 `./03-line`
 
-#### [Lesson 4: for VAR in WUT do done](https://github.com/inkVerb/pinker/blob/master/301-shell/Lesson-04.md)
+#### [Lesson 4: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)

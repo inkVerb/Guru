@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 11: Quote/Escape Special Characters
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -36,4 +36,4 @@ ___
 
 *gedit: Reload money.file*
 
-#### [Lesson 12: grep with Special Characters](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-12.md)
+#### [Lesson 12: grep with Special Characters](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-12.md)

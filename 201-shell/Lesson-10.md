@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 10: COMMAND > FILE, pwd, uname, who, w
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -92,4 +92,4 @@ ___
 
 `cd ..`
 
-#### [Lesson 11: tcpdump, netstat -natu](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-11.md)
+#### [Lesson 11: tcpdump, netstat -natu](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-11.md)

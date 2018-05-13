@@ -1,7 +1,7 @@
 # Shell 201
 ## Lesson 5: adduser, deluser, chown
 
-`cd ~/Work/Pinker/shell/201`
+`cd ~/Work/Guru/shell/201`
 
 `gedit &`
 
@@ -145,4 +145,4 @@ ___
 > `deluser pinkypurple`
 > ___
 
-#### [Lesson 6: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/pinker/blob/master/201-shell/Lesson-06.md)
+#### [Lesson 6: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-06.md)

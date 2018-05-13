@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 1: gedit, echo & sed
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -52,4 +52,4 @@ ___
 
 *gedit: Reload*
 
-#### [Lesson 2: Arguments & Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-02.md)
+#### [Lesson 2: Arguments & Variables](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-02.md)

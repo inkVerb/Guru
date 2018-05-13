@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 3: Arguments & Variables Review
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -10,7 +10,7 @@ ___
 
 `gedit how2var`
 
-*Create how2var as this:* [how2var-01](https://github.com/inkVerb/pinker/blob/master/101-shell/how2var-01)
+*Create how2var as this:* [how2var-01](https://github.com/inkVerb/guru/blob/master/101-shell/how2var-01)
 
 `ls`
 
@@ -42,8 +42,8 @@ ___
 
 `pwd`
 
-`./how2var $PWD $DESKTOP_SESSION Pinker`
+`./how2var $PWD $DESKTOP_SESSION Guru`
 
 `./how2var $USER USER rocks`
 
-#### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-04.md)
+#### [Lesson 4: Setting Variables & Setting Files](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-04.md)

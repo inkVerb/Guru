@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 4: Setting Variables & Setting Files
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -10,7 +10,7 @@ ___
 
 `gedit abcsed abcsed.setting abcd`
 
-*Update abcsed to this:* [abcsed-05](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-05)
+*Update abcsed to this:* [abcsed-05](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-05)
 
 `./abcsed h z abcd`
 
@@ -20,9 +20,9 @@ ___
 
 *gedit: Reload abcd*
 
-*Update abcsed to this:* [abcsed-06](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-06)
+*Update abcsed to this:* [abcsed-06](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-06)
 
-*Create abcsed.setting as this:* [abcsed.setting-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed.setting-01)
+*Create abcsed.setting as this:* [abcsed.setting-01](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed.setting-01)
 
 `./abcsed i z`
 
@@ -32,4 +32,4 @@ ___
 
 *gedit: Reload abcd*
 
-#### [Lesson 5: Combine & Pipe Commands into Variables](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-05.md)
+#### [Lesson 5: Combine & Pipe Commands into Variables](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-05.md)

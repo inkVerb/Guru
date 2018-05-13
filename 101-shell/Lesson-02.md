@@ -1,7 +1,7 @@
 # Shell 101
 ## Lesson 2: Arguments & Variables
 
-`cd ~/Work/Pinker/shell/101`
+`cd ~/Work/Guru/shell/101`
 
 `gedit &`
 
@@ -13,7 +13,7 @@ ___
 
 *Note the two tabs in gedit; abcsed is open, but the file does not exist*
 
-*Create abcsed as this:* [abcsed-01](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-01)
+*Create abcsed as this:* [abcsed-01](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-01)
 
 `./abcsed`
 
@@ -43,7 +43,7 @@ ___
 
 *gedit: Reload abcd*
 
-*Update abcsed to this:* [abcsed-02](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-02)
+*Update abcsed to this:* [abcsed-02](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-02)
 
 `./abcsed d z`
 
@@ -65,7 +65,7 @@ ___
 
 *gedit: Reload abcd*
 
-*Update abcsed to this:* [abcsed-03](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-03)
+*Update abcsed to this:* [abcsed-03](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-03)
 
 `./abcsed z j`
 
@@ -79,7 +79,7 @@ ___
 
 *gedit: Reload abcd*
 
-*Update abcsed to this:* [abcsed-04](https://github.com/inkVerb/pinker/blob/master/101-shell/abcsed-04)
+*Update abcsed to this:* [abcsed-04](https://github.com/inkVerb/guru/blob/master/101-shell/abcsed-04)
 
 `echo "Apples like foo." > applefoo`
 
@@ -97,4 +97,4 @@ ___
 
 *gedit: Reload abcd*
 
-#### [Lesson 3: Arguments & Variables Review](https://github.com/inkVerb/pinker/blob/master/101-shell/Lesson-03.md)
+#### [Lesson 3: Arguments & Variables Review](https://github.com/inkVerb/guru/blob/master/101-shell/Lesson-03.md)
