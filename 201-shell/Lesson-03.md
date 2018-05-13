@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 3: su, sudo, apt update, apt upgrade, apt install
+## Lesson 3: lsb_release, su, sudo, apt update, apt upgrade, apt install
 
 `cd ~/Work/Guru/shell/201`
 
@@ -7,6 +7,14 @@
 
 `nautilus . &`
 ___
+
+*Check the Linux version info*
+
+`lsb_release -a`
+
+*Get just the number*
+
+`lsb_release -r -s`
 
 ### For a "sudoer" who can use `sudo`
 
