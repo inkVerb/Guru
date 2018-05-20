@@ -40,6 +40,12 @@ ___
 
 *Note file5 points to file4, indicating where the symlink leads*
 
+*You can also use list-long on only the link to see where it points*
+
+`ls -l file5`
+
+*Let's take a peek*
+
 `gedit file4 file5`
 
 `echo FILE-5 >> file5`
