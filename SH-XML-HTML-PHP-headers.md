@@ -120,3 +120,15 @@ Move everything into place
 `mv head.php php`
 
 `ls`
+
+### Note
+
+To edit any file, html for example, type:
+
+`cd `
+
+`cd Work/Guru/html`
+
+`gedit new.html`
+
+...And get coding!
