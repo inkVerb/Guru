@@ -90,4 +90,4 @@ ___
 
 *Note associative arrays can have strings as elements too*
 
-#### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/310-shell/Lesson-11.md)
+#### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-11.md)
