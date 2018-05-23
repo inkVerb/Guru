@@ -115,8 +115,3 @@ https://linuxcontainers.org/lxd/
 
 ### create/add/manage docker ??
 
-
-
-## Done
-
-
