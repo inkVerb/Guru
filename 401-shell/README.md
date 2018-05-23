@@ -108,6 +108,15 @@ debconf-set-selections
 
 ### create/add/manage ppa
 
+### create/add/manage containers & LXC/LXD ??
+https://linuxcontainers.org/lxd/
+
+### create/add/manage snap ??
+
+### create/add/manage docker ??
+
+
+
 ## Done
 
 
