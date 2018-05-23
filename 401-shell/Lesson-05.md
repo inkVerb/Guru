@@ -11,4 +11,4 @@ ___
 ## Under Constrcution
 Lessons will continue here in the future.
 
-#### [Lesson 6: NEXT(https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-06.md)
+#### [Lesson 6: NEXT](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-06.md)
