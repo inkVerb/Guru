@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 12: MySQL
+## Lesson 12: variables of variables
 
 `cd ~/Work/Guru/shell/301`
 

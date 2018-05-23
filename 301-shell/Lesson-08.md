@@ -11,4 +11,4 @@ ___
 ## Under Constrcution
 Lessons will continue here in the future.
 
-#### [Lesson 9: apt & Auto Answer](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-09.md)
+#### [Lesson 9: case1 case2](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-09.md)

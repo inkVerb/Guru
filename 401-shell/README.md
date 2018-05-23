@@ -1,5 +1,4 @@
 # Shell 401
-# Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
 
 ## Prerequisite: [Shell 301](https://github.com/inkVerb/Guru/tree/master/301-shell)
 
@@ -15,9 +14,9 @@
 
 `cd 401`
 
-### [Lesson 1: Arrays](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-01.md)
+### [Lesson 1: NEW](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-01.md)
 
-### [Lesson 2: Functions](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-02.md)
+### [Lesson 2: NEW](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-02.md)
 
 ### [Lesson 3: NEW](https://github.com/inkVerb/guru/blob/master/401-shell/Lesson-03.md)
 
@@ -44,11 +43,6 @@ ___
 
 ## This tutorial should eventually include information about...
 
-### variables of variables
-- `apple="$pear"`
-- `pear="peeled"`
-- `echo ${!apple}` returns "peeled"
-- `echo $apple` returns "$pear"
 
 ### Scripting
 
@@ -59,12 +53,39 @@ source (to include variables from a script, but not run the script)
 
 cat EOF
 
-### Born Again Shell extras
-functions, menues, etc
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
-- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
+### auto answer:
+  - echo "y" | shell-command
+  - apt: update upgrade install autoremove uninstall purge
+
+### Generating filenames
+date https://www.computerhope.com/unix/udate.htm
+pwgen (and some parameters)
+- create filenames with date & random characters in script and from terminal
+
+### Arithmetic
+arithmetic with string, bool, and char variables, examples
+
+other operators
+- https://www.cyberciti.biz/faq/comparing-numbers-in-bash-shell/
+- http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm
+- http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_01.html
+- https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
+- https://www.gnu.org/software/grep/manual/html_node/Fundamental-Structure.html#Fundamental-Structure
+
+operators like these: -eq -ne -le -gt -lt -ge
+- http://tldp.org/LDP/abs/html/comparison-ops.html
+
+bc intro (just FYI)
+- https://www.shell-tips.com/2010/06/14/performing-math-calculation-in-bash/
+
+- expr https://www.tutorialspoint.com/unix/unix-arithmetic-operators.htm
+- wc ?? https://www.tecmint.com/wc-command-examples/
+
+script to create incrementing file names (use bc?? hopefully not, just to be simple)
+
+### MySQL
+Scripts to create databases with password file, numbers, and date in filename
+- MySQL: database, user, password, drop, list, add, from terminal, password file
 
 ### Setup & install
 
@@ -89,7 +110,4 @@ debconf-set-selections
 
 ## Done
 
-arrays, array keys
-- https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
-- https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
 
