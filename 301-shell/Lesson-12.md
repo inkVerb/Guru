@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 12: variables of variables
+## Lesson 12: BASH Custom Parameters, Menues, and Auto-Answer Dialogue
 
 `cd ~/Work/Guru/shell/301`
 

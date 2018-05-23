@@ -39,7 +39,7 @@
 
 ### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-11.md)
 
-### [Lesson 12: variables of variables](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
+### [Lesson 12: BASH Custom Parameters, Menues, and Auto-Answer Dialogue](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
 ___
 
 # Further Reference
@@ -53,12 +53,6 @@ https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
 ### arrays, array keys
 - https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
 - https://stackoverflow.com/questions/15691942/bash-print-array-elements-on-separate-lines
-
-### variables of variables
-- `apple="$pear"`
-- `pear="peeled"`
-- `echo ${!apple}` returns "peeled"
-- `echo $apple` returns "$pear"
 
 ### Born Again Shell extras
 functions, menues, etc

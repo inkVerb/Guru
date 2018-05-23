@@ -23,3 +23,10 @@ ${10}
 
 # Set a variable to a command output
 NEW_VARIABLE=$(first command | next command | next command)
+
+## Variables of variables
+apple="$pear"
+pear="peeled"
+echo ${!apple}  # returns "peeled"
+echo $apple  # returns "$pear"
+
