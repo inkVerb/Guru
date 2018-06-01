@@ -92,6 +92,8 @@ ___
 
 `sudo rm -r pinkypink pinkypurple`
 
+`ls /home`
+
 ### For an administrator to use `su`
 
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
@@ -134,7 +136,7 @@ ___
 > 
 > `chown pinkypurple:pinkypurple youown`
 > 
-> *Note there is no error message because you used* `su` *with* `chown`*, which requires either* `sudo` *or* `su`
+> *Note there is no error message because you ran* `chown` *as* `su`*;* `chown` *requires either* `sudo` *or* `su`
 > 
 > `ls -l`
 > 
@@ -187,6 +189,8 @@ ___
 > *...remove them*
 > 
 > `sudo rm -r pinkypink pinkypurple`
+> 
+> `ls /home`
 > 
 > ___
 
