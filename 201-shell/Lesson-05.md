@@ -12,9 +12,21 @@ ___
 
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
 
+*Look at the* `/home` *directory to see the users on the machine*
+
+`ls /home`
+
 `sudo adduser pinkypink` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
 
+*Look at* `/home` *again to see* `pinkypink` *has been added*
+
+`ls /home`
+
 `sudo adduser pinkypurple` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
+
+*Look at* `/home` *again to see* `pinkypurple` *has been added*
+
+`ls /home`
 
 `ls -l`
 
@@ -72,6 +84,14 @@ ___
 
 `sudo deluser pinkypurple`
 
+*The users still have* `/home` *directories*
+
+`ls /home`
+
+*...remove them*
+
+`sudo rm -r pinkypink pinkypurple`
+
 ### For an administrator to use `su`
 
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
@@ -79,10 +99,22 @@ ___
 > ___
 > 
 > `su` *input the password*
+>
+> *Look at the* `/home` *directory to see the users on the machine*
+> 
+> `ls /home`
 > 
 > `adduser pinkypink` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
 > 
+> *Look at* `/home` *again to see* `pinkypink` *has been added*
+> 
+> `ls /home`
+> 
 > `adduser pinkypurple` *When prompted, Enter any simple password; press* `Enter` *for remaining questions.*
+> 
+> *Look at* `/home` *again to see* `pinkypurple` *has been added*
+> 
+> `ls /home`
 > 
 > `ls -l`
 > 
@@ -102,7 +134,11 @@ ___
 > 
 > `chown pinkypurple:pinkypurple youown`
 > 
-> *Note the error message because you don't own it anymore!* `chown` *requires* `sudo`
+> *Note there is no error message because you used* `su` *with* `chown`*, which requires either* `sudo` *or* `su`
+> 
+> `ls -l`
+> 
+> *Note "pinkypurple" now owns "youown"*
 > 
 > `mkdir ownrship`
 > 
@@ -143,6 +179,15 @@ ___
 > `deluser pinkypink`
 > 
 > `deluser pinkypurple`
+> 
+> *The users still have* `/home` *directories*
+> 
+> `ls /home`
+> 
+> *...remove them*
+> 
+> `sudo rm -r pinkypink pinkypurple`
+> 
 > ___
 
 #### [Lesson 6: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-06.md)
