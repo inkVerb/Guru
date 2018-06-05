@@ -48,6 +48,12 @@ ___
 
 *Note the error message because you don't own it anymore!* `chown` *requires* `sudo`
 
+`sudo chown pinkypurple:pinkypurple youown` *Enter your password*
+
+`ls -l`
+
+*"youown" now belogs to* `pinkypurple`
+
 `mkdir ownrship`
 
 `ls -l`
@@ -90,7 +96,7 @@ ___
 
 *...remove them*
 
-`sudo rm -r pinkypink pinkypurple`
+`sudo rm -r /home/pinkypink /home/pinkypurple`
 
 `ls /home`
 
@@ -99,6 +105,15 @@ ___
 *WARNING: If you already have a user "pinkypink" and/or "pinkypurple", then you are very interesting and should there substitute those names for users not on your system.*
 
 > ___
+> 
+> If running as `su` after runing via `sudo`, input this as your normal user to set everything aright:
+> 
+> `touch whoown iown theyown youown`
+> ___
+> 
+> *Try this commands without* `su` *and note the error messages because it requires* `su`:
+> 
+> `adduser pinkypink`
 > 
 > `su` *input the password*
 >
@@ -120,7 +135,7 @@ ___
 > 
 > `ls -l`
 > 
-> *Note the owner of "youown"*
+> *Note the owners of "youown" and "theyown"*
 > 
 > `chown pinkypink:pinkypink youown`
 > 
@@ -134,9 +149,19 @@ ___
 > 
 > *Note a new owner of "theyown"*
 > 
+> *Exit from the "root" user*
+> 
+> `exit`
+> 
+> *Try to change ownership of a file you don't own*
+> 
 > `chown pinkypurple:pinkypurple youown`
 > 
-> *Note there is no error message because you ran* `chown` *as* `su`*;* `chown` *requires either* `sudo` *or* `su`
+> *Note the error message because you don't own it anymore!* `chown` *requires "root" AKA* `sudo` *or* `su`
+> 
+> `su` *input the password*
+> 
+> `chown pinkypurple:pinkypurple youown`
 > 
 > `ls -l`
 > 
@@ -161,6 +186,12 @@ ___
 > `rm youown`
 > 
 > *Note the error message because you don't own it anymore!*
+> 
+> `rm -r ownrship`
+> 
+> *Note the error message because you created "ownrship" as "root", so "roo" owns it!*
+> 
+> `ls -l`
 > 
 > `su` *input the password*
 > 
@@ -188,7 +219,7 @@ ___
 > 
 > *...remove them*
 > 
-> `sudo rm -r pinkypink pinkypurple`
+> `sudo rm -r /home/pinkypink /home/pinkypurple`
 > 
 > `ls /home`
 > 
