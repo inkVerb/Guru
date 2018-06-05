@@ -15,7 +15,7 @@ ___
 
 `sudo passwd` *Input your password, then input the new password for the* `su` *user*
 
-*To become* `su` *after this, just enter in the terminal:* `su`
+*To become* `su` *after this, just input in the terminal:* `su`
 
 *That's it, all done.*
 
