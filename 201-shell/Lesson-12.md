@@ -92,4 +92,10 @@ Oh, what's this?
 
 `alsamixer`
 
+Don't have it yet?
+
+`sudo apt install alsamixer`
+
+*Some older Linux distros not supported*
+
 [alsamixer](https://linux.die.net/man/1/alsamixer)
