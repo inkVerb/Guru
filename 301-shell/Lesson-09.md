@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 9: case1 case2
+## Lesson 9: case
 
 `cd ~/Work/Guru/shell/301`
 
