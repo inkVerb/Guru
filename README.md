@@ -11,8 +11,6 @@ Whether you want to become a computer genuis or if you're a "computer dummy" and
 
 # [Shell 301](https://github.com/inkVerb/guru/tree/master/301-shell)
 
-# [Shell 401](https://github.com/inkVerb/guru/tree/master/401-shell)
-
 ## Installing Linux & Vrk
 *Optional free tools: If you want your own Linux PC super media workstation...*
 1. Install Ubuntu via [these fast instructions on YouTube](https://www.youtube.com/watch?v=_9NvmAitlwA&list=PLizgE6nGB1Kx8jIY1JE2v9rcL9G9s_UDj)
@@ -26,7 +24,7 @@ For pretty & colorful diagrams, visit [explainshell.com](https://explainshell.co
 
 For more beyond this crash course, visit [The Linux Documentation Project at tldp.org](http://tldp.org)
 
-For places to get help and specific examples, visit [Guru/Links](https://github.com/inkVerb/Guru/blob/master/Links.md)
+For places to get more help and specific examples, visit [Guru/Links](https://github.com/inkVerb/Guru/blob/master/Links.md)
 
 ## Tips
 
@@ -42,6 +40,8 @@ For places to get help and specific examples, visit [Guru/Links](https://github.
 
 *Ctrl+W* Close a tab
 
+*Ctrl+LEFT_CLICK* Open link in a new tab
+
 ## In Terminal
 
 *Ctrl+Shift+C* Copy
@@ -49,6 +49,9 @@ For places to get help and specific examples, visit [Guru/Links](https://github.
 *Ctrl+Shift+V* Paste
 
 *Ctrl+Shift+T* Open a new tab
+
+*Ctrl+Shift+W* Close current tab
+
 
 *Ctrl+Shift+W* Close a tab
 
