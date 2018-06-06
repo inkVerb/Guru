@@ -22,7 +22,7 @@
 
 ### [Lesson 6: wget, curl, git clone](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-06.md)
 
-### [Lesson 7: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
+### [Lesson 7: tar, xz, zip, gzip, bzip2](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
 
 ### [Lesson 8: Hash – md5sum, sha1sum, sha256sum, sha512sum](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-08.md)
 

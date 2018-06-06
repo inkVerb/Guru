@@ -136,4 +136,4 @@ ___
 
 `ls`
 
-#### [Lesson 7: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 7: tar, xz, zip, gzip, bzip2](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)

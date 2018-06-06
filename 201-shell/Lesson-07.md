@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 7: tar, zip, gzip, bzip2, xz
+## Lesson 7: tar, xz, zip, gzip, bzip2
 
 `cd ~/Work/Guru/shell/201`
 
