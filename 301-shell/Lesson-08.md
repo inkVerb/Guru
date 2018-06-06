@@ -24,11 +24,11 @@ ___
 
 `gedit 08-until-question`
 
-`08-until-question werdup`
+`./08-until-question werdup`
 
 *Input wrong "passwords" to see what it does, input "werdup" or use Ctrl + C to close*
 
-`08-until-question thepassword`
+`./08-until-question thepassword`
 
 *Input wrong "passwords" to see what it does, input "thepassword" or use Ctrl + C to close*
 
