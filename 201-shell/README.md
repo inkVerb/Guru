@@ -20,11 +20,11 @@
 
 ### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-05.md)
 
-### [Lesson 6: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-06.md)
+### [Lesson 6: wget, curl, git clone](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-06.md)
 
-### [Lesson 7: tar xf, dash, add, hash](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
+### [Lesson 7: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
 
-### [Lesson 8: wget, curl, git clone](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-08.md)
+### [Lesson 8: Hash – md5sum, sha1sum, sha256sum, sha512sum](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-08.md)
 
 ### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-09.md)
 

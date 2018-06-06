@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 6: tar, zip, gzip, bzip2, xz
+## Lesson 6: wget, curl, git clone
 
 `cd ~/Work/Guru/shell/201`
 
@@ -8,200 +8,132 @@
 `nautilus . &`
 ___
 
-*Compression cheat-sheet:* [Guru: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Guru/blob/master/tar-gzip-bzip2-zip-xz)
+*Download the entire verb.ink page using wget*
+
+`wget -r http://verb.ink`
+
+*Download the verb.ink index page using curl*
+
+`curl http://verb.ink`
 
 `ls`
 
-`unzip vrk.zip`
+*Note it only showed the html content, to save it specify an output file:*
+
+`curl http://verb.ink > verb.ink.html`
 
 `ls`
 
-`vrk-master vrk`
+*Take a peek inside*
 
-*That zip file was strange, let's delete it*
+`gedit verb.ink.html`
 
-`rm vrk.zip`
+*Open it with whatever browser you are using:*
 
-`mkdir compress`
+`firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`
 
-### zip `zip -r file.zip dir`; `unzip file.zip`
+## Download the inkVerb/vrk repo from GitHub
 
-`zip -r vrk.zip vrk`
+### zip via wget
+
+*Download Vrk using wget*
+
+`wget https://github.com/inkVerb/vrk/archive/master.zip`
 
 `ls`
 
-*You can see the "vrk" directory, delete it*
+*Specify an output file*
+
+`wget -O vrk.zip https://github.com/inkVerb/vrk/archive/master.zip`
+
+`ls`
+
+*Clean up*
+
+`rm master.zip`
+
+### zip via curl
+
+`curl https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
+
+*Note the redirect message; use* `-L` *to follow redirects*
+
+`curl -L https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
+
+*Note it dumped the raw output to the terminal rather than saving it*
+
+*Use Ctrl + C to close the output*
+
+*Solution: Specify an output file*
+
+`curl -L https://github.com/inkVerb/vrk/archive/master.zip > vkr-curl.zip`
+
+`ls`
+
+*Now that you get the point, we don't need it anymore*
+
+`rm vkr-curl.zip`
+
+### tarball via curl
+
+*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& include output file*
+
+`curl -L https://api.github.com/repos/inkVerb/vrk/tarball > vrk.tar`
+
+`ls`
+
+*Now, untar it*
+
+`tar xzf vrk.tar`
+
+`ls`
+
+*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*...that's it, delete it with:*
+
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*We don't need to keep that tarball either*
+
+`rm vrk.tar`
+
+### tarball via curl & untar (single command)
+
+*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
+
+`curl -L https://api.github.com/repos/inkVerb/vrk/tarball | tar xz`
+
+`ls`
+
+*Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+*...that's it, delete it with:*
+
+> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
+
+### repo via git clone
+
+`git clone https://github.com/inkVerb/vrk`
+
+`ls`
 
 `rm -r vrk`
 
-*This time, unzip it to the "compress directory*
+*Note the error message; you don't own it!*
 
-`unzip vrk.zip -d compress/`
+`sudo rm -r vrk`
 
-`cd compress`
-
-`ls`
-
-`rm -r vrk`
-
-`cd ..`
-
-### tar (Tape ARchive) `tar -cvf file.tar dir`; `tar -xvf file.tar`
-
-*Note:* `-c` *is for "Create";* `-v` *is for "Verbose";* `-f` *is for "File"*
-
-`tar -cvf vrk.tar vrk`
-
-*Take a look at what's in the tarball*
-
-`tar -tf vrk.tar`
-
-`ls -l`
-
-*Note, the vrk.tar is not compressed, larger than vrk.zip*
-
-`cp vrk.tar compress/`
-
-`cd compress`
-
-*Note:* `-x` *is for "eXtract";* `-v` *is for "Verbose";* `-f` *is for "File"*
-
-`tar -xvf vrk.tar`
+> ___
+> If you don't have permission as a "sudoer", the person who administers your machine can use:
+> 
+> `su` *input the password*
+> 
+> `rm -r vrk`
+> 
+> `exit`
+> ___
 
 `ls`
 
-`rm -r vrk`
-
-### xz `xz file`; `unxz file.xz`
-
-`xz vrk.tar`
-
-`ls`
-
-*Note it replaced the original file* `vrk.tar`
-
-`cp vrk.tar.xz ../`
-
-*Note:* `-d` *is for "Decompress"*
-
-`xz -d vrk.tar.xz`
-
-`ls`
-
-*Note the .tar.xz file is gone*
-
-*Now you would normally want to untar it*
-
-`tar -xf vrk.tar`
-
-`ls`
-
-*Create the .tar.xz file without removing the original using* `-c`
-
-`xz -c vrk.tar > vrk.tar.xz`
-
-### Compare types
-
-`cd ..`
-
-`ls -l`
-
-*Notice which files are larger and smaller: .tar .zip .tar.xz*
-
-### Combine into one, quiet command with tar
-
-`cd compress`
-
-*Note: without* `-v` *for "Verbose" it is nice and quiet*
-
-`tar -cf - vrk | xz > vrk.tar.xz`
-
-`ls`
-
-### Stronger compression level 9
-
-*Note:* `-9` *is the compression level;* `-v` *is for "Verbose"*
-
-`tar -cvf - vrk | xz -9 -c - > vrk-level-9.tar.xz`
-
-`ls -l`
-
-*Note the size difference*
-
-*Or you could xz from the tarball*
-
-`rm vrk-level-9.tar.xz`
-
-`xz -9 -c vrk.tar > vrk.9.tar.xz`
-
-`ls -l`
-
-`cp vrk.9.tar.xz ../`
-
-### Other compression tools: gzip & bzip2
-
-#### gzip `gzip -c file > file.gz`; `gzip -d file.gz`
-
-`ls`
-
-`gzip vrk.tar > vrk.tar.gz`
-
-*Answer "y" to overwrite, though the file doesn't already exist*
-
-`ls`
-
-*Note it replaced the original file* `vrk.tar`
-
-`cp ../vrk.tar .`
-
-`ls`
-
-`rm vrk.tar.gz`
-
-`ls`
-
-*Note:* `-c` *is for "Create, keep original"*
-
-`gzip -c vrk.tar > vrk.tar.gz`
-
-*Note there was no question this time;* `-c` *is a good idea*
-
-`cp vrk.tar.gz ../`
-
-`rm -r vrk`
-
-`ls`
-
-*Note:* `-d` *is for "Decompress"*
-
-`gzip -d vrk.tar.gz`
-
-`ls`
-
-#### bzip2 `bzip2 -c file > file.bz2`; `bzip2 -d file.bz2`
-
-*Note:* `-c` *is for "Create, keep original" just as with gzip*
-
-`bzip2 -c vrk.tar > vrk.tar.bz2`
-
-`cp vrk.tar.bz2 ../`
-
-`rm -r vrk`
-
-`ls`
-
-*Note:* `-d` *is for "Decompress"*
-
-`bzip2 -d vrk.tar.bz2`
-
-`ls`
-
-### Review sizes
-
-`cd ..`
-
-`ls -l`
-
-*Case and point: xz is smallest and takes a little more time*
-
-#### [Lesson 7: tar xf, dash, add, hash](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)
+#### [Lesson 7: tar, zip, gzip, bzip2, xz](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-07.md)

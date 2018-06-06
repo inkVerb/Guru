@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 8: wget, curl, git clone
+## Lesson 8: Hash – md5sum, sha1sum, sha256sum, sha512sum
 
 `cd ~/Work/Guru/shell/201`
 
@@ -8,132 +8,68 @@
 `nautilus . &`
 ___
 
-*Download the entire verb.ink page using wget*
+### Hash security
 
-`wget -r http://verb.ink`
+`md5sum vrk.tar.xz` (1990s, out of date, never use)
 
-*Download the verb.ink index page using curl*
+`sha1sum vrk.tar.xz` (1990s, better, not good enough)
 
-`curl http://verb.ink`
+`sha256sum vrk.tar.xz` (better yet)
 
-`ls`
+`sha512sum vrk.tar.xz` (great, big)
 
-*Note it only showed the html content, to save it specify an output file:*
+*Generate a sha256sum hash*
 
-`curl http://verb.ink > verb.ink.html`
+`sha256sum vrk.tar.xz`
 
-`ls`
+*It's always the same, that way you are confident the file is not even 1 bit different since downloaded*
 
-*Take a peek inside*
+`sha256sum vrk.tar.xz`
 
-`gedit verb.ink.html`
+*Note every file's hash is different*
 
-*Open it with whatever browser you are using:*
+`sha256sum vrk.tar.gz`
 
-`firefox verb.ink.html` or `chromium-browser verb.ink.html` or `google-chrome verb.ink.html` or `vivaldi verb.ink.html`
+`sha256sum vrk.tar.bz2`
 
-## Download the inkVerb/vrk repo from GitHub
+`sha256sum vrk.tar`
 
-### zip via wget
+*Another way: create a hash file so we can check it all at once*
 
-*Download Vrk using wget*
-
-`wget https://github.com/inkVerb/vrk/archive/master.zip`
+`echo $(sha256sum vrk.tar.xz) > vrk.tar.xz.sha256`
 
 `ls`
 
-*Specify an output file*
+*Lookie what's inside*
 
-`wget -O vrk.zip https://github.com/inkVerb/vrk/archive/master.zip`
+`cat vrk.tar.xz.sha256`
 
-`ls`
+*Now check it with* `-c` *and the hash file, in the same directory as the file*
 
-*Clean up*
+`sha256sum -c vrk.tar.xz.sha256`
 
-`rm master.zip`
+*The sha256sum hash file KNOWS what it's looking for, play hide-and-seek*
 
-### zip via curl
-
-`curl https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
-
-*Note the redirect message; use* `-L` *to follow redirects*
-
-`curl -L https://github.com/inkVerb/vrk/archive/master.zip` (wrong)
-
-*Note it dumped the raw output to the terminal rather than saving it*
-
-*Use Ctrl + C to close the output*
-
-*Solution: Specify an output file*
-
-`curl -L https://github.com/inkVerb/vrk/archive/master.zip > vkr-curl.zip`
+`mv vrk.tar.xz vrk.tar.xz.HIDING`
 
 `ls`
 
-*Now that you get the point, we don't need it anymore*
+`sha256sum -c vrk.tar.xz.sha256`
 
-`rm vkr-curl.zip`
+*FAIL*
 
-### tarball via curl
+*Try an imposter*
 
-*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& include output file*
+`mv vrk.tar.bz2 vrk.tar.xz`
 
-`curl -L https://api.github.com/repos/inkVerb/vrk/tarball > vrk.tar`
+`sha256sum -c vrk.tar.xz.sha256`
 
-`ls`
+*FAIL*
 
-*Untar it*
+*Moral of the story: compressed files need hash checking*
 
-`tar xzf vrk.tar`
+`mv vrk.tar.xz vrk.tar.bz2`
 
-`ls`
-
-*Note the strange new directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*...that's it, delete it with:*
-
-> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*We don't need to keep that tarball either*
-
-`rm vrk.tar`
-
-### tarball via curl & untar (single command)
-
-*Substitute* `github.com` *for* `api.github.com/repos/` *& append with* `/tarball` *& untar it right away*
-
-`curl -L https://api.github.com/repos/inkVerb/vrk/tarball | tar xz`
-
-`ls`
-
-*Note the same strange directory* `inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-*...that's it, delete it with:*
-
-> `rm -r inkVerb-vrk-SOME_CRAZY_NUMBER`
-
-### repo via git clone
-
-`git clone https://github.com/inkVerb/vrk`
-
-`ls`
-
-`rm -r vrk`
-
-*Note the error message; you don't own it!*
-
-`sudo rm -r vrk`
-
-> ___
-> If you don't have permission as a "sudoer", the person who administers your machine can use:
-> 
-> `su` *input the password*
-> 
-> `rm -r vrk`
-> 
-> `exit`
-> ___
-
-`ls`
+`mv vrk.tar.xz.HIDING vrk.tar.xz`
 
 #### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-09.md)
