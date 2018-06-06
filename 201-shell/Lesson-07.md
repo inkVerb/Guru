@@ -18,7 +18,11 @@ ___
 
 `ls`
 
-`vrk-master vrk`
+*What a strange name, "vrk-master"*
+
+`mv vrk-master vrk`
+
+`ls`
 
 *That zip file was strange, let's delete it*
 
@@ -32,9 +36,9 @@ ___
 
 `ls`
 
-*You can see the "vrk" directory*
+*You can see the* `vrk` *directory*
 
-*This time, unzip it to the "compress directory*
+*This time, unzip it to the* `compress` *directory*
 
 `unzip vrk.zip -d compress/`
 
@@ -42,7 +46,7 @@ ___
 
 `ls`
 
-*It works, but we don't need this extra "vrk" directory; delete it*
+*It works, but we don't need this extra* `vrk` *directory; delete it*
 
 `rm -r vrk`
 
@@ -54,17 +58,15 @@ ___
 
 `tar -cvf vrk.tar vrk`
 
-*Take a look at what's in the tarball*
-
-`tar -tf vrk.tar`
-
 `ls -l`
 
-*Note the vrk.tar is not compressed, larger than vrk.zip*
+*Note* `vrk.tar` *is not compressed, larger than* `vrk.zip`
 
 `cp vrk.tar compress/`
 
 `cd compress`
+
+`ls`
 
 *Note* `-x` *is for "eXtract";* `-v` *is for "Verbose";* `-f` *is for "File"*
 
@@ -74,15 +76,13 @@ ___
 
 `rm -r vrk`
 
-### xz `xz file`; `unxz file.xz`
+### xz `xz file`; `xz -d file.xz`
 
 `xz vrk.tar`
 
 `ls`
 
 *Note it replaced the original file* `vrk.tar`
-
-`cp vrk.tar.xz ../`
 
 *Note* `-d` *is for "Decompress"*
 
@@ -102,35 +102,44 @@ ___
 
 `xz -c vrk.tar > vrk.tar.xz`
 
+`ls`
+
 ### Compare types
 
-`cd ..`
+`cp ../vrk.zip .`
 
 `ls -l`
 
-*Notice which files are larger and smaller: .tar .zip .tar.xz*
+*Note which files are larger and smaller: .tar .zip .tar.xz*
 
-### Combine into one, quiet command with tar
+### Combine tar & xz into one command
 
-`cd compress`
-
-*Note: without* `-v` *for "Verbose" it is nice and quiet*
-
-`tar -cf - vrk | xz > vrk.tar.xz`
+`rm vrk.tar.xz`
 
 `ls`
 
-### Slightly stronger compression level 9
+*Note without* `-v` *for "Verbose" it is nice and quiet*
 
-*Note:* `-9` *is the compression level*
+`tar -cf - vrk | xz > vrk.tar.xz`
 
-`xz -9 -c vrk.tar > vrk.9.tar.xz`
+*Breakdown:*
+- `-f` *"File" output filename will be specified*
+- `-` *placeholder where the output tarball filename normally goes, i.e.* `vrk.tar`
+- `vrk` *the tarball contents, here one directory, being tarred up*
+- `|` *send that output to whatever comes next*
+- `xz` *the next command, using* `xz` *compression*
+- `>` *...to an output file...*
+- `vrk.tar.xz` *is the actual output file*
 
-`ls -l`
+`rm vrk.tar.xz`
 
-*Note the size difference*
+`ls`
 
-`cp vrk.9.tar.xz ../`
+*You can drop the "File" parameters altogether*
+
+`tar -c vrk | xz > vrk.tar.xz`
+
+`ls`
 
 ___
 
@@ -139,6 +148,18 @@ ___
 `cd ~/Work/Guru/shell/201/compress`
 
 ___
+
+### tar (slightly stronger) compression level 9
+
+`ls -l`
+
+*Note* `-9` *is the compression level*
+
+`xz -9 -c vrk.tar > vrk.9.tar.xz`
+
+`ls -l`
+
+*Note the size difference*
 
 ### Other compression tools: gzip & bzip2
 
@@ -158,6 +179,8 @@ ___
 
 `ls`
 
+*There's a slightly better way...*
+
 `rm vrk.tar.gz`
 
 `ls`
@@ -168,13 +191,19 @@ ___
 
 *Note there was no question this time;* `-c` *is a good idea with* `gzip`
 
-`cp vrk.tar.gz ../`
+`ls -l`
 
-*Note:* `-d` *is for "Decompress"*
+`rm vrk.tar`
+
+*Note* `-d` *is for "Decompress"*
+
+`ls`
 
 `gzip -d vrk.tar.gz`
 
 `ls`
+
+*Note* `vrk.tar.gz` *is was replaced, just as with xz*
 
 #### bzip2 `bzip2 -c file > file.bz2`; `bzip2 -d file.bz2`
 
@@ -182,25 +211,25 @@ ___
 
 `bzip2 -c vrk.tar > vrk.tar.bz2`
 
-`cp vrk.tar.bz2 ../`
-
-`rm vrk.tar`
-
 `ls`
 
-*Note* `-d` *is for "Decompress"*
+*Note* `-d` *is for "Decompress" as with gzip*
 
 `bzip2 -d vrk.tar.bz2`
 
 `ls`
 
+*We want* `vrk.tar.bz2` *for reference*
+
+`bzip2 -c vrk.tar > vrk.tar.bz2`
+
 ### Review sizes
 
 `ls -l`
 
-*Case and point:* `xz` *is smallest and takes a little more time*
+*Case and point:* `xz` *is smallest, simplest to use, and takes just a little more time*
 
-### xf `tar xf`
+### Decompress any tarball `tar xf`
 
 *Note* `tar` *can figure out the format, also with decompressing:*
 
@@ -212,7 +241,13 @@ ___
 
 `ls`
 
+*Done in one step AND the original vrk.tar.gz file is still there!*
+
+*"Again!" — Baby Dinosaur*
+
 `rm -r vrk`
+
+`ls`
 
 *(Oh, and the dash* `-` *is optional with* `tar` *options)*
 
@@ -220,29 +255,49 @@ ___
 
 `ls`
 
-`rm -r vrk`
+*Now with* `xz`
+
+`rm -r vrk && ls`
 
 `tar xf vrk.tar.xz`
 
 `ls`
 
-`rm -r vrk`
+___
 
-`tar xf vrk.tar`
+## Part III
 
-`ls`
+`cd ~/Work/Guru/shell/201/compress`
 
-*Cleanup*
-
-`rm vrk.tar.xz`
+___
 
 ### Peek inside any tarball with `tar tf`
 
-*tar up the "cpdir" directory*
+`ls -l`
+
+*Look at what's in the tarballs (notice the speed)*
+
+`tar tf vrk.tar`
+
+`tar tf vrk.tar.gz`
+
+`tar tf vrk.tar.bz2`
+
+`tar tf vrk.tar.xz`
+
+*tar up the* `cpdir` *directory*
 
 `cd ..`
 
-`tar -cvf cpdir.tar cpdir`
+`tar cvf cpdir.tar cpdir`
+
+`tar tf cpdir.tar`
+
+*Note that* `-v` *"Verbose" basically does the same as* `-t` *"contenT" while tarring*
+ 
+### Add to a .tar file
+
+*Make some prep*
 
 `cp cpdir.tar compress/`
 
@@ -250,21 +305,9 @@ ___
 
 `cd compress`
 
-*Look at what's in the tarballs*
-
-`tar -tf cpdir.tar`
-
-`tar -tf vrk.tar.gz`
-
-`tar -tf vrk.tar.bz2`
-
-`tar -tf vrk.tar.xz`
-
-`tar -tf vrk.tar`
-
-### Add to a .tar file
-
 `touch file1 file2 file3`
+
+*Note the following order:* `tar cf TARBALL-FILE.tar CONTENTS CONTENTS CONTENTS ETC`
 
 `tar cf files.tar file1 file2 cpdir`
 
@@ -276,15 +319,17 @@ ___
 
 `tar rf files.tar file3`
 
-*See if it's been added*
+*See if* `file3` *has been added*
 
 `tar tf files.tar`
 
 ### Review: tar & xz
 
+`rm vrk.tar.xz`
+
 *Tar up and xz-compress in one command:*
 
-`tar -cf - vrk | xz > vrk.tar.xz`
+`tar c vrk | xz > vrk.tar.xz`
 
 *Cleanup*
 
