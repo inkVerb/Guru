@@ -27,15 +27,15 @@
 
 ### [Lesson 5: while & until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-05.md)
 
-### [Lesson 6: case](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
+### [Lesson 6: case, exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
 
 ### [Lesson 7: Combo && || Include](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-07.md)
 
-### [Lesson 8: Dates, Random Numbers & Arithmetic](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
+### [Lesson 8: Dates & Random Numbers](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
 
-### [Lesson 9: BASH Variable Variables](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-09.md)
+### [Lesson 9: Arithmetic](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-09.md)
 
-### [Lesson 10: BASH Arrays](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-10.md)
+### [Lesson 10: BASH Variable Variables & Arrays](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-10.md)
 
 ### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-11.md)
 

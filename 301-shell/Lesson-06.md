@@ -48,7 +48,7 @@ ___
 
 *Run it multiple times with: y, n, Y, N, Yes, No, yes, no, YES, NO, yES, nO, yeS, yEs, and other answers*
 
-### III. `exit` & System Logs
+### III. `exit` & `journalctl` System Logs
 
 *Look at some log entries on your machine*
 

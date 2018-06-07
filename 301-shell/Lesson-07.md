@@ -42,7 +42,7 @@ Links: `1.l` `2.l` `3.l` `4.l` `5.l` `6.l` `7.l` `8.l` `9.l` `0.l`
 
 *These will be added*
 
-### III. Include `. `
+### III. Include `.`
 
 `gedit 07-include 07-included`
 
@@ -58,4 +58,4 @@ Links: `1.l` `2.l` `3.l` `4.l` `5.l` `6.l` `7.l` `8.l` `9.l` `0.l`
 
 `./07-include`
 
-#### [Lesson 8: Dates, Random Numbers & Arithmetic](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
+#### [Lesson 8: Dates & Random Numbers](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)

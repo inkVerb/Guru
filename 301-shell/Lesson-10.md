@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 10: BASH Arrays
+## Lesson 10: BASH Variable Variables & Arrays
 
 `cd ~/Work/Guru/shell/301`
 
@@ -7,6 +7,22 @@
 
 `nautilus . &`
 ___
+
+## Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
+
+Nemo, we're not in Shellfish anymore... *(Hehe, see what I did there?)*
+
+Some things can only be done in BASH
+
+### Variable Variables
+
+`gedit 10-varvar`
+
+`./10-varvar 123abcyouandme`
+
+*Take a good look and try to see how that makes sense; it can be VERY useful!*
+
+### Arrays
 
 `gedit 10-array`
 

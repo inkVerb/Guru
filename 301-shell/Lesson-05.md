@@ -50,4 +50,4 @@ ___
 
 *Input wrong "passwords" to see what it does, input "thepassword" or use Ctrl + C to close*
 
-#### [Lesson 6: case](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
+#### [Lesson 6: case, exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
