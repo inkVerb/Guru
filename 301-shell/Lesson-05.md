@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-### I. while
+### I. `while`
 
 `gedit 05-while-question`
 
@@ -24,7 +24,7 @@ ___
 
 `./05-while-count`
 
-### II. until
+### II. `until`
 
 `gedit 05-until-count`
 

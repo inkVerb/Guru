@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-### I. case
+### I. `case`
 
 `gedit 06-case-numlett`
 
@@ -40,7 +40,7 @@ ___
 
 *Input any of the following: verb, ink, hi, yoyo, byebye, done, apple, pineapple, pen, and others*
 
-### II. case with y/n
+### II. `case` with `y/n`
 
 `gedit 06-case-yn`
 
@@ -62,7 +62,7 @@ ___
 > 
 > *It is considered "bad coding" to use* `exit` *without a number or to use an exit other than* `exit 0` *without need for a log entry*
 
-### IV. case y/n loop & `exit 1`
+### IV. `case` `y/n` loop & `exit 1`
 
 `gedit 06-case-yn-loop`
 

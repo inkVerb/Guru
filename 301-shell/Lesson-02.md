@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-### I. else
+### I. `else`
 
 `gedit 02-if-else-file`
 
@@ -32,7 +32,7 @@ ___
 
 `./02-if-else-e otherdir`
 
-### II. elif
+### II. `elif`
 
 `gedit 02-if-elif`
 

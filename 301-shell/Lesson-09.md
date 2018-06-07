@@ -94,7 +94,7 @@ ___
 
 `./09-operators -5 -5 ne`
 
-#### B. Substitute the $VARIABLE
+#### B. Substitute the `$VARIABLE`
 
 `gedit 09-operators-subvar`
 

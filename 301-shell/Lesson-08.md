@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-### I. date
+### I. `date`
 
 `date`
 
@@ -80,7 +80,7 @@ ___
 
 *Read more options here:* [https://www.computerhope.com/unix/udate.htm]
 
-### II. pwgen
+### II. `pwgen`
 
 `pwgen`
 
