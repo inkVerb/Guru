@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 5: sleep read
+## Lesson 5: while & until
 
 `cd ~/Work/Guru/shell/301`
 
@@ -8,62 +8,46 @@
 `nautilus . &`
 ___
 
-`sleep 1`
+### I. while
 
-`sleep 3`
+`gedit 05-while-question`
 
-`gedit 05-sleep-1`
+*Note -z means "Zero" or "Zip" or "Zilch" for a variable that is empty (This is not the best way to do a -z test, but it's enough to make the point in Shell 301.)*
 
-`./05-sleep-1`
+`./05-while-question`
 
-`gedit 05-sleep-2`
+*Only press Enter to see what happens again and again, comply or use Ctrl + C to close*
 
-`./05-sleep-2 "I like apples."`
+`gedit 05-while-count`
 
-`read`
+*Note ! means "not"*
 
-*Now type something and/or press Enter*
+`./05-while-count`
 
-`gedit 05-read-1`
+### II. until
 
-`./05-read-1`
+`gedit 05-until-count`
 
-*Now you have to type something, then press Enter*
+`ls *.shell`
 
-`gedit 05-read-2`
+`./05-until-count 5 shell`
 
-*Note -p is for "Prompt", making things simpler*
+`ls *.shell`
 
-`./05-read-2`
+`ls *.sixtn`
 
-`ls`
+`./05-until-count 16 sixtn`
 
-`gedit 05-read-3`
+`ls *.sixtn`
 
-*Note -s is for "Silent", no output to the terminal*
+`gedit 05-until-question`
 
-`./05-read-3`
+`./05-until-question werdup`
 
-`ls`
+*Input wrong "passwords" to see what it does, input "werdup" or use Ctrl + C to close*
 
-*See, it created the file*
+`./05-until-question thepassword`
 
-`gedit 05-read-4`
+*Input wrong "passwords" to see what it does, input "thepassword" or use Ctrl + C to close*
 
-`./05-read-4`
-
-*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
-
-*Note -r is for "Raw", to allow all special characters*
-
-`gedit 05-read-5`
-
-`./05-read-5`
-
-*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
-
-`gedit 05-read-6`
-
-`./05-read-6`
-
-#### [Lesson 6: while](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
+#### [Lesson 6: case](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)

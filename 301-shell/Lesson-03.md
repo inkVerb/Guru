@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 3: elif
+## Lesson 3: for VAR in WUT do done
 
 `cd ~/Work/Guru/shell/301`
 
@@ -8,32 +8,90 @@
 `nautilus . &`
 ___
 
-`gedit 03-if-elif`
+### *Note* `for - in -` *loops can't accept variables*
 
-`./03-if-elif`
+`ls`
 
-`./03-if-elif yoyo`
+`touch 1.t.one 2.t.one 3.t.one 4.t.one 1.c.one 2.c.one 3.c.one 4.c.one one one-1 one-2 one-3 one-4 one-5 one-1-c one-2-c one-3-c one-4-c one-5-c one-1-t one-2-t one-3-t one-4-t one-5-t`
 
-`./03-if-elif iamhere`
+`ls`
 
-`./03-if-elif mydir`
+one*
 
-`./03-if-elif`
+`gedit 03-do-echo-1`
 
-`gedit 03-lines`
+`./03-do-echo-1`
 
-`./03-if-elif`
+one-1*
 
-`./03-if-elif yoyo`
+`gedit 03-do-echo-2`
 
-`./03-if-elif urtheir`
+`./03-do-echo-2`
 
-`gedit 03-line`
+*.one
 
-`./03-if-elif`
+`gedit 03-do-echo-3`
 
-`./03-if-elif yoyo`
+`./03-do-echo-3`
 
-`./03-if-elif greatagain`
+*t.one
 
-#### [Lesson 4: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)
+`gedit 03-do-echo-4`
+
+`./03-do-echo-4`
+
+3.*
+
+`gedit 03-do-echo-5`
+
+`./03-do-echo-5`
+
+\*3*
+
+`gedit 03-do-echo-6`
+
+`./03-do-echo-6`
+
+\*one* "is a file."
+
+`gedit 03-do-echo-7`
+
+`./03-do-echo-7`
+
+*.one %one
+
+`gedit 03-do-echo-8`
+
+`./03-do-echo-8`
+
+*t.one %t.one
+
+`gedit 03-do-echo-9`
+
+`./03-do-echo-9`
+
+`ls`
+
+`gedit 03-do-mv-1`
+
+`./03-do-mv-1`
+
+`ls`
+
+`gedit 03-do-mv-2`
+
+`./03-do-mv-2`
+
+`ls`
+
+`rename "s/one/TWO/" *`
+
+`ls`
+
+`gedit 03-do-rm`
+
+`./03-do-rm`
+
+`ls`
+
+#### [Lesson 4: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)

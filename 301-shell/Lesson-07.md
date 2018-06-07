@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 7: Combos
+## Lesson 7: Combo && || Include
 
 `cd ~/Work/Guru/shell/301`
 
@@ -40,4 +40,22 @@ Dirs: `1-Z` `2-Z` `3-Z` `4-Z` `5-Z` `6-Z` `7-Z` `8-Z` `9-Z` `0-Z`
 
 Links: `1.l` `2.l` `3.l` `4.l` `5.l` `6.l` `7.l` `8.l` `9.l` `0.l`
 
-#### [Lesson 8: until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
+*These will be added*
+
+### III. Include `. `
+
+`gedit 07-include 07-included`
+
+`ls -l 07-include*`
+
+*Note "07-include" is executable, but "07-included" is not*
+
+*And "07-included" has no* `#!/bin/sh` *declaration*
+
+`./07-include`
+
+*Uncomment the line with* `. ~/Work/Guru/shell/301/07-included` *and run it again*
+
+`./07-include`
+
+#### [Lesson 8: Dates, Random Numbers & Arithmetic](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)

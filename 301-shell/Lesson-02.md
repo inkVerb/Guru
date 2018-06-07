@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 2: else
+## Lesson 2: else & elif
 
 `cd ~/Work/Guru/shell/301`
 
@@ -7,6 +7,8 @@
 
 `nautilus . &`
 ___
+
+### I. else
 
 `gedit 02-if-else-file`
 
@@ -30,4 +32,34 @@ ___
 
 `./02-if-else-e otherdir`
 
-#### [Lesson 3: elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
+### II. elif
+
+`gedit 02-if-elif`
+
+`./02-if-elif`
+
+`./02-if-elif yoyo`
+
+`./02-if-elif iamhere`
+
+`./02-if-elif mydir`
+
+`./02-if-elif`
+
+`gedit 02-lines`
+
+`./02-if-elif`
+
+`./02-if-elif yoyo`
+
+`./02-if-elif urtheir`
+
+`gedit 02-line`
+
+`./02-if-elif`
+
+`./02-if-elif yoyo`
+
+`./02-if-elif greatagain`
+
+#### [Lesson 3: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)

@@ -11,4 +11,7 @@ ___
 ## Under Constrcution
 Lessons will continue here in the future.
 
+### auto answer:
+  - echo "y" | shell-command
+
 # Done! Have a cookie: ### #

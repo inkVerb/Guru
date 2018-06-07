@@ -1,6 +1,5 @@
 # Shell 301
 ## Lesson 10: BASH Arrays
-## Welcome to BASH: Bourne Again Shell! `#!/bin/bash`
 
 `cd ~/Work/Guru/shell/301`
 
