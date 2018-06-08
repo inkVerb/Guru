@@ -39,7 +39,7 @@
 
 ### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-11.md)
 
-### [Lesson 12: BASH Custom Parameters, Menues, and Auto-Answer Dialogue](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
+### [Lesson 12: BASH select & getopts](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
 ___
 
 # Further Reference

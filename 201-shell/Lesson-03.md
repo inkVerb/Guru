@@ -34,7 +34,7 @@ ___
 
 *Install the* `curl` `net-tools` and `htop` *packages* (the command `netstat` comes from the package `net-tools`)
 
-`sudo apt install -y curl net-tools htop` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+`sudo apt install -y curl net-tools htop pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 
 ### For an administrator to use `su`
 > ___

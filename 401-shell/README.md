@@ -48,40 +48,7 @@ ___
 
 -z & unset "the proper way" (VAR=$1; $VAR  # Is $VAR set? # Use some arithmetic to see.) [top three answers here](https://serverfault.com/questions/7503/how-to-determine-if-a-bash-variable-is-empty)
 
-source (to include variables from a script, but not run the script)
-- and includes what happens with variables of variables via include
-
 cat EOF
-
-### auto answer:
-  - echo "y" | shell-command
-  - apt: update upgrade install autoremove uninstall purge
-
-### Generating filenames
-date https://www.computerhope.com/unix/udate.htm
-pwgen (and some parameters)
-- create filenames with date & random characters in script and from terminal
-
-### Arithmetic
-arithmetic with string, bool, and char variables, examples
-
-other operators
-- https://www.cyberciti.biz/faq/comparing-numbers-in-bash-shell/
-- http://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x11655.htm
-- http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_01.html
-- https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html
-- https://www.gnu.org/software/grep/manual/html_node/Fundamental-Structure.html#Fundamental-Structure
-
-operators like these: -eq -ne -le -gt -lt -ge
-- http://tldp.org/LDP/abs/html/comparison-ops.html
-
-bc intro (just FYI)
-- https://www.shell-tips.com/2010/06/14/performing-math-calculation-in-bash/
-
-- expr https://www.tutorialspoint.com/unix/unix-arithmetic-operators.htm
-- wc ?? https://www.tecmint.com/wc-command-examples/
-
-script to create incrementing file names (use bc?? hopefully not, just to be simple)
 
 ### MySQL
 Scripts to create databases with password file, numbers, and date in filename

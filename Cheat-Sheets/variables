@@ -24,9 +24,11 @@ ${10}
 # Set a variable to a command output
 NEW_VARIABLE=$(first command | next command | next command)
 
-## Variables of variables
-apple="$pear"
-pear="peeled"
-echo ${!apple}  # returns "peeled"
-echo $apple  # returns "$pear"
+## Variables of variables (requires BASH)
+#!/bin/bash
+pear4="peeled"
+NUM=4
+fruit="pear${NUM}"
+echo $fruit      # returns direct value of $fruit: "pear4"
+echo ${!fruit}   # returns value of value, $pear4: "peeled"
 

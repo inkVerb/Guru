@@ -61,7 +61,9 @@ ___
 > *An* `exit` *is a way to "break" out of a script, such as* `if - then` *tests, but always use* `exit 0` *unless a problem or event needs to be logged!*
 > 
 > *It is considered "bad coding" to use* `exit` *without a number or to use an exit other than* `exit 0` *without need for a log entry*
-
+> 
+> *When tutorials only have* `exit` *in the example, it is up to you to put the correct number after, probably* `exit 0`
+> 
 ### IV. `case` `y/n` loop & `exit 1`
 
 `gedit 06-case-yn-loop`
