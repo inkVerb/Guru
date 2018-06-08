@@ -10,7 +10,11 @@ ___
 
 *Compression cheat-sheet:* [Guru: tar-gzip-bzip2-zip-xz](https://github.com/inkVerb/Guru/blob/master/Cheat-Sheets/tar-gzip-bzip2-zip-xz)
 
-## Part I
+*First some prep*
+
+`mkdir compress`
+
+## Part I: `zip` `tar` `xz`
 
 `ls`
 
@@ -28,7 +32,7 @@ ___
 
 `rm vrk.zip`
 
-`mkdir compress`
+`ls`
 
 ### zip `zip -r file.zip dir`; `unzip file.zip`
 
@@ -41,6 +45,8 @@ ___
 *This time, unzip it to the* `compress` *directory*
 
 `unzip vrk.zip -d compress/`
+
+`cp vrk.zip compress/`
 
 `cd compress`
 
@@ -60,13 +66,13 @@ ___
 
 `ls -l`
 
-*Note* `vrk.tar` *is not compressed, larger than* `vrk.zip`
-
 `cp vrk.tar compress/`
 
 `cd compress`
 
 `ls`
+
+*Note* `vrk.tar` *is not compressed, larger than* `vrk.zip`
 
 *Note* `-x` *is for "eXtract";* `-v` *is for "Verbose";* `-f` *is for "File"*
 
@@ -106,8 +112,6 @@ ___
 
 ### Compare types
 
-`cp ../vrk.zip .`
-
 `ls -l`
 
 *Note which files are larger and smaller: .tar .zip .tar.xz*
@@ -143,7 +147,7 @@ ___
 
 ___
 
-## Part II
+## Part II `xz -9` `gzip` `bzip2` `tar xf`
 
 `cd ~/Work/Guru/shell/201/compress`
 
@@ -265,7 +269,7 @@ ___
 
 ___
 
-## Part III
+## Part III `tar tf` `tar cf`
 
 `cd ~/Work/Guru/shell/201/compress`
 
