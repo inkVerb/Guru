@@ -26,6 +26,8 @@ For more beyond this crash course, visit [The Linux Documentation Project at tld
 
 For places to get more help and specific examples, visit [Guru/Links](https://github.com/inkVerb/Guru/blob/master/Links.md)
 
+For the official Shell/BASH manual, read the [GNU Bash Reference manual](https://www.gnu.org/software/bash/manual/bash.html#Bourne-Shell-Builtins)
+
 ## Tips
 
 *Ctrl+A* select All

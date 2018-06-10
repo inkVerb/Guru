@@ -64,6 +64,9 @@ ___
 > 
 > *When tutorials only have* `exit` *in the example, it is up to you to put the correct number after, probably* `exit 0`
 > 
+https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/
+https://stackoverflow.com/questions/28193220/how-can-i-log-error-from-my-script-sh-every-time-i-run-the-script-sh-and-save-ou
+
 ### IV. `case` `y/n` loop & `exit 1`
 
 `gedit 06-case-yn-loop`

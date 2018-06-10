@@ -44,6 +44,10 @@ ___
 Also consult:
 - https://gist.github.com/cosimo/3760587
 - https://stackoverflow.com/questions/16483119/an-example-of-how-to-use-getopts-in-bash?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+- https://stackoverflow.com/questions/18414054/bash-getopts-reading-optarg-for-optional-flags?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+- dialog https://www.youtube.com/watch?v=A_QErp5C-z0
+
 
 ### auto answer:
 - echo "y" | shell-command

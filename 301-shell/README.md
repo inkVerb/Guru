@@ -31,7 +31,7 @@
 
 ### [Lesson 7: Combo && || Include](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-07.md)
 
-### [Lesson 8: Dates & Random Numbers](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
+### [Lesson 8: date & pwgen](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-08.md)
 
 ### [Lesson 9: Arithmetic](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-09.md)
 
@@ -43,13 +43,14 @@
 ___
 
 # Further Reference
+
 ## if then elif else fi
-https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
+[https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/]
 
 ## Bourne Again Shell extras
 functions, menues, etc
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html
-- http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html
-- https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/
+- [http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-8.html]
+- [http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-9.html]
+- [http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-11.html]
+- [https://www.thegeekstuff.com/2010/06/bash-if-statement-examples/]
 

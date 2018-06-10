@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 8: Dates & Random Numbers
+## Lesson 8: date & pwgen
 
 `cd ~/Work/Guru/shell/301`
 
