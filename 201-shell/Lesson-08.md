@@ -8,6 +8,10 @@
 `nautilus . &`
 ___
 
+*Look at the files we will use*
+
+`cd compress`
+
 ### Hash security
 
 `md5sum vrk.tar.xz` (1990s, out of date, never use)
@@ -71,5 +75,7 @@ ___
 `mv vrk.tar.xz vrk.tar.bz2`
 
 `mv vrk.tar.xz.HIDING vrk.tar.xz`
+
+`cd ..`
 
 #### [Lesson 9: du, df, top, ps aux, pgrep, kill](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-09.md)
