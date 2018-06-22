@@ -16,29 +16,29 @@ ___
 
 ## Part I: `zip` `tar` `xz`
 
-`ls`
+`ls -l`
 
 `unzip vrk.zip`
 
-`ls`
+`ls -l`
 
 *What a strange name, "vrk-master"*
 
 `mv vrk-master vrk`
 
-`ls`
+`ls -l`
 
 *That zip file was strange, let's delete it*
 
 `rm vrk.zip`
 
-`ls`
+`ls -l`
 
 ### zip `zip -r file.zip dir`; `unzip file.zip`
 
 `zip -r vrk.zip vrk`
 
-`ls`
+`ls -l`
 
 *You can see the* `vrk` *directory*
 
@@ -50,7 +50,7 @@ ___
 
 `cd compress`
 
-`ls`
+`ls -l`
 
 *It works, but we don't need this extra* `vrk` *directory; delete it*
 
@@ -70,7 +70,7 @@ ___
 
 `cd compress`
 
-`ls`
+`ls -l`
 
 *Note* `vrk.tar` *is not compressed, larger than* `vrk.zip`
 
@@ -78,7 +78,7 @@ ___
 
 `tar -xvf vrk.tar`
 
-`ls`
+`ls -l`
 
 `rm -r vrk`
 
@@ -86,7 +86,7 @@ ___
 
 `xz vrk.tar`
 
-`ls`
+`ls -l`
 
 *Note it replaced the original file* `vrk.tar`
 
@@ -94,7 +94,7 @@ ___
 
 `xz -d vrk.tar.xz`
 
-`ls`
+`ls -l`
 
 *Note the .tar.xz file is gone*
 
@@ -102,13 +102,13 @@ ___
 
 `tar -xf vrk.tar`
 
-`ls`
+`ls -l`
 
 *Create the .tar.xz file without removing the original using* `-c`
 
 `xz -c vrk.tar > vrk.tar.xz`
 
-`ls`
+`ls -l`
 
 ### Compare types
 
@@ -120,7 +120,7 @@ ___
 
 `rm vrk.tar.xz`
 
-`ls`
+`ls -l`
 
 *Note without* `-v` *for "Verbose" it is nice and quiet*
 
@@ -137,13 +137,13 @@ ___
 
 `rm vrk.tar.xz`
 
-`ls`
+`ls -l`
 
 *You can drop the "File" parameters altogether*
 
 `tar -c vrk | xz > vrk.tar.xz`
 
-`ls`
+`ls -l`
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### gzip `gzip -c file > file.gz`; `gzip -d file.gz`
 
-`ls`
+`ls -l`
 
 `gzip vrk.tar > vrk.tar.gz`
 
@@ -181,13 +181,13 @@ ___
 
 `cp ../vrk.tar .`
 
-`ls`
+`ls -l`
 
 *There's a slightly better way...*
 
 `rm vrk.tar.gz`
 
-`ls`
+`ls -l`
 
 *Note* `-c` *is for "Create, keep original"*
 
@@ -201,13 +201,17 @@ ___
 
 *Note* `-d` *is for "Decompress"*
 
-`ls`
+`ls -l`
 
 `gzip -d vrk.tar.gz`
 
-`ls`
+`ls -l`
 
 *Note* `vrk.tar.gz` *is was replaced, just as with xz*
+
+*We want* `vrk.tar.gz` *for reference*
+
+`gzip -c vrk.tar > vrk.tar.gz`
 
 #### bzip2 `bzip2 -c file > file.bz2`; `bzip2 -d file.bz2`
 
@@ -215,13 +219,13 @@ ___
 
 `bzip2 -c vrk.tar > vrk.tar.bz2`
 
-`ls`
+`ls -l`
 
 *Note* `-d` *is for "Decompress" as with gzip*
 
 `bzip2 -d vrk.tar.bz2`
 
-`ls`
+`ls -l`
 
 *We want* `vrk.tar.bz2` *for reference*
 
@@ -239,11 +243,11 @@ ___
 
 `rm -r vrk`
 
-`ls`
+`ls -l`
 
 `tar -xf vrk.tar.gz`
 
-`ls`
+`ls -l`
 
 *Done in one step AND the original vrk.tar.gz file is still there!*
 
@@ -251,21 +255,19 @@ ___
 
 `rm -r vrk`
 
-`ls`
+`ls -l`
 
 *(Oh, and the dash* `-` *is optional with* `tar` *options)*
 
 `tar xf vrk.tar.bz2`
 
-`ls`
+`ls -l`
 
 *Now with* `xz`
 
-`rm -r vrk && ls`
+`rm -r vrk && ls -l`
 
-`tar xf vrk.tar.xz`
-
-`ls`
+`tar xf vrk.tar.xz && ls -l`
 
 ___
 
@@ -339,7 +341,7 @@ ___
 
 `rm -r vrk`
 
-`ls`
+`ls -l`
 
 *Untar and decompress in one command:*
 
