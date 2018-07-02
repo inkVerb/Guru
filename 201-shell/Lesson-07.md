@@ -293,7 +293,7 @@ ___
 
 `tar tf vrk.tar.xz`
 
-*The list is too long, so put it into a file*
+*The list is quite long, so put it into a file for easy viewing*
 
 `tar tf vrk.tar.xz > vrk-tar-tf`
 
