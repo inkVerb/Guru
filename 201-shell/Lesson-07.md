@@ -271,11 +271,13 @@ ___
 
 ___
 
-## Part III `tar tf` `tar cf`
+## Part III `tar cf` `tar tf` `tar rf`
 
 `cd ~/Work/Guru/shell/201/compress`
 
 ___
+
+*Remember* `tar cf` *creates the tarball*
 
 ### Peek inside any tarball with `tar tf`
 
@@ -290,6 +292,14 @@ ___
 `tar tf vrk.tar.bz2`
 
 `tar tf vrk.tar.xz`
+
+*The list is too long, so put it into a file*
+
+`tar tf vrk.tar.xz > vrk-tar-tf`
+
+`ls -l`
+
+`gedit vrk-tar-tf`
 
 *tar up the* `cpdir` *directory*
 
