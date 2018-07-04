@@ -40,13 +40,15 @@ ___
 
 *Another way: create a hash file so we can check it all at once*
 
-`echo $(sha256sum vrk.tar.xz) > vrk.tar.xz.sha256`
+`sha256sum vrk.tar.xz > vrk.tar.xz.sha256`
 
 `ls`
 
 *Lookie what's inside*
 
 `cat vrk.tar.xz.sha256`
+
+`gedit vrk.tar.xz.sha256`
 
 *Now check it with* `-c` *and the hash file, in the same directory as the file*
 
