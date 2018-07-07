@@ -16,7 +16,15 @@ ___
 
 `echo "abcdefghijklmnopqrstuvwxyz"`
 
+*See, there's nothing here*
+
+`ls`
+
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
+
+`ls`
+
+*See, now there's something here*
 
 *gedit: Reload*
 

@@ -11,7 +11,7 @@ ___
 
 *In Terminal: Ctrl + Z*
 
-*Note gedit turns dark after a few moments*
+*Note gedit won't respond*
 
 `jobs`
 
