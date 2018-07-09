@@ -24,6 +24,10 @@ ___
 
 *Note it listed everything in megabytes and gigabytes, et cetera*
 
+`du -sh Work`
+
+*Note it can tell you the size of just one directory*
+
 *Now go back to where our 201 directory*
 
 `cd ~/Work/Guru/shell/201`
@@ -70,7 +74,7 @@ Select ONE browser you are NOT using:
 
 *Run it again*
 
-`firefox` or `chromium-browser` or `google-chrome` or `vivaldi`
+`firefox &` or `chromium-browser &` or `google-chrome &` or `vivaldi &`
 
 *Now kill it by process name using* `killall`
 
