@@ -30,6 +30,8 @@ ___
 
 `ls`
 
+`gedit psaux.file`
+
 *Some other useful commands...*
 
 `pwd`
@@ -37,6 +39,8 @@ ___
 *Whoah, that's where you are!*
 
 `pwd > pwd.file`
+
+`gedit pwd.file`
 
 `uname`
 
@@ -66,21 +70,21 @@ ___
 
 *You can even output* `ls` *into a file!*
 
-`ls ../`
+`ls ..`
 
 *Now output that other directory's contents into a file*
 
-`ls ../ > ls.file`
+`ls .. > ls.file`
 
 *gedit: Reload ls.file*
 
 *...or into another directory*
 
-`midkr -p outputs`
+`mkdir -p outputs`
 
-`ls`
+`ls outputs`
 
-`ls ../ > outputs/ls.file`
+`ls .. > outputs/ls.file`
 
 `ls outputs`
 
