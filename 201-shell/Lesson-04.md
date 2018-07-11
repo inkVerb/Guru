@@ -46,4 +46,4 @@ ___
 
 *Refer to this cheat-sheet for more about chmod:* [Guru/Cheet-Sheets: chmod](https://github.com/inkVerb/Guru/blob/master/Cheat-Sheets/chmod)
 
-#### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-04.md)
+#### [Lesson 5: adduser, deluser, chown](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-05.md)
