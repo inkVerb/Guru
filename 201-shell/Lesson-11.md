@@ -35,6 +35,8 @@ ___
 > `exit`
 > ___
 
+*This is a great tool to change settings from the terminal:* `gsettings`
+
 `man gsettings`
 
 *This is a how-to manual for a terminal program that manages settings for the desktop environment*
@@ -43,19 +45,19 @@ ___
 
 *You can use* `man` *or* `info`
 
-`man gsettings`
-
 `info gsettings`
 
 *The* `man` *are* `info`*tools are useful for many things*
+
+*Consider* `lsb_release` *which shows detailed information about your current Linux distribution*
 
 `man lsb_release`
 
 `info lsb_release`
 
-`man tcdump`
+`man tcpdump`
 
-`info tcdump`
+`info tcpdump`
 
 `man netstat`
 
@@ -78,5 +80,8 @@ ___
 `man imagemagick`
 
 `info imagemagick`
+
+*Note* `imagemagick` *changes images from the terminal, learn to use at:*
+- [www.imagemagick.org/Usage](http://www.imagemagick.org/Usage/)
 
 #### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-12.md)
