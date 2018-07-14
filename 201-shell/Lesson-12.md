@@ -152,7 +152,13 @@ ___
 
 *Options listed at the bottom*
 
-*Tip:* ^ = Ctrl
+*Tip:*  ^ = Ctrl
+*Tip:* M- = Alt
+
+*Take note of:* ^K ^W ^O ^X M-U
+
+*Note* ^Z *will "stop" the nano session, not "undo"*
+- If you ^Z back to the terminal, use `fg` from [Shell 101 Lesson 0](https://github.com/inkVerb/Guru/blob/master/101-shell/Lesson-00.md)
 
 ### vi (Vim)
 
@@ -160,11 +166,13 @@ ___
 
 `vi verb.ink.html`
 
-*To quit, type these to characters:* : Q
+*To quit, type these to characters:*
+
+:q
 
 *Vim has a tutorial*
 
-`vimtutor` *( :Q to quit)*
+`vimtutor` *( :q to quit)*
 
 *Have fun!*
 
