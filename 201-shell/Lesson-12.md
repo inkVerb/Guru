@@ -16,19 +16,19 @@ ___
 
 *One page at a time: Spacebar*
 
+*One line at a time: Enter*
+
 `more verb.ink.html`
 
 *Eight lines at a time*
 
-`more -8 verb.ink.html`
+`more -8 verb.ink.html` *(Q to quit)*
 
 ### less
 
 *Up and down: Spacebar, PageUp, PageDown, Up, Down*
 
-`less verb.ink.html`
-
-*To quit, type Q*
+`less verb.ink.html` *(Q to quit)*
 
 ### head
 
@@ -137,6 +137,12 @@ ___
 *Ignore blank lines with* `-B`
 
 `diff -B frc-1 frc-2`
+
+*There is always more to learn*
+
+`man diff` *(Q to quit)*
+
+`cd ..`
 
 ### nano
 
