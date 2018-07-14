@@ -68,17 +68,9 @@ ___
 
 *First,* `wget` *some files*
 
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-1`
+`git clone https://github.com/inkVerb/201-12`
 
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-2`
-
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-3`
-
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-4`
-
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-5`
-
-`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-6`
+`cd 201-12`
 
 *Look inside*
 
