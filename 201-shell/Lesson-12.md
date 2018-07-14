@@ -64,13 +64,97 @@ ___
 
 `man sort` *(Q to quit)*
 
+### diff
+
+*First,* `wget` *some files*
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-1`
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-2`
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-3`
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-4`
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-5`
+
+`wget https://github.com/inkVerb/Guru/blob/master/201-shell/frc-6`
+
+*Look inside*
+
+`gedit frc-*`
+
+*Compare 1 & 2*
+
+`diff frc-1 frc-2`
+
+*Note* "a" *means that lines are* "Added"
+
+`diff frc-1 frc-3`
+
+*Note* "d" *means that lines are* "Deleted"
+
+`diff frc-1 frc-4`
+
+*Note* "c" *means that the lines* "Change"
+
+*Note* "13,17" *means* "lines 13–17"
+
+`diff frc-1 frc-5`
+
+*Note* frc-5 line 3 *has several spaces at the end of the line; ignore with* `-Z`
+
+`diff -Z frc-1 frc-5`
+
+*Ignore all white space with* `-w`
+
+`diff -w frc-1 frc-5`
+
+*Ignore case with* `-i`
+
+`diff -i frc-1 frc-5`
+
+*Ignore case and white space with* `-iw`
+
+`diff -iw frc-1 frc-5`
+
+*Note nothing happens if files are the same*
+
+`diff frc-1 frc-6`
+
+*Get a message to say so with* `-s`
+
+`diff -s frc-1 frc-6`
+
+*Combine* `-s` *with other options*
+
+`diff -iws frc-1 frc-5`
+
+*Get a quiet message if files differ*
+
+`diff -q frc-1 frc-4`
+
+*Compare side-by-side wtih* `-y`
+
+`diff -y frc-1 frc-4`
+
+*Remember* frc-2
+
+`diff frc-1 frc-2`
+
+*Ignore blank lines with* `-B`
+
+`diff -B frc-1 frc-2`
+
 ### nano
 
 *The simple text editor in the terminal*
 
 `nano verb.ink.html`
 
-*Options listed at the bottom* *Tip:* ^ = Ctrl
+*Options listed at the bottom*
+
+*Tip:* ^ = Ctrl
 
 ### vi (Vim)
 
