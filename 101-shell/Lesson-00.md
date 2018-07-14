@@ -39,7 +39,27 @@ ___
 
 *Terminal: Ctrl + C*
 
-*Note gedit closed and the terminal registers gedit "Done"*
+*Note gedit closed*
+
+`jobs`
+
+*Note gedit either does not register or registers "Done"*
+
+`gedit`
+
+*Terminal: Ctrl + Z*
+
+`jobs`
+
+*This is how to kill job number 1:*
+
+`kill %1`
+
+*Note gedit closed*
+
+`jobs`
+
+*Note the terminal registeres gedit "Terminated"*
 
 *Start gedit so it does not occupy the terminal foreground*
 

@@ -159,7 +159,7 @@ ___
 *Take note of:* ^K ^W ^O ^X M-U
 
 *Note* ^Z *will "stop" the nano session, not "undo"*
-- If you ^Z back to the terminal, use `fg` from [Shell 101 Lesson 0](https://github.com/inkVerb/Guru/blob/master/101-shell/Lesson-00.md)
+- If you ^Z back to the terminal, resume with `fg nano`, see [Shell 101 Lesson 0](https://github.com/inkVerb/Guru/blob/master/101-shell/Lesson-00.md)
 
 ### vi (Vim)
 
