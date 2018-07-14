@@ -84,4 +84,4 @@ ___
 *Note* `imagemagick` *changes images from the terminal, learn to use at:*
 - [www.imagemagick.org/Usage](http://www.imagemagick.org/Usage/)
 
-#### [Lesson 12: more, less, head, tail, sort, nano, vi](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-12.md)
+#### [Lesson 12: more, less, head, tail, sort, diff, nano, vi](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-12.md)

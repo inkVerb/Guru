@@ -1,5 +1,5 @@
 # Shell 201
-## Lesson 12: more, less, head, tail, sort, nano, vi
+## Lesson 12: more, less, head, tail, sort, diff, nano, vi
 
 `cd ~/Work/Guru/shell/201`
 
@@ -52,7 +52,7 @@ ___
 
 ### sort
 
-*Lines in alphabetical order*
+*Lines in alphabetical order*https://github.com/inkVerb/Guru/blob/master/101-shell/Lesson-00.md
 
 `sort verb.ink.html`
 
@@ -153,6 +153,7 @@ ___
 *Options listed at the bottom*
 
 *Tip:*  ^ = Ctrl
+
 *Tip:* M- = Alt
 
 *Take note of:* ^K ^W ^O ^X M-U
