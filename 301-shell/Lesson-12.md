@@ -34,15 +34,21 @@ ___
 
 `gedit 12-flags-1`
 
-`./12-flags-1 -h`
+*Note on line 12*
+- `:` first means that `?` will be assigned to any flag not listed
+- `:` after any letter means that the letter's flag will take an option set as `$OPTARG` in the `while getopts` loop
 
-`./12-flags-1 -a Alpha -b Beta -c Something -d Dunno`
+`./12-flags-1 -h` (help)
 
-`./12-flags-1 -a Alpha -b Beta -c C Something -d Dunno`
+`./12-flags-1 -j` (not a valid flag)
 
-`./12-flags-1 -a Alpha -b Beta -c "C Something" -d Dunno`
+`./12-flags-1 -a Alpha -b Beta -c Charlie -d Dogma`
 
-`./12-flags-1  -b Beta -a Alpha -d "Do Dunno" -c "C Something" `
+`./12-flags-1 -a Alpha -b Beta -c C Charlie -d Dogma`
+
+`./12-flags-1 -a Alpha -b Beta -c "C Charlie" -d Dogma`
+
+`./12-flags-1  -b Beta -a Alpha -d "Do Dogma" -c "C Charlie" `
 
 `gedit 12-flags-2`
 
@@ -57,6 +63,26 @@ ___
 `./12-flags-2 -abcd "Dunno Dumbo"`
 
 `./12-flags-2 -abcd 'Dunno Dumbo'`
+
+`./12-flags-2 -b`
+
+`./12-flags-2 -r`
+
+`./12-flags-2 -h`
+
+`gedit 12-flags-3`
+
+`./12-flags-3 -a Alpha -bcd Bogma`
+
+`./12-flags-3 -a Alpha -e "Emancipation" -bcd Bogma`
+
+`./12-flags-3 -e "Emancipation" -bcd Bogma -a Alpha`
+
+`./12-flags-3 -a`
+
+`./12-flags-3 -k`
+
+`./12-flags-3 -h`
 
 ### DEV NOTE:
 Also consult:
