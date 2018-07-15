@@ -16,6 +16,18 @@ ___
 
 *You must use numbers to make your selection*
 
+*(3 to quit)*
+
+*You can* `echo` *your answer in advance*
+
+`echo 2 | ./12-menu`
+
+`echo 1 | ./12-menu`
+
+`echo 3 | ./12-menu`
+
+*Auto-answer works wtih most shell commands:* `echo "y" | SHELL-COMMAND`
+
 ### II. `getopts`
 
 #### Note: `$OPTARG` & `$OPTIND` are native variables for `getopts`
@@ -56,23 +68,6 @@ Also consult:
 
 - dialog https://www.youtube.com/watch?v=A_QErp5C-z0
 
-
-### auto answer:
-- echo "y" | shell-command
-
 # Done! Have a cookie: ### #
-
-Oh, what's this?
-
-Send error messages into the nothingness void by putting this on the end:
-
-`> /dev/null 2>&1`
-
-Try:
-
-`ls dumbo`
-
-`ls dumbo > /dev/null 2>&1`
-
 
 

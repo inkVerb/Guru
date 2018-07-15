@@ -67,6 +67,12 @@ ___
 https://www.cyberciti.biz/faq/linux-redirect-error-output-to-file/
 https://stackoverflow.com/questions/28193220/how-can-i-log-error-from-my-script-sh-every-time-i-run-the-script-sh-and-save-ou
 
+*Send error messages into the nothingness by appending this to the end:* `> /dev/null 2>&1`
+
+`ls dumbo`
+
+`ls dumbo > /dev/null 2>&1`
+
 ### IV. `case` `y/n` loop & `exit 1`
 
 `gedit 06-case-yn-loop`
