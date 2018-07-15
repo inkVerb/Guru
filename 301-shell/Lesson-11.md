@@ -42,4 +42,4 @@ Then, call the function with its name...
 
 `./11-function-breakdown`
 
-#### [Lesson 12: BASH select & getopts](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
+#### [Lesson 12: BASH select, getopts & dialog](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
