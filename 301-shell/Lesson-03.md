@@ -8,7 +8,7 @@
 `nautilus . &`
 ___
 
-### *Note* `for - in -` *loops can't accept variables*
+### *Note* `for VAR in WUT` *statements reassign 'VAR' as a changing varable and thus runs 'do' for each item occuring in 'WUT'*
 
 `ls`
 
@@ -88,10 +88,38 @@ one-1*
 
 `ls`
 
+*Make a backup of today's work*
+
+`mkdir -p 03-TWO`
+
+`mv *TWO* 03-TWO/`
+
+*Delete*
+
 `gedit 03-do-rm`
 
 `./03-do-rm`
 
 `ls`
+
+`./03-do-odt2txt-1`
+
+`ls`
+
+`lowriter *.odt &`
+
+`gedit *.txt`
+
+*Note, this method didn't work*
+
+`./03-do-odt2txt-2`
+
+*gedit: Reload both .txt files*
+
+`./03-do-odt2txt-3`
+
+*gedit: Reload both .txt files*
+
+`mv *.txt 03-TWO/`
 
 #### [Lesson 4: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)
