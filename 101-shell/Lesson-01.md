@@ -10,21 +10,31 @@ ___
 
 `echo "No destination? Output to terminal, just like this."`
 
-`echo "Designate a file? Output goes to the file, just like this." > abcd`
+*The "output" you see in the terminal is called:* "STDOUT"
 
-`gedit abcd`
+*The "input" you enter into the terminal is called:* "STDIN"
+
+*Below, the* STDIN *is* `echo "Hello ink!"` *and the* STDOUT *is* `Hello ink!`
+
+`echo "Hello ink!"`
 
 `echo "abcdefghijklmnopqrstuvwxyz"`
 
-*See, there's nothing here*
+`ls`
+
+*See, there are no files here*
+
+*We can send* STDOUT *to a file with:* `> MYFILE`
+
+`echo "Designate a file? Output goes to the file, just like this." > abcd`
 
 `ls`
+
+*See, now there's a new file here*
+
+`gedit abcd`
 
 `echo "abcdefghijklmnopqrstuvwxyz" > abcd`
-
-`ls`
-
-*See, now there's something here*
 
 *gedit: Reload*
 

@@ -78,15 +78,37 @@ ___
 
 `./12-flags-3 -e "Emancipation" -bcd Bogma -a Alpha`
 
+*Note anything after the -bcd options is ignored because they accept a global argument, be aware when combining specific options and global options*
+
 `./12-flags-3 -a`
 
 `./12-flags-3 -k`
 
 `./12-flags-3 -h`
 
+*Note the global option was removed, and* `--long` *alternative options are included*
+
+*Note* `getops` *only accepts one-letter options,* `getopt` *is for* `--long` *options and requires more variables and checks*
+
+`gedit 12-flags-4`
+
+`./12-flags-4 -a Alpha -bcde`
+
+`./12-flags-4 --alpha Alpha --beetle --charlie --delta --ecko`
+
+`./12-flags-4 --alpha Alpha -bcd --ecko`
+
+`./12-flags-4 -a Alpha --beetle --charlie --delta -e`
+
+`./12-flags-4 -k`
+
+`./12-flags-4 -h`
+
 ### DEV NOTE:
 Also consult:
-- https://gist.github.com/cosimo/3760587 (for 12-flags-3)
+- BETTER: https://gist.github.com/magnetikonline/22c1eb412daa350eeceee76c97519da8 (for 12-flags-4)
+- https://gist.github.com/cosimo/3760587 (for 12-flags-4)
+- https://stackoverflow.com/questions/402377/using-getopts-in-bash-shell-script-to-get-long-and-short-command-line-options (for 12-flags-4)
 - https://stackoverflow.com/questions/16483119/an-example-of-how-to-use-getopts-in-bash?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 - https://stackoverflow.com/questions/18414054/bash-getopts-reading-optarg-for-optional-flags?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 

@@ -52,7 +52,7 @@ ___
 
 ### sort
 
-*Lines in alphabetical order*https://github.com/inkVerb/Guru/blob/master/101-shell/Lesson-00.md
+*Lines in alphabetical order*
 
 `sort verb.ink.html`
 
