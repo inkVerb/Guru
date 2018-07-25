@@ -100,11 +100,15 @@ ___
 
 `./12-flags-4 --alpha Alpha -bcd --ecko`
 
-`./12-flags-4 -a Alpha --beetle --charlie --delta -e`
+`./12-flags-4 -a Alpha --beetle --delta -e --charlie`
 
-`./12-flags-4 -k`
+*Note both short and long are accepted*
 
-`./12-flags-4 -h`
+`./12-flags-4 -k` (invalid option)
+
+`./12-flags-4` (no options)
+
+`./12-flags-4 --help`
 
 ### DEV NOTE:
 Also consult:
