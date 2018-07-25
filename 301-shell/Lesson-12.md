@@ -92,9 +92,11 @@ ___
 
 `gedit 12-flags-4`
 
-`./12-flags-4 -a Alpha -bcde`
+`./12-flags-4 -a Alpha -bce`
 
-`./12-flags-4 --alpha Alpha --beetle --charlie --delta --ecko`
+`./12-flags-4 --alpha Alpha --ecko --delta --beetle --charlie `
+
+*Note the order no longer matters since everything is done by* `if` *statements in order*
 
 `./12-flags-4 --alpha Alpha -bcd --ecko`
 
