@@ -98,4 +98,4 @@ ___
 
 `./02-line greatagain`
 
-#### [Lesson 2: else & elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
+#### [Lesson 2: EMPTY](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
