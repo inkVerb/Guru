@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 12: BASH select, getopts & dialog
+## Lesson 12: BASH select, getopts, getopt & SH dialog
 
 `cd ~/Work/Guru/shell/301`
 
@@ -86,31 +86,35 @@ ___
 
 `./12-flags-3 -h`
 
-*Note the global option was removed, and* `--long` *alternative options are included*
+### III. `getopt`
 
 *Note* `getops` *only accepts one-letter options,* `getopt` *is for* `--long` *options and requires more variables and checks*
 
-`gedit 12-flags-4`
+`gedit 12-long`
 
-`./12-flags-4 -a Alpha -bce`
+*Note* `--long` *alternative options are included*
 
-`./12-flags-4 --alpha Alpha --ecko --delta --beetle --charlie `
+*Note the global option was removed since* `getopt` *checks requirements by itself*
 
-*Note the order no longer matters since everything is done by* `if` *statements in order*
+`./12-long -a Alpha -bce`
 
-`./12-flags-4 --alpha Alpha -bcd --ecko`
+`./12-long --alpha Alpha --ecko --delta --beetle --charlie `
 
-`./12-flags-4 -a Alpha --beetle --delta -e --charlie`
+*Note the order no longer affects the output since everything is done by* `if` *statements in order, at the end of the script*
+
+`./12-long --alpha Alpha -bcd --ecko`
+
+`./12-long -a Alpha --beetle --delta -e --charlie`
 
 *Note both short and long are accepted*
 
-`./12-flags-4 -k` (invalid option)
+`./12-long -k` (invalid option)
 
-`./12-flags-4` (no options)
+`./12-long` (no options)
 
-`./12-flags-4 --help`
+`./12-long --help`
 
-### III. `dialog`
+### IV. `dialog`
 
 *5 = height; 18 = width*
 

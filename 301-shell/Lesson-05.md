@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 5: while & until
+## Lesson 5: case
 
 `cd ~/Work/Guru/shell/301`
 
@@ -8,46 +8,54 @@
 `nautilus . &`
 ___
 
-### I. `while`
+### I. `case`
 
-`gedit 05-while-question`
+`gedit 06-case-numlett`
 
-*Note -z means "Zero" or "Zip" or "Zilch" for a variable that is empty (This is not the best way to do a -z test, but it's enough to make the point in Shell 301.)*
+`./06-case-numlett 1`
 
-`./05-while-question`
+`./06-case-numlett 2`
 
-*Only press Enter to see what happens again and again, comply or use Ctrl + C to close*
+`./06-case-numlett 3`
 
-`gedit 05-while-count`
+`./06-case-numlett a`
 
-*Note ! means "not"*
+`./06-case-numlett b`
 
-`./05-while-count`
+`./06-case-numlett c`
 
-### II. `until`
+`gedit 06-case-options`
 
-`gedit 05-until-count`
+`./06-case-options`
 
-`ls *.shell`
+*Input any of the following: a, b, v, quit, and others*
 
-`./05-until-count 5 shell`
+`gedit 06-case-chat`
 
-`ls *.shell`
+`./06-case-chat one two three`
 
-`ls *.sixtn`
+*Input any of the following: verb, ink, hi, yoyo, byebye, done, one, two, three, and others*
 
-`./05-until-count 16 sixtn`
+`./06-case-chat apple pineapple pen`
 
-`ls *.sixtn`
+*Input any of the following: verb, ink, hi, yoyo, byebye, done, apple, pineapple, pen, and others*
 
-`gedit 05-until-question`
+### II. `case` with `y/n`
 
-`./05-until-question werdup`
+`gedit 06-case-yn`
 
-*Input wrong "passwords" to see what it does, input "werdup" or use Ctrl + C to close*
+`./06-case-yn`
 
-`./05-until-question thepassword`
+*Run it multiple times with: y, n, Y, N, Yes, No, yes, no, YES, NO, yES, nO, yeS, yEs, and other answers*
 
-*Input wrong "passwords" to see what it does, input "thepassword" or use Ctrl + C to close*
+### III. `case` `y/n` loop & `exit 1`
 
-#### [Lesson 6: case, exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
+`gedit 06-case-yn-loop`
+
+*Note* `exit 1` *will produce* STDOUT *to* `1>` *but* `exit 0` *has no output just as* `2>` *is from an unwritten* `exit 2` *event*
+
+`./06-case-yn-loop`
+
+*Input "wrong" answers to see it loop*
+
+#### [Lesson 6: exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)

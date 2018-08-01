@@ -17,17 +17,17 @@
 
 `cd 301`
 
-### [Lesson 1: if then fi else elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-01.md)
+### [Lesson 1: if then fi, else & elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-01.md)
 
-### [Lesson 2: EMPTY](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
+### [Lesson 2: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
 
-### [Lesson 3: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
+### [Lesson 3: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
 
-### [Lesson 4: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)
+### [Lesson 4: while & until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)
 
-### [Lesson 5: while & until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-05.md)
+### [Lesson 5: case](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-05.md)
 
-### [Lesson 6: case, exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
+### [Lesson 6: exit & journalctl](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-06.md)
 
 ### [Lesson 7: Combo && || Include](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-07.md)
 
@@ -39,7 +39,7 @@
 
 ### [Lesson 11: BASH Functions](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-11.md)
 
-### [Lesson 12: BASH select, getopts & dialog](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
+### [Lesson 12: BASH select, getopts, getopt & SH dialog](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-12.md)
 ___
 
 # In Progress To-Do List

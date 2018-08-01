@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 1: if then fi else elif
+## Lesson 1: if then fi, else & elif
 
 `cd ~/Work/Guru/shell/301`
 
@@ -44,58 +44,58 @@ ___
 
 `./01-if-dir otherdir`
 
-### I. `else`
+### II. `else`
 
-`gedit 02-if-else-file`
+`gedit 01-if-else-file`
 
-`./02-if-else-file myfile`
+`./01-if-else-file myfile`
 
-`./02-if-else-file otherfile`
+`./01-if-else-file otherfile`
 
-`gedit 02-if-else-dir`
+`gedit 01-if-else-dir`
 
-`./02-if-else-dir mydir`
+`./01-if-else-dir mydir`
 
-`./02-if-else-dir otherdir`
+`./01-if-else-dir otherdir`
 
-`gedit 02-if-else-e`
+`gedit 01-if-else-e`
 
-`./02-if-else-e myfile`
+`./01-if-else-e myfile`
 
-`./02-if-else-e otherfile`
+`./01-if-else-e otherfile`
 
-`./02-if-else-e mydir`
+`./01-if-else-e mydir`
 
-`./02-if-else-e otherdir`
+`./01-if-else-e otherdir`
 
-### II. `elif`
+### III. `elif`
 
-`gedit 02-if-elif`
+`gedit 01-if-elif`
 
-`./02-if-elif`
+`./01-if-elif`
 
-`./02-if-elif yoyo`
+`./01-if-elif yoyo`
 
-`./02-if-elif iamhere`
+`./01-if-elif iamhere`
 
-`./02-if-elif mydir`
+`./01-if-elif mydir`
 
-`./02-if-elif`
+`./01-if-elif`
 
-`gedit 02-lines`
+`gedit 01-lines`
 
-`./02-lines`
+`./01-lines`
 
-`./02-lines yoyo`
+`./01-lines yoyo`
 
-`./02-lines urtheir`
+`./01-lines urtheir`
 
-`gedit 02-line`
+`gedit 01-line`
 
-`./02-line`
+`./01-line`
 
-`./02-line yoyo`
+`./01-line yoyo`
 
-`./02-line greatagain`
+`./01-line greatagain`
 
-#### [Lesson 2: EMPTY](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
+#### [Lesson 2: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
