@@ -18,69 +18,69 @@ ___
 
 one*
 
-`gedit 03-do-echo-1`
+`gedit 02-do-echo-1`
 
-`./03-do-echo-1`
+`./02-do-echo-1`
 
 one-1*
 
-`gedit 03-do-echo-2`
+`gedit 02-do-echo-2`
 
-`./03-do-echo-2`
+`./02-do-echo-2`
 
 *.one
 
-`gedit 03-do-echo-3`
+`gedit 02-do-echo-3`
 
-`./03-do-echo-3`
+`./02-do-echo-3`
 
 *t.one
 
-`gedit 03-do-echo-4`
+`gedit 02-do-echo-4`
 
-`./03-do-echo-4`
+`./02-do-echo-4`
 
 3.*
 
-`gedit 03-do-echo-5`
+`gedit 02-do-echo-5`
 
-`./03-do-echo-5`
+`./02-do-echo-5`
 
 \*3*
 
-`gedit 03-do-echo-6`
+`gedit 02-do-echo-6`
 
-`./03-do-echo-6`
+`./02-do-echo-6`
 
 \*one* "is a file."
 
-`gedit 03-do-echo-7`
+`gedit 02-do-echo-7`
 
-`./03-do-echo-7`
+`./02-do-echo-7`
 
 *.one %one
 
-`gedit 03-do-echo-8`
+`gedit 02-do-echo-8`
 
-`./03-do-echo-8`
+`./02-do-echo-8`
 
 *t.one %t.one
 
-`gedit 03-do-echo-9`
+`gedit 02-do-echo-9`
 
-`./03-do-echo-9`
-
-`ls`
-
-`gedit 03-do-mv-1`
-
-`./03-do-mv-1`
+`./02-do-echo-9`
 
 `ls`
 
-`gedit 03-do-mv-2`
+`gedit 02-do-mv-1`
 
-`./03-do-mv-2`
+`./02-do-mv-1`
+
+`ls`
+
+`gedit 02-do-mv-2`
+
+`./02-do-mv-2`
 
 `ls`
 
@@ -90,19 +90,19 @@ one-1*
 
 *Make a backup of today's work*
 
-`mkdir -p 03-TWO`
+`mkdir -p 02-TWO`
 
-`mv *TWO* 03-TWO/`
+`mv *TWO* 02-TWO/`
 
 *Delete*
 
-`gedit 03-do-rm`
+`gedit 02-do-rm`
 
-`./03-do-rm`
+`./02-do-rm`
 
 `ls`
 
-`./03-do-odt2txt-1`
+`./02-do-odt2txt-1`
 
 `ls`
 
@@ -112,14 +112,14 @@ one-1*
 
 *Note, this method didn't work*
 
-`./03-do-odt2txt-2`
+`./02-do-odt2txt-2`
 
 *gedit: Reload both .txt files*
 
-`./03-do-odt2txt-3`
+`./02-do-odt2txt-3`
 
 *gedit: Reload both .txt files*
 
-`mv *.txt 03-TWO/`
+`mv *.txt 02-TWO/`
 
 #### [Lesson 3: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)

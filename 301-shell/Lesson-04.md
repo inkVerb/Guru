@@ -10,43 +10,43 @@ ___
 
 ### I. `while`
 
-`gedit 05-while-question`
+`gedit 04-while-question`
 
 *Note -z means "Zero" or "Zip" or "Zilch" for a variable that is empty (This is not the best way to do a -z test, but it's enough to make the point in Shell 301.)*
 
-`./05-while-question`
+`./04-while-question`
 
 *Only press Enter to see what happens again and again, comply or use Ctrl + C to close*
 
-`gedit 05-while-count`
+`gedit 04-while-count`
 
 *Note ! means "not"*
 
-`./05-while-count`
+`./04-while-count`
 
 ### II. `until`
 
-`gedit 05-until-count`
+`gedit 04-until-count`
 
 `ls *.shell`
 
-`./05-until-count 5 shell`
+`./04-until-count 5 shell`
 
 `ls *.shell`
 
 `ls *.sixtn`
 
-`./05-until-count 16 sixtn`
+`./04-until-count 16 sixtn`
 
 `ls *.sixtn`
 
-`gedit 05-until-question`
+`gedit 04-until-question`
 
-`./05-until-question werdup`
+`./04-until-question werdup`
 
 *Input wrong "passwords" to see what it does, input "werdup" or use Ctrl + C to close*
 
-`./05-until-question thepassword`
+`./04-until-question thepassword`
 
 *Input wrong "passwords" to see what it does, input "thepassword" or use Ctrl + C to close*
 
