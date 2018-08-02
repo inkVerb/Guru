@@ -84,6 +84,10 @@ ___
 
 `gedit 01-lines`
 
+### IV. Organize with `;`
+
+*Note* `;` *means "new line of logic" and whitespace at the beginning of lines is ignored*
+
 `./01-lines`
 
 `./01-lines yoyo`
