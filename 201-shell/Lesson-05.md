@@ -46,7 +46,7 @@ ___
 
 `chown pinkypurple:pinkypurple youown`
 
-*Note the error message because you don't own it anymore!* `chown` *requires* `sudo`
+*Note the error message because* `chown` *requires* `sudo`
 
 `sudo chown pinkypurple:pinkypurple youown` *Enter your password*
 
@@ -68,7 +68,7 @@ ___
 
 `rm youown`
 
-*Note the error message because you don't own it anymore!*
+*Note the error message because you don't own it anymore! Use* `sudo`
 
 `sudo rm youown`
 
@@ -157,7 +157,7 @@ ___
 > 
 > `chown pinkypurple:pinkypurple youown`
 > 
-> *Note the error message because you don't own it anymore!* `chown` *requires "root" AKA* `sudo` *or* `su`
+> *Note the error message because `chown` *requires "root" AKA* `sudo` *or* `su`
 > 
 > `su` *input the password*
 > 
