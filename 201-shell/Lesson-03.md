@@ -32,7 +32,7 @@ ___
 
 *You can install more than one package...*
 
-*Install the* `curl` `net-tools` and `htop` *packages* (the command `netstat` comes from the package `net-tools`)
+*Install the* `curl` `net-tools` `htop` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
 
 `sudo apt install -y curl net-tools htop pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 
@@ -56,9 +56,9 @@ ___
 > 
 > *You can install more than one package...*
 > 
-> *Install the* `curl` `net-tools` and `htop` *packages* (the command `netstat` comes from the package `net-tools`)
+> *Install the* `curl` `net-tools` `htop` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
 > 
-> `apt install -y curl net-tools htop` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+> `apt install -y curl net-tools htop pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 > 
 > `exit`
 > ___
