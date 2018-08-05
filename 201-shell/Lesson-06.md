@@ -120,7 +120,7 @@ ___
 
 `rm -r vrk`
 
-*Note the error message; you don't own it!*
+*Note the error message; you don't own it!* (Ctrl + C to get out of there!)
 
 `sudo rm -r vrk`
 
