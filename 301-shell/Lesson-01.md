@@ -14,11 +14,11 @@ ___
 
 `./01-if-file`
 
-*Note it says nothing*
+*Note it says "Yes." because "nothing" technically exists*
 
 `./01-if-file myfile`
 
-*Note it still says nothing*
+*Note it says nothing because "myfile" does not exist*
 
 `ls`
 
@@ -82,9 +82,9 @@ ___
 
 `./01-if-elif`
 
-`gedit 01-lines`
-
 ### IV. `;` & Whitespace
+
+`gedit 01-lines`
 
 *Note* `;` *means "new line of logic" and whitespace at the beginning of lines is ignored*
 
