@@ -10,7 +10,7 @@ ___
 
 ### I. `odt2txt`
 
-*Convert a .odt file to .txt*
+*Convert .odt files to .txt*
 
 `ls`
 
