@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 3: sleep & read
+## Lesson 3: odt2txt, sleep & read
 
 `cd ~/Work/Guru/shell/301`
 
@@ -7,6 +7,52 @@
 
 `nautilus . &`
 ___
+
+### I. `odt2txt`
+
+*Convert a .odt file to .txt*
+
+`ls`
+
+`lowriter *.odt &` (may need a few seconds)
+
+`odt2txt 02-ODT-FILE.odt`
+
+`ls`
+
+*See, it created a new .txt file*
+
+`cat 02-ODT-FILE.txt`
+
+*Delete the .txt file*
+
+`rm 02-ODT-FILE.txt`
+
+`gedit 03-do-odt2txt-1`
+
+`./03-do-odt2txt-1`
+
+`ls`
+
+`gedit 02-ODT-*.txt`
+
+*Note, this method didn't work*
+
+`./03-do-odt2txt-2`
+
+*gedit: Reload both .txt files*
+
+`./03-do-odt2txt-3`
+
+*gedit: Reload both .txt files*
+
+*Backup today's work*
+
+`mkdir 03-ODT`
+
+`mv 03-ODT-*.txt 03-ODT/`
+
+### II. `sleep`
 
 `sleep 1`
 
@@ -19,6 +65,8 @@ ___
 `gedit 03-sleep-2`
 
 `./03-sleep-2 "I like apples."`
+
+### III. `read`
 
 `read`
 
