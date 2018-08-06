@@ -110,4 +110,4 @@ one-1*
 
 `ls`
 
-#### [Lesson 3: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
+#### [Lesson 3: odt2txt, sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
