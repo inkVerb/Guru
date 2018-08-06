@@ -8,6 +8,8 @@
 `nautilus . &`
 ___
 
+### I. `for VAR in WUT; do`
+
 ### *Note* `for VAR in WUT` *statements reassign 'VAR' as a changing varable and thus runs 'do' for each item occuring in 'WUT'*
 
 `ls`
@@ -58,6 +60,8 @@ one-1*
 
 `./02-do-echo-7`
 
+### II. Replacing within Variables
+
 *.one %one
 
 `gedit 02-do-echo-8`
@@ -71,6 +75,8 @@ one-1*
 `./02-do-echo-9`
 
 `ls`
+
+### III. Renaming Multiple Files at Once
 
 `gedit 02-do-mv-1`
 
@@ -100,7 +106,13 @@ one-1*
 
 `./02-do-rm`
 
+*Ignore the directory error because we want to keep that directory*
+
 `ls`
+
+### IV. `odt2txt`
+
+`gedit 02-do-odt2txt-1`
 
 `./02-do-odt2txt-1`
 
@@ -108,7 +120,7 @@ one-1*
 
 `lowriter *.odt &`
 
-`gedit *.txt`
+`gedit 02-ODT-*.txt`
 
 *Note, this method didn't work*
 
@@ -120,6 +132,6 @@ one-1*
 
 *gedit: Reload both .txt files*
 
-`mv *.txt 02-TWO/`
+`mv 02-ODT-*.txt 02-TWO/`
 
 #### [Lesson 3: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
