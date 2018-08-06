@@ -48,7 +48,7 @@ ___
 
 `gedit 03-ODT-*.txt`
 
-*Note, this method didn't work*
+*Note the files are empty, this method didn't work*
 
 `./03-do-odt2txt-2`
 
