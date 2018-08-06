@@ -20,7 +20,7 @@ ___
 
 `ls`
 
-*See, it created a new .txt file*
+*Note it created a new .txt file*
 
 `cat 02-ODT-FILE.txt`
 
