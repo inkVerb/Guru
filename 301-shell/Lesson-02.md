@@ -110,28 +110,4 @@ one-1*
 
 `ls`
 
-### IV. `odt2txt`
-
-`gedit 02-do-odt2txt-1`
-
-`./02-do-odt2txt-1`
-
-`ls`
-
-`lowriter *.odt &`
-
-`gedit 02-ODT-*.txt`
-
-*Note, this method didn't work*
-
-`./02-do-odt2txt-2`
-
-*gedit: Reload both .txt files*
-
-`./02-do-odt2txt-3`
-
-*gedit: Reload both .txt files*
-
-`mv 02-ODT-*.txt 02-TWO/`
-
 #### [Lesson 3: sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
