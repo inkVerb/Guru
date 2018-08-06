@@ -14,19 +14,31 @@ ___
 
 `ls`
 
-`lowriter *.odt &` (may need a few seconds)
+`lowriter *.odt &` (may need a few seconds to load, then press Enter)
 
-`odt2txt 02-ODT-FILE.odt`
+*Note the contents of the .odt files*
+
+`odt2txt 03-ODT-FILE.odt`
+
+*Note the error because LibreOffice Writer is running, close them wtih this simple hack:*
+
+`killall soffice.bin`
+
+*Now, try again*
+
+`odt2txt 03-ODT-FILE.odt`
 
 `ls`
 
-*Note it created a new .txt file*
+*Note it created "03-ODT-FILE.txt"*
 
-`cat 02-ODT-FILE.txt`
+`cat 03-ODT-FILE.txt`
 
 *Delete the .txt file*
 
-`rm 02-ODT-FILE.txt`
+`rm 03-ODT-FILE.txt`
+
+*Now, use* `odt2txt` *in a* `for` `...` `do` *loop*
 
 `gedit 03-do-odt2txt-1`
 
@@ -34,7 +46,7 @@ ___
 
 `ls`
 
-`gedit 02-ODT-*.txt`
+`gedit 03-ODT-*.txt`
 
 *Note, this method didn't work*
 

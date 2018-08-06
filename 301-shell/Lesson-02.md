@@ -10,7 +10,7 @@ ___
 
 ### I. `for VAR in WUT; do`
 
-### *Note* `for VAR in WUT` *statements reassign 'VAR' as a changing varable and thus runs 'do' for each item occuring in 'WUT'*
+### *Note* `for VAR in WUT` *statements reassign '$VAR' as a changing varable and thus runs `do` for each item occuring in 'WUT'*
 
 `ls`
 
