@@ -20,7 +20,7 @@ ___
 
 `odt2txt 03-ODT-FILE.odt`
 
-*Note the error because LibreOffice Writer is running, close them wtih this simple hack:*
+*If you revieve an error because LibreOffice Writer is running, close all LO Writer sessions wtih this simple hack:*
 
 `killall soffice.bin`
 
@@ -30,7 +30,7 @@ ___
 
 `ls`
 
-*Note it created "03-ODT-FILE.txt"*
+*Note it either echoed the STDOUT in the terminal or created "03-ODT-FILE.txt"*
 
 `cat 03-ODT-FILE.txt`
 
@@ -48,11 +48,15 @@ ___
 
 `gedit 03-ODT-*.txt`
 
-*Note the files are empty, this method didn't work*
+*Note the files are either empty or on one line because we used* `echo`*, this method didn't work*
+
+`gedit 03-do-odt2txt-2`
 
 `./03-do-odt2txt-2`
 
 *gedit: Reload both .txt files*
+
+`gedit 03-do-odt2txt-3`
 
 `./03-do-odt2txt-3`
 
