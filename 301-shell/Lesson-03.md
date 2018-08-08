@@ -20,17 +20,21 @@ ___
 
 `odt2txt 03-ODT-FILE.odt`
 
-*If you revieve an error because LibreOffice Writer is running, close all LO Writer sessions wtih this simple hack:*
+*If you revieve an error because LibreOffice Writer is running, close all LO Writer sessions wtih this simple hack, then try again:*
 
 `killall soffice.bin`
 
-*Now, try again*
+*Now, try this*
 
 `odt2txt 03-ODT-FILE.odt`
 
 `ls`
 
 *Note it either echoed the STDOUT in the terminal or created "03-ODT-FILE.txt"*
+
+*This more surely creates a .txt file:*
+
+`odt2txt 03-ODT-FILE.odt > 03-ODT-FILE.txt`
 
 `cat 03-ODT-FILE.txt`
 
