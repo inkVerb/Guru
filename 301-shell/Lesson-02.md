@@ -13,7 +13,7 @@ ___
 ### *Note* `for VAR in WUT` *statements reassign '$VAR' as a changing varable and thus runs `do` for each item occuring in 'WUT'*
 
 - `VARIABL` sets the variable called with `$VARIABL`...
-- `*.txt` can be anything, usually returning many items
+- `*.txt` can be anything, usually returning many items...
 
 ```sh
 for VARIABL in *.txt
