@@ -14,7 +14,7 @@ ___
 
 - `VARIABL` sets the variable used as `$VARIABL`...
 
-```consol
+```sh
 for VARIABL in *.txt
 
 do
@@ -26,7 +26,7 @@ done
 
 - `${VARIABL%txt}md` will replace "txt" with "md" in the output...
 
-```consol
+```sh
 for VARIABL in *.txt
 
 do
