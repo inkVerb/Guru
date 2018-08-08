@@ -12,27 +12,25 @@ ___
 
 ### *Note* `for VAR in WUT` *statements reassign '$VAR' as a changing varable and thus runs `do` for each item occuring in 'WUT'*
 
-```#!/bin/sh
+`VARIABL` sets the variable used as `$VARIABL`...
 
-for VARIABL in *.txt
+```for VARIABL in *.txt
 
 do
 
 echo $VARIABL
 
-done
-```
+done```
 
-```#!/bin/sh
+Calling the variable `${VARIABL%txt}md` will replace "txt" with "md" in the output
 
-for VARIABL in *.txt
+```for VARIABL in *.txt
 
 do
 
 echo ${VARIABL%txt}md
 
-done
-```
+done```
 
 
 `ls`
