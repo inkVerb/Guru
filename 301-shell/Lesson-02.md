@@ -12,7 +12,7 @@ ___
 
 ### *Note* `for VAR in WUT` *statements reassign '$VAR' as a changing varable and thus runs `do` for each item occuring in 'WUT'*
 
-`VARIABL` sets the variable used as `$VARIABL`...
+- `VARIABL` sets the variable used as `$VARIABL`...
 
 ```for VARIABL in *.txt
 
@@ -23,7 +23,7 @@ echo $VARIABL
 done
 ```
 
-Calling the variable `${VARIABL%txt}md` will replace "txt" with "md" in the output
+- `${VARIABL%txt}md` will replace "txt" with "md" in the output...
 
 ```for VARIABL in *.txt
 
