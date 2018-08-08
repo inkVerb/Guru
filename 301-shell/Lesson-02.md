@@ -20,7 +20,8 @@ do
 
 echo $VARIABL
 
-done```
+done
+```
 
 Calling the variable `${VARIABL%txt}md` will replace "txt" with "md" in the output
 
@@ -30,7 +31,8 @@ do
 
 echo ${VARIABL%txt}md
 
-done```
+done
+```
 
 
 `ls`
