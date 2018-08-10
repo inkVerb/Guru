@@ -6,10 +6,9 @@
 `gedit &`
 
 `nautilus . &`
-___
 
-Refer to [Variables](https://github.com/inkVerb/Guru/blob/master/301-shell/Variables.md)
-
+- [Variables](https://github.com/inkVerb/guru/blob/master/301-shell/Variables.md)
+- [Tests](https://github.com/inkVerb/guru/blob/master/301-shell/Tests.md)
 ___
 
 ### I. `for VAR in WUT; do`

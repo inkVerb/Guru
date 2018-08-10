@@ -6,6 +6,9 @@
 `gedit &`
 
 `nautilus . &`
+
+- [Variables](https://github.com/inkVerb/guru/blob/master/301-shell/Variables.md)
+- [Tests](https://github.com/inkVerb/guru/blob/master/301-shell/Tests.md)
 ___
 
 ### I. `if`
