@@ -35,10 +35,10 @@ read VARIABL
 ```
 ___
 
-### II. `for VAR in WUT` sets '$VAR' as a changing varable and thus runs `do` for each occurrence in 'WUT'
+### II. `for` VAR `in` WUT
 
-- `VARIABL` sets the variable called with `$VARIABL`...
-- `*.txt` can be anything, usually returning many items...
+- `for VARIABL` sets `$VARIABL` as a changing varable for each occurrence in `WUT`
+- `WUT` can be anything, such as files, such as `*.odt` or `*.png`
 
 ```sh
 for VARIABL in *.txt
@@ -49,8 +49,9 @@ echo $VARIABL
 
 done
 ```
-
+- `*.txt` can be anything, usually returning many items...
 - `${VARIABL%txt}md` will replace "txt" with "md" in the output...
+- all of this is used in the `do`... `done` loop
 
 ```sh
 for VARIABL in *.txt
@@ -79,10 +80,14 @@ case ${myChoice} in
 while getopts ":a:b:c:" VARIABL
 ...
 ```
+- Now, `$VARIABL` can be used in the `while getopts`... `case` loop
 
 ### V. `getopt`
-- `getopt` sets a variable in a quoted command using `VAR=$()` or `VAR=`````
+- `getopt` sets a variable in a quoted command using `VAR=$()`
 
 ```sh
-myOptions=`getopt -o a:bcdeh
+VARIABL=$(getopt -o a:bcdeh)
+VARIABL=`getopt -o a:bcdeh` # Same thing
 ...
+```
+- Now, `$VARIABL` can be used in the `while`... `case` loop
