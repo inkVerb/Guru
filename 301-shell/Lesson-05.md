@@ -28,7 +28,8 @@ ___
 
 `./05-case-options`
 
-*Input any of the following: a, b, v, quit, and others*
+*Input any of the following: a, b, f, g, v, z, quit, and others*
+
 
 `gedit 05-case-chat`
 

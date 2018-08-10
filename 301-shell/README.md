@@ -17,6 +17,8 @@
 
 `cd 301`
 
+### [Lesson 0: Cheet Sheets](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-00.md)
+
 ### [Lesson 1: if then fi, else & elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-01.md)
 
 ### [Lesson 2: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)

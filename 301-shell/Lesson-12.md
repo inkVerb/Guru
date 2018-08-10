@@ -34,9 +34,11 @@ ___
 
 `gedit 12-flags-1`
 
-*Note on line 12*
-- `:` first means that `?` will be assigned to any flag not listed
-- `:` after any letter means that the letter's flag will take an option set as `$OPTARG` in the `while getopts` loop
+*Note on line 12* `$OPTIND`
+
+
+*Note on line 20* `:`
+
 
 `./12-flags-1 -h` (help)
 
