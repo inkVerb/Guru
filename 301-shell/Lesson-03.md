@@ -104,17 +104,15 @@ ___
 
 `./03-read-2`
 
-`ls`
-
 `gedit 03-read-3`
 
-*Note -s is for "Silent", no output to the terminal*
+`ls`
 
 `./03-read-3`
 
 `ls`
 
-*See, it created the file*
+*Note it created the file*
 
 `gedit 03-read-4`
 
