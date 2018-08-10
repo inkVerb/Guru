@@ -1,7 +1,7 @@
 # Variables
 ___
 
-### Two ways to create variables
+### I. Two ways to create variables
 1. Declare the variable & value
 
 ```sh
@@ -36,7 +36,7 @@ read VARIABL
 ```
 ___
 
-### *Note* `for VAR in WUT` *statements reassign '$VAR' as a changing varable and thus runs `do` for each item occuring in 'WUT'*
+### II. `for VAR in WUT` sets '$VAR' as a changing varable and thus runs `do` for each occurrence in 'WUT'
 
 - `VARIABL` sets the variable called with `$VARIABL`...
 - `*.txt` can be anything, usually returning many items...
