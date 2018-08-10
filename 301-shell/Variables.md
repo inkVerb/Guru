@@ -1,5 +1,4 @@
 # Variables
-___
 
 ### I. Two ways to create variables
 1. Declare the variable & value
