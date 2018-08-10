@@ -62,3 +62,27 @@ echo ${VARIABL%txt}md
 done
 ```
 ___
+
+### III. `case` $VARIABL `in`
+- `case` uses a varible, but the variable must already be set
+- `case` does NOT set a variable
+
+```sh
+case ${myChoice} in
+...
+```
+
+### IV. `getopts`
+- `getopts` sets a variable in a `while` loop
+
+```sh
+while getopts ":a:b:c:" VARIABL
+...
+```
+
+### V. `getopt`
+- `getopt` sets a variable in a quoted command using `VAR=$()` or `VAR=`````
+
+```sh
+myOptions=`getopt -o a:bcdeh
+...
