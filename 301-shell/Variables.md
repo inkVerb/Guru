@@ -23,7 +23,7 @@ shellcommand VARIABL
 ```
 
 - But, `shellcommand` isn't a real comand
-...here are real examples we will explore...
+...here are real examples...
 
 ```sh
 for VARIABL in *.md
