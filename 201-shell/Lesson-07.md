@@ -127,10 +127,11 @@ ___
 `tar -cf - vrk | xz > vrk.tar.xz`
 
 *Breakdown:*
+- `-c` *"Create" something new*
 - `-f` *"File" output filename will be specified*
 - `-` *placeholder where the output tarball filename normally goes, i.e.* `vrk.tar`
 - `vrk` *the tarball contents, here one directory, being tarred up*
-- `|` *send that output to whatever comes next*
+- `|` *"pipe" (send) that output to whatever comes next*
 - `xz` *the next command, using* `xz` *compression*
 - `>` *...to an output file...*
 - `vrk.tar.xz` *is the actual output file*
@@ -221,13 +222,17 @@ ___
 
 `ls -l`
 
+*Note* `vrk.tar` *still exists, delete before extracting*
+
+`rm vrk.tar`
+
 *Note* `-d` *is for "Decompress" as with gzip*
 
 `bzip2 -d vrk.tar.bz2`
 
 `ls -l`
 
-*We want* `vrk.tar.bz2` *for reference*
+*Note* `vrk.tar.bz2` *is gone, we want it back for reference*
 
 `bzip2 -c vrk.tar > vrk.tar.bz2`
 
@@ -357,6 +362,6 @@ ___
 
 `tar xf vrk.tar.xz`
 
-*Case and point:* `xz` *is probably best, just know that* `gzip` *and* `bzip2` *exist*
+*Case and point:* `xz` *is probably best,* `gzip` *and* `bzip2` *exist in the Linuxverse, and* `tar xf FILE` *works on any* `.tar*` *file*
 
 #### [Lesson 8: Hash – md5sum, sha1sum, sha256sum, sha512sum](https://github.com/inkVerb/guru/blob/master/201-shell/Lesson-08.md)
