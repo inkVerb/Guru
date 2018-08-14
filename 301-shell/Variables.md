@@ -28,7 +28,9 @@ shellcommand VARIABL
 ```sh
 for VARIABL in *.md
 ... now $VARIABL has a value
+```
 
+```sh
 read VARIABL
 ... now $VARIABL has a value
 

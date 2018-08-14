@@ -8,7 +8,31 @@
 When a test answers `true` or `1`, then shell does something via `then` or `do` 
 ___
 
-### II. `if` `then` `fi`
+### II. `while` `do` `done`
+
+- A `while` test loops and is used to change something if needed
+- A `while` test "loop" repeats the test, the script only continues when the test finally returns `false`
+- `while :` will always return `true` and will repeat until `break` occurs in its loop or the user terminates the script
+
+This is similar to the `if` test
+- `while` works the same as an `if` test, but it repeats
+- `if` --> `while`
+- `then` --> `do`
+- `fi` --> `done`
+
+```sh
+while [ THIS IS THE TEST ]
+
+do
+
+# Something happens here if the test answers true
+
+done
+
+```
+___
+
+### III. `if` `then` `fi`
 
 - An `if` test runs once and does something only under certain circumstances
 - Once the `if` test is finished, the script continues
@@ -83,30 +107,6 @@ else
 # Something happens here because the test failed
 
 fi
-
-```
-___
-
-### III. `while` `do` `done`
-
-- A `while` test loops and is used to change something if needed
-- A `while` test "loop" repeats the test, the script only continues when the test finally returns `false`
-- `while :` will always return `true` and will repeat until `break` occurs in its loop or the user terminates the script
-
-This is similar to the `if` test
-- `while` works the same as an `if` test, but it repeats
-- `if` --> `while`
-- `then` --> `do`
-- `fi` --> `done`
-
-```sh
-while [ THIS IS THE TEST ]
-
-do
-
-# Something happens here if the test answers true
-
-done
 
 ```
 ___
