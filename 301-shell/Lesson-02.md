@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 2: for VAR in WUT do done
+## Lesson 2: odt2txt, rename, sleep & read
 
 `cd ~/Work/Guru/shell/301`
 
@@ -7,11 +7,45 @@
 
 `nautilus . &`
 
-- [Variables](https://github.com/inkVerb/guru/blob/master/301-shell/Variables.md)
-- [Tests](https://github.com/inkVerb/guru/blob/master/301-shell/Tests.md)
 ___
 
-### I. `for VAR in WUT; do`
+
+
+### I. `odt2txt`
+
+*Convert .odt files to .txt*
+
+`ls`
+
+`lowriter *.odt &` (may need a few seconds to load, then press Enter)
+
+*Note the contents of the .odt files*
+
+`odt2txt ODT-FILE.odt`
+
+*If you revieve an error because LibreOffice Writer is running, close all LO Writer sessions wtih this simple hack, then try again:*
+
+`killall soffice.bin`
+
+*Now, try this*
+
+`odt2txt ODT-FILE.odt`
+
+`ls`
+
+*Note it either echoed the STDOUT in the terminal or created "ODT-FILE.txt"*
+
+*This more reliably creates a .txt file:*
+
+`odt2txt ODT-FILE.odt > ODT-FILE.txt`
+
+`cat ODT-FILE.txt`
+
+*Delete the .txt file*
+
+`rm ODT-FILE.txt`
+
+## II. `rename`
 
 `ls`
 
@@ -19,96 +53,80 @@ ___
 
 `ls`
 
-one*
-
-`gedit 02-do-echo-1`
-
-`./02-do-echo-1`
-
-one-1*
-
-`gedit 02-do-echo-2`
-
-`./02-do-echo-2`
-
-*.one
-
-`gedit 02-do-echo-3`
-
-`./02-do-echo-3`
-
-*t.one
-
-`gedit 02-do-echo-4`
-
-`./02-do-echo-4`
-
-3.*
-
-`gedit 02-do-echo-5`
-
-`./02-do-echo-5`
-
-\*3*
-
-`gedit 02-do-echo-6`
-
-`./02-do-echo-6`
-
-\*one* "is a file."
-
-`gedit 02-do-echo-7`
-
-`./02-do-echo-7`
-
-### II. Replacing within Variables
-
-*.one %one
-
-`gedit 02-do-echo-8`
-
-`./02-do-echo-8`
-
-*t.one %t.one
-
-`gedit 02-do-echo-9`
-
-`./02-do-echo-9`
-
-`ls`
-
-### III. Renaming Multiple Files at Once
-
-`gedit 02-do-mv-1`
-
-`./02-do-mv-1`
-
-`ls`
-
-`gedit 02-do-mv-2`
-
-`./02-do-mv-2`
-
-`ls`
-
 `rename "s/one/TWO/" *`
 
 `ls`
 
-*Make a backup of today's work*
-
-`mkdir -p 02-TWO`
-
-`mv *TWO* 02-TWO/`
-
-*Delete*
-
-`gedit 02-do-rm`
-
-`./02-do-rm`
-
-*Ignore the directory error because we want to keep that directory*
+`rename "s/TWO/one/" *`
 
 `ls`
 
-#### [Lesson 3: odt2txt, sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
+`rename "s/.t./.T./" *`
+
+`ls`
+
+`rename "s/.T./.t./" *`
+
+`ls`
+
+### III. `sleep`
+
+`sleep 1`
+
+`sleep 3`
+
+`gedit 02-sleep-1`
+
+`./02-sleep-1`
+
+`gedit 02-sleep-2`
+
+`./02-sleep-2 "I like apples."`
+
+### IV. `read`
+
+`read`
+
+*Now type something and/or press Enter*
+
+`gedit 02-read-1`
+
+`./02-read-1`
+
+*Now you have to type something, then press Enter*
+
+`gedit 02-read-2`
+
+*Note -p is for "Prompt", making things simpler*
+
+`./02-read-2`
+
+`gedit 02-read-3`
+
+`ls`
+
+`./02-read-3`
+
+`ls`
+
+*Note it created the file*
+
+`gedit 02-read-4`
+
+`./02-read-4`
+
+*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
+
+*Note -r is for "Raw", to allow all special characters*
+
+`gedit 02-read-5`
+
+`./02-read-5`
+
+*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
+
+`gedit 02-read-6`
+
+`./02-read-6`
+
+#### [Lesson 3: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)

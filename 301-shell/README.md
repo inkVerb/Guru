@@ -21,9 +21,9 @@
 
 ### [Lesson 1: if then fi, else & elif](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-01.md)
 
-### [Lesson 2: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
+### [Lesson 2: odt2txt, rename, sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
 
-### [Lesson 3: odt2txt, sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
+### [Lesson 3: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-03.md)
 
 ### [Lesson 4: while & until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)
 

@@ -32,9 +32,9 @@ ___
 
 *You can install more than one package...*
 
-*Install the* `curl` `net-tools` `htop` `odt2txt` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
+*Install the* `curl` `net-tools` `htop` `odt2txt` `rename` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
 
-`sudo apt install -y curl net-tools htop odt2txt pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+`sudo apt install -y curl net-tools htop odt2txt rename pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 
 ### For an administrator to use `su`
 > ___
@@ -56,9 +56,9 @@ ___
 > 
 > *You can install more than one package...*
 > 
-> *Install the* `curl` `net-tools` `htop` `odt2txt` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
+> *Install the* `curl` `net-tools` `htop` `odt2txt` `rename` and `pwgen` *packages* (the command `netstat` comes from the package `net-tools`)
 > 
-> `apt install -y curl net-tools htop odt2txt pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
+> `apt install -y curl net-tools htop odt2txt rename pwgen` *Use* `-y` *so you DO NOT need to press Y, then Enter*
 > 
 > `exit`
 > ___

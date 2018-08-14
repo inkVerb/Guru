@@ -1,5 +1,5 @@
 # Shell 301
-## Lesson 3: odt2txt, sleep & read
+## Lesson 3: for VAR in WUT do done
 
 `cd ~/Work/Guru/shell/301`
 
@@ -11,39 +11,111 @@
 - [Tests](https://github.com/inkVerb/guru/blob/master/301-shell/Tests.md)
 ___
 
-### I. `odt2txt`
+### I. `for VAR in WUT; do`
 
-*Convert .odt files to .txt*
+one*
+
+`ls one*`
+
+`gedit 03-do-echo-1`
+
+`./03-do-echo-1`
+
+one-1*
+
+`ls one-1*`
+
+`gedit 03-do-echo-2`
+
+`./03-do-echo-2`
+
+*.one
+
+`ls *.one`
+
+`gedit 03-do-echo-3`
+
+`./03-do-echo-3`
+
+*t.one
+
+`ls *t.one`
+
+`gedit 03-do-echo-4`
+
+`./03-do-echo-4`
+
+3.*
+
+`ls 3.*`
+
+`gedit 03-do-echo-5`
+
+`./03-do-echo-5`
+
+\*3*
+
+`ls *3*`
+
+`gedit 03-do-echo-6`
+
+`./03-do-echo-6`
+
+\*one* "is a file."
+
+`ls *one*`
+
+`gedit 03-do-echo-7`
+
+`./03-do-echo-7`
+
+### II. Replacing within Variables
+
+*.one %one
+
+`gedit 03-do-echo-8`
+
+`./03-do-echo-8`
+
+*t.one %t.one
+
+`gedit 03-do-echo-9`
+
+`./03-do-echo-9`
 
 `ls`
 
-`lowriter *.odt &` (may need a few seconds to load, then press Enter)
+### III. Renaming Multiple Files at Once
 
-*Note the contents of the .odt files*
+`gedit 03-do-mv-1`
 
-`odt2txt 03-ODT-FILE.odt`
-
-*If you revieve an error because LibreOffice Writer is running, close all LO Writer sessions wtih this simple hack, then try again:*
-
-`killall soffice.bin`
-
-*Now, try this*
-
-`odt2txt 03-ODT-FILE.odt`
+`./03-do-mv-1`
 
 `ls`
 
-*Note it either echoed the STDOUT in the terminal or created "03-ODT-FILE.txt"*
+`gedit 03-do-mv-2`
 
-*This more surely creates a .txt file:*
+`./03-do-mv-2`
 
-`odt2txt 03-ODT-FILE.odt > 03-ODT-FILE.txt`
+`ls`
 
-`cat 03-ODT-FILE.txt`
+*Make a backup of today's work*
 
-*Delete the .txt file*
+`mkdir -p 03-THREE`
 
-`rm 03-ODT-FILE.txt`
+`mv *THREE* 03-THREE/`
+
+*Delete*
+
+`gedit 03-do-rm`
+
+`./03-do-rm`
+
+*Ignore the directory error because we want to keep that directory*
+
+`ls`
+
+### IV. Applied: `odt2txt`
 
 *Now, use* `odt2txt` *in a* `for` `...` `do` *loop*
 
@@ -53,7 +125,7 @@ ___
 
 `ls`
 
-`gedit 03-ODT-*.txt`
+`gedit ODT-*.txt`
 
 *Note the files are either empty or on one line because we used* `echo`*, this method didn't work*
 
@@ -71,68 +143,6 @@ ___
 
 *Backup today's work*
 
-`mkdir 03-ODT`
-
-`mv 03-ODT-*.txt 03-ODT/`
-
-### II. `sleep`
-
-`sleep 1`
-
-`sleep 3`
-
-`gedit 03-sleep-1`
-
-`./03-sleep-1`
-
-`gedit 03-sleep-2`
-
-`./03-sleep-2 "I like apples."`
-
-### III. `read`
-
-`read`
-
-*Now type something and/or press Enter*
-
-`gedit 03-read-1`
-
-`./03-read-1`
-
-*Now you have to type something, then press Enter*
-
-`gedit 03-read-2`
-
-*Note -p is for "Prompt", making things simpler*
-
-`./03-read-2`
-
-`gedit 03-read-3`
-
-`ls`
-
-`./03-read-3`
-
-`ls`
-
-*Note it created the file*
-
-`gedit 03-read-4`
-
-`./03-read-4`
-
-*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
-
-*Note -r is for "Raw", to allow all special characters*
-
-`gedit 03-read-5`
-
-`./03-read-5`
-
-*Copy-paste this with "special" characters:* `Yo & ^^ / hello \ \ \ Dolly! :-)`
-
-`gedit 03-read-6`
-
-`./03-read-6`
+`mv ODT-*.txt 03-THREE/`
 
 #### [Lesson 4: while & until](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-04.md)

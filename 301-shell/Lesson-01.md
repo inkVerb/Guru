@@ -105,4 +105,4 @@ ___
 
 `./01-line greatagain`
 
-#### [Lesson 2: for VAR in WUT do done](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
+#### [Lesson 2: odt2txt, rename, sleep & read](https://github.com/inkVerb/guru/blob/master/301-shell/Lesson-02.md)
